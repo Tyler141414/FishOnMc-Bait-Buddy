@@ -1,0 +1,212 @@
+[
+  {
+    "Species": "Cutthroat Trout",
+    "Rarity": "Common",
+    "Fish Group": "Trouts",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Cutthroat Trout/fish_cutthroattrout.png"
+      }
+    ],
+    "image": "resources/images/Cutthroat Trout/fish_cutthroattrout.png"
+  },
+  {
+    "Species": "Pink Salmon",
+    "Rarity": "Common",
+    "Fish Group": "Salmons",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Pink Salmon/fish_pinksalmon.png"
+      }
+    ],
+    "image": "resources/images/Pink Salmon/fish_pinksalmon.png"
+  },
+  {
+    "Species": "Arctic Grayling",
+    "Rarity": "Common",
+    "Fish Group": "Trouts",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Arctic Grayling/fish_arcticgrayling.png"
+      }
+    ],
+    "image": "resources/images/Arctic Grayling/fish_arcticgrayling.png"
+  },
+  {
+    "Species": "Dolly Varden",
+    "Rarity": "Common",
+    "Fish Group": "Trouts",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Dolly Varden/fish_dollyvarden.png"
+      }
+    ],
+    "image": "resources/images/Dolly Varden/fish_dollyvarden.png"
+  },
+  {
+    "Species": "Arctic Char",
+    "Rarity": "Common",
+    "Fish Group": "Trouts",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Arctic Char/fish_arcticchar.png"
+      }
+    ],
+    "image": "resources/images/Arctic Char/fish_arcticchar.png"
+  },
+  {
+    "Species": "Inconnu",
+    "Rarity": "Rare",
+    "Fish Group": "Whitefishes",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Inconnu/fish_inconnu.png"
+      }
+    ],
+    "image": "resources/images/Inconnu/fish_inconnu.png"
+  },
+  {
+    "Species": "Burbot",
+    "Rarity": "Rare",
+    "Fish Group": "Cods",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Burbot/fish_burbot.png"
+      }
+    ],
+    "image": "resources/images/Burbot/fish_burbot.png"
+  },
+  {
+    "Species": "Sockeye Salmon",
+    "Rarity": "Rare",
+    "Fish Group": "Salmons",
+    "Lifestyle": "Pelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Sockeye Salmon/fish_sockeyesalmon.png"
+      }
+    ],
+    "image": "resources/images/Sockeye Salmon/fish_sockeyesalmon.png"
+  },
+  {
+    "Species": "Rainbow Trout",
+    "Rarity": "Rare",
+    "Fish Group": "Trouts",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Rainbow Trout/fish_rainbowtrout.png"
+      }
+    ],
+    "image": "resources/images/Rainbow Trout/fish_rainbowtrout.png"
+  },
+  {
+    "Species": "Lake Trout",
+    "Rarity": "Epic",
+    "Fish Group": "Trouts",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Lake Trout/fish_laketrout.png"
+      }
+    ],
+    "image": "resources/images/Lake Trout/fish_laketrout.png"
+  },
+  {
+    "Species": "Coho Salmon",
+    "Rarity": "Epic",
+    "Fish Group": "Salmons",
+    "Lifestyle": "Pelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Coho Salmon/fish_cohosalmon.png"
+      }
+    ],
+    "image": "resources/images/Coho Salmon/fish_cohosalmon.png"
+  },
+  {
+    "Species": "Chum Salmon",
+    "Rarity": "Legendary",
+    "Fish Group": "Salmons",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Chum Salmon/fish_chumsalmon.png"
+      }
+    ],
+    "image": "resources/images/Chum Salmon/fish_chumsalmon.png"
+  },
+  {
+    "Species": "Steelhead",
+    "Rarity": "Legendary",
+    "Fish Group": "Trouts",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Steelhead/fish_steelhead.png"
+      }
+    ],
+    "image": "resources/images/Steelhead/fish_steelhead.png"
+  },
+  {
+    "Species": "King Salmon",
+    "Rarity": "Mythical",
+    "Fish Group": "Salmons",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/King Salmon/fish_kingsalmon.png"
+      }
+    ],
+    "image": "resources/images/King Salmon/fish_kingsalmon.png"
+  },
+  {
+    "Species": "Northern Pike",
+    "Rarity": "Mythical",
+    "Fish Group": "Pikes",
+    "Lifestyle": "Pelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Northern Pike/fish_northernpike.png"
+      }
+    ],
+    "image": "resources/images/Northern Pike/fish_northernpike.png"
+  }
+]

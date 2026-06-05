@@ -9,6 +9,7 @@ select,input{padding:6px;border:1px solid #ccc;border-radius:6px}
 #baitList{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
 .bait{background:var(--card);padding:12px;border-radius:8px;display:flex;gap:12px;align-items:flex-start;box-shadow:0 1px 2px rgba(0,0,0,0.04)}
 .left .icon{width:56px;height:56px;border-radius:8px;background:#eef;display:flex;align-items:center;justify-content:center;font-size:28px}
+.left .icon img.bait-img{width:44px;height:44px;object-fit:contain;border-radius:6px;display:inline-block;background:transparent}
 .bait{transition:transform 160ms ease, box-shadow 160ms ease}
 .bait{cursor:pointer}
 .bait:focus{outline:2px solid rgba(13,110,253,0.12);outline-offset:2px}
@@ -41,7 +42,9 @@ select,input{padding:6px;border:1px solid #ccc;border-radius:6px}
 #detailsTitle{font-size:16px;margin:0 0 8px}
 #detailsContent{background:var(--card);padding:12px;border-radius:8px}
 .species-list{display:flex;flex-direction:column;gap:8px}
-.species{padding:8px;border-radius:6px;border:1px solid #eee;background:#fafafa}
+.species{padding:8px;border-radius:6px;border:1px solid #e1f0fb;background:#e9f7ff;display:flex;align-items:flex-start;gap:12px}
+.species-img{width:72px;height:72px;object-fit:cover;border-radius:6px;flex:0 0 72px;background:#f8feff}
+.species-info{flex:1;min-width:0}
 .species .title{font-weight:600}
 .species .rarity{font-size:12px;margin-left:8px;display:inline-block;padding:2px 8px;border-radius:6px;background:#eee;color:var(--muted);font-weight:600}
 .species .desc{font-size:13px;color:var(--muted);margin-top:6px}

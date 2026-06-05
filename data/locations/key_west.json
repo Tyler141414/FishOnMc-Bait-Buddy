@@ -1,30 +1,394 @@
 [
-  {"Species": "White Grunt", "Rarity": "Common", "Fish Group": "Grunts", "Lifestyle": "Reef", "Ecosystem Role": "Native"},
-  {"Species": "Florida Pompano", "Rarity": "Common", "Fish Group": "Jacks", "Lifestyle": "Benthopelagic", "Ecosystem Role": "Native"},
-  {"Species": "Lane Snapper", "Rarity": "Common", "Fish Group": "Snappers", "Lifestyle": "Reef", "Ecosystem Role": "Native"},
-  {"Species": "Spanish Mackerel", "Rarity": "Common", "Fish Group": "Mackerels", "Lifestyle": "Pelagic", "Ecosystem Role": "Native"},
-  {"Species": "Yellowtail Snapper", "Rarity": "Common", "Fish Group": "Snappers", "Lifestyle": "Reef", "Ecosystem Role": "Native"},
-  {"Species": "Sheepshead", "Rarity": "Common", "Fish Group": "Seabreams", "Lifestyle": "Reef", "Ecosystem Role": "Native"},
-  {"Species": "Blue Runner", "Rarity": "Common", "Fish Group": "Jacks", "Lifestyle": "Reef", "Ecosystem Role": "Native"},
-  {"Species": "Schoolmaster Snapper", "Rarity": "Common", "Fish Group": "Snappers", "Lifestyle": "Reef", "Ecosystem Role": "Native"},
-  {"Species": "Mutton Snapper", "Rarity": "Rare", "Fish Group": "Snappers", "Lifestyle": "Reef", "Ecosystem Role": "Native"},
-  {"Species": "Common Snook", "Rarity": "Rare", "Fish Group": "Snooks", "Lifestyle": "Reef", "Ecosystem Role": "Native"},
-  {"Species": "Mangrove Snapper", "Rarity": "Rare", "Fish Group": "Snappers", "Lifestyle": "Reef", "Ecosystem Role": "Native"},
-  {"Species": "Hogfish", "Rarity": "Rare", "Fish Group": "Wrasses", "Lifestyle": "Reef", "Ecosystem Role": "Native"},
-  {"Species": "Crevalle Jack", "Rarity": "Rare", "Fish Group": "Jacks", "Lifestyle": "Pelagic", "Ecosystem Role": "Native"},
-  {"Species": "Yellow Jack", "Rarity": "Rare", "Fish Group": "Jacks", "Lifestyle": "Reef", "Ecosystem Role": "Native"},
-  {"Species": "Bonefish", "Rarity": "Rare", "Fish Group": "Tarpons", "Lifestyle": "Reef", "Ecosystem Role": "Native"},
-  {"Species": "Bonnethead Shark", "Rarity": "Rare", "Fish Group": "Sharks", "Lifestyle": "Reef", "Ecosystem Role": "Native"},
-  {"Species": "Black Grouper", "Rarity": "Epic", "Fish Group": "Groupers", "Lifestyle": "Reef", "Ecosystem Role": "Native"},
-  {"Species": "Cobia", "Rarity": "Epic", "Fish Group": "Cobia", "Lifestyle": "Reef", "Ecosystem Role": "Native"},
-  {"Species": "Wahoo", "Rarity": "Epic", "Fish Group": "Mackerels", "Lifestyle": "Pelagic", "Ecosystem Role": "Native"},
-  {"Species": "Gag Grouper", "Rarity": "Epic", "Fish Group": "Groupers", "Lifestyle": "Reef", "Ecosystem Role": "Native"},
-  {"Species": "King Mackerel", "Rarity": "Epic", "Fish Group": "Mackerels", "Lifestyle": "Pelagic", "Ecosystem Role": "Native"},
-  {"Species": "Permit", "Rarity": "Epic", "Fish Group": "Jacks", "Lifestyle": "Reef", "Ecosystem Role": "Native"},
-  {"Species": "Great Barracuda", "Rarity": "Legendary", "Fish Group": "Barracudas", "Lifestyle": "Reef", "Ecosystem Role": "Native"},
-  {"Species": "Nurse Shark", "Rarity": "Legendary", "Fish Group": "Sharks", "Lifestyle": "Reef", "Ecosystem Role": "Native"},
-  {"Species": "Mahi Mahi", "Rarity": "Legendary", "Fish Group": "Mahimahis", "Lifestyle": "Pelagic", "Ecosystem Role": "Native"},
-  {"Species": "Tarpon", "Rarity": "Mythical", "Fish Group": "Tarpons", "Lifestyle": "Reef", "Ecosystem Role": "Native"},
-  {"Species": "Bull Shark", "Rarity": "Mythical", "Fish Group": "Sharks", "Lifestyle": "Reef", "Ecosystem Role": "Native"},
-  {"Species": "Goliath Grouper", "Rarity": "Mythical", "Fish Group": "Groupers", "Lifestyle": "Reef", "Ecosystem Role": "Native"}
+  {
+    "Species": "White Grunt",
+    "Rarity": "Common",
+    "Fish Group": "Grunts",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/White Grunt/fish_whitegrunt.png"
+      }
+    ],
+    "image": "resources/images/White Grunt/fish_whitegrunt.png"
+  },
+  {
+    "Species": "Florida Pompano",
+    "Rarity": "Common",
+    "Fish Group": "Jacks",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Florida Pompano/fish_floridapompano.png"
+      }
+    ],
+    "image": "resources/images/Florida Pompano/fish_floridapompano.png"
+  },
+  {
+    "Species": "Lane Snapper",
+    "Rarity": "Common",
+    "Fish Group": "Snappers",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Lane Snapper/fish_lanesnapper.png"
+      }
+    ],
+    "image": "resources/images/Lane Snapper/fish_lanesnapper.png"
+  },
+  {
+    "Species": "Spanish Mackerel",
+    "Rarity": "Common",
+    "Fish Group": "Mackerels",
+    "Lifestyle": "Pelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Spanish Mackerel/fish_spanishmackerel.png"
+      }
+    ],
+    "image": "resources/images/Spanish Mackerel/fish_spanishmackerel.png"
+  },
+  {
+    "Species": "Yellowtail Snapper",
+    "Rarity": "Common",
+    "Fish Group": "Snappers",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Yellowtail Snapper/fish_yellowtailsnapper.png"
+      }
+    ],
+    "image": "resources/images/Yellowtail Snapper/fish_yellowtailsnapper.png"
+  },
+  {
+    "Species": "Sheepshead",
+    "Rarity": "Common",
+    "Fish Group": "Seabreams",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Sheepshead/fish_sheepshead.png"
+      }
+    ],
+    "image": "resources/images/Sheepshead/fish_sheepshead.png"
+  },
+  {
+    "Species": "Blue Runner",
+    "Rarity": "Common",
+    "Fish Group": "Jacks",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Blue Runner/fish_bluerunner.png"
+      }
+    ],
+    "image": "resources/images/Blue Runner/fish_bluerunner.png"
+  },
+  {
+    "Species": "Schoolmaster Snapper",
+    "Rarity": "Common",
+    "Fish Group": "Snappers",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Schoolmaster Snapper/fish_schoolmastersnapper.png"
+      }
+    ],
+    "image": "resources/images/Schoolmaster Snapper/fish_schoolmastersnapper.png"
+  },
+  {
+    "Species": "Mutton Snapper",
+    "Rarity": "Rare",
+    "Fish Group": "Snappers",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Mutton Snapper/fish_muttonsnapper.png"
+      }
+    ],
+    "image": "resources/images/Mutton Snapper/fish_muttonsnapper.png"
+  },
+  {
+    "Species": "Common Snook",
+    "Rarity": "Rare",
+    "Fish Group": "Snooks",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Common Snook/fish_commonsnook.png"
+      }
+    ],
+    "image": "resources/images/Common Snook/fish_commonsnook.png"
+  },
+  {
+    "Species": "Mangrove Snapper",
+    "Rarity": "Rare",
+    "Fish Group": "Snappers",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Mangrove Snapper/fish_mangrovesnapper.png"
+      }
+    ],
+    "image": "resources/images/Mangrove Snapper/fish_mangrovesnapper.png"
+  },
+  {
+    "Species": "Hogfish",
+    "Rarity": "Rare",
+    "Fish Group": "Wrasses",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Hogfish/fish_hogfish.png"
+      }
+    ],
+    "image": "resources/images/Hogfish/fish_hogfish.png"
+  },
+  {
+    "Species": "Crevalle Jack",
+    "Rarity": "Rare",
+    "Fish Group": "Jacks",
+    "Lifestyle": "Pelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Crevalle Jack/fish_crevallejack.png"
+      }
+    ],
+    "image": "resources/images/Crevalle Jack/fish_crevallejack.png"
+  },
+  {
+    "Species": "Yellow Jack",
+    "Rarity": "Rare",
+    "Fish Group": "Jacks",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Yellow Jack/fish_yellowjack.png"
+      }
+    ],
+    "image": "resources/images/Yellow Jack/fish_yellowjack.png"
+  },
+  {
+    "Species": "Bonefish",
+    "Rarity": "Rare",
+    "Fish Group": "Tarpons",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Bonefish/fish_bonefish.png"
+      }
+    ],
+    "image": "resources/images/Bonefish/fish_bonefish.png"
+  },
+  {
+    "Species": "Bonnethead Shark",
+    "Rarity": "Rare",
+    "Fish Group": "Sharks",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Bonnethead Shark/fish_bonnetheadshark.png"
+      }
+    ],
+    "image": "resources/images/Bonnethead Shark/fish_bonnetheadshark.png"
+  },
+  {
+    "Species": "Black Grouper",
+    "Rarity": "Epic",
+    "Fish Group": "Groupers",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Black Grouper/fish_blackgrouper.png"
+      }
+    ],
+    "image": "resources/images/Black Grouper/fish_blackgrouper.png"
+  },
+  {
+    "Species": "Cobia",
+    "Rarity": "Epic",
+    "Fish Group": "Cobia",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Cobia/fish_cobia.png"
+      }
+    ],
+    "image": "resources/images/Cobia/fish_cobia.png"
+  },
+  {
+    "Species": "Wahoo",
+    "Rarity": "Epic",
+    "Fish Group": "Mackerels",
+    "Lifestyle": "Pelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Wahoo/fish_wahoo.png"
+      }
+    ],
+    "image": "resources/images/Wahoo/fish_wahoo.png"
+  },
+  {
+    "Species": "Gag Grouper",
+    "Rarity": "Epic",
+    "Fish Group": "Groupers",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Gag Grouper/fish_gaggrouper.png"
+      }
+    ],
+    "image": "resources/images/Gag Grouper/fish_gaggrouper.png"
+  },
+  {
+    "Species": "King Mackerel",
+    "Rarity": "Epic",
+    "Fish Group": "Mackerels",
+    "Lifestyle": "Pelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/King Mackerel/fish_kingmackerel.png"
+      }
+    ],
+    "image": "resources/images/King Mackerel/fish_kingmackerel.png"
+  },
+  {
+    "Species": "Permit",
+    "Rarity": "Epic",
+    "Fish Group": "Jacks",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Permit/fish_permit.png"
+      }
+    ],
+    "image": "resources/images/Permit/fish_permit.png"
+  },
+  {
+    "Species": "Great Barracuda",
+    "Rarity": "Legendary",
+    "Fish Group": "Barracudas",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Great Barracuda/fish_greatbarracuda.png"
+      }
+    ],
+    "image": "resources/images/Great Barracuda/fish_greatbarracuda.png"
+  },
+  {
+    "Species": "Nurse Shark",
+    "Rarity": "Legendary",
+    "Fish Group": "Sharks",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Nurse Shark/fish_nurseshark.png"
+      }
+    ],
+    "image": "resources/images/Nurse Shark/fish_nurseshark.png"
+  },
+  {
+    "Species": "Mahi Mahi",
+    "Rarity": "Legendary",
+    "Fish Group": "Mahimahis",
+    "Lifestyle": "Pelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Mahi Mahi/fish_atlanticmahimahi.png"
+      }
+    ],
+    "image": "resources/images/Mahi Mahi/fish_atlanticmahimahi.png"
+  },
+  {
+    "Species": "Tarpon",
+    "Rarity": "Mythical",
+    "Fish Group": "Tarpons",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Tarpon/fish_tarpon.png"
+      }
+    ],
+    "image": "resources/images/Tarpon/fish_tarpon.png"
+  },
+  {
+    "Species": "Bull Shark",
+    "Rarity": "Mythical",
+    "Fish Group": "Sharks",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Bull Shark/fish_bullshark.png"
+      }
+    ],
+    "image": "resources/images/Bull Shark/fish_bullshark.png"
+  },
+  {
+    "Species": "Goliath Grouper",
+    "Rarity": "Mythical",
+    "Fish Group": "Groupers",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Goliath Grouper/fish_goliathgrouper.png"
+      }
+    ],
+    "image": "resources/images/Goliath Grouper/fish_goliathgrouper.png"
+  }
 ]

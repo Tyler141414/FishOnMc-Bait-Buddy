@@ -1,0 +1,240 @@
+[
+  {
+    "Species": "Red Snapper",
+    "Rarity": "Common",
+    "Fish Group": "Snappers",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Red Snapper/fish_redsnapper.png"
+      }
+    ],
+    "image": "resources/images/Red Snapper/fish_redsnapper.png"
+  },
+  {
+    "Species": "Scamp Grouper",
+    "Rarity": "Common",
+    "Fish Group": "Groupers",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Scamp Grouper/fish_scampgrouper.png"
+      }
+    ],
+    "image": "resources/images/Scamp Grouper/fish_scampgrouper.png"
+  },
+  {
+    "Species": "Red Grouper",
+    "Rarity": "Common",
+    "Fish Group": "Groupers",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Red Grouper/fish_redgrouper.png"
+      }
+    ],
+    "image": "resources/images/Red Grouper/fish_redgrouper.png"
+  },
+  {
+    "Species": "Yellowfin Grouper",
+    "Rarity": "Common",
+    "Fish Group": "Groupers",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Yellowfin Grouper/fish_yellowfingrouper.png"
+      }
+    ],
+    "image": "resources/images/Yellowfin Grouper/fish_yellowfingrouper.png"
+  },
+  {
+    "Species": "Greater Amberjack",
+    "Rarity": "Rare",
+    "Fish Group": "Jacks",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Greater Amberjack/fish_greateramberjack.png"
+      }
+    ],
+    "image": "resources/images/Greater Amberjack/fish_greateramberjack.png"
+  },
+  {
+    "Species": "Misty Grouper",
+    "Rarity": "Rare",
+    "Fish Group": "Groupers",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Misty Grouper/fish_mistygrouper.png"
+      }
+    ],
+    "image": "resources/images/Misty Grouper/fish_mistygrouper.png"
+  },
+  {
+    "Species": "Snowy Grouper",
+    "Rarity": "Rare",
+    "Fish Group": "Groupers",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Snowy Grouper/fish_snowygrouper.png"
+      }
+    ],
+    "image": "resources/images/Snowy Grouper/fish_snowygrouper.png"
+  },
+  {
+    "Species": "Almaco Jack",
+    "Rarity": "Rare",
+    "Fish Group": "Jacks",
+    "Lifestyle": "Pelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Almaco Jack/fish_almacojack.png"
+      }
+    ],
+    "image": "resources/images/Almaco Jack/fish_almacojack.png"
+  },
+  {
+    "Species": "Cobia",
+    "Rarity": "Epic",
+    "Fish Group": "Cobia",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Cobia/fish_cobia.png"
+      }
+    ],
+    "image": "resources/images/Cobia/fish_cobia.png"
+  },
+  {
+    "Species": "Speckled Hind Grouper",
+    "Rarity": "Epic",
+    "Fish Group": "Groupers",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Speckled Hind Grouper/fish_speckledhindgrouper.png"
+      }
+    ],
+    "image": "resources/images/Speckled Hind Grouper/fish_speckledhindgrouper.png"
+  },
+  {
+    "Species": "Great Northern Tilefish",
+    "Rarity": "Epic",
+    "Fish Group": "Tilefishes",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Great Northern Tilefish/fish_greatnortherntilefish.png"
+      }
+    ],
+    "image": "resources/images/Great Northern Tilefish/fish_greatnortherntilefish.png"
+  },
+  {
+    "Species": "Wahoo",
+    "Rarity": "Epic",
+    "Fish Group": "Mackerels",
+    "Lifestyle": "Pelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Wahoo/fish_wahoo.png"
+      }
+    ],
+    "image": "resources/images/Wahoo/fish_wahoo.png"
+  },
+  {
+    "Species": "Yellowfin Tuna",
+    "Rarity": "Legendary",
+    "Fish Group": "Tunas",
+    "Lifestyle": "Pelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Yellowfin Tuna/fish_yellowfintuna.png"
+      }
+    ],
+    "image": "resources/images/Yellowfin Tuna/fish_yellowfintuna.png"
+  },
+  {
+    "Species": "Warsaw Grouper",
+    "Rarity": "Legendary",
+    "Fish Group": "Groupers",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Warsaw Grouper/fish_warsawgrouper.png"
+      }
+    ],
+    "image": "resources/images/Warsaw Grouper/fish_warsawgrouper.png"
+  },
+  {
+    "Species": "Cubera Snapper",
+    "Rarity": "Legendary",
+    "Fish Group": "Snappers",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Cubera Snapper/fish_cuberasnapper.png"
+      }
+    ],
+    "image": "resources/images/Cubera Snapper/fish_cuberasnapper.png"
+  },
+  {
+    "Species": "Oceanic Whitetip Shark",
+    "Rarity": "Mythical",
+    "Fish Group": "Sharks",
+    "Lifestyle": "Pelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Oceanic Whitetip Shark/fish_oceanicwhitetipshark.png"
+      }
+    ],
+    "image": "resources/images/Oceanic Whitetip Shark/fish_oceanicwhitetipshark.png"
+  },
+  {
+    "Species": "Blue Marlin",
+    "Rarity": "Mythical",
+    "Fish Group": "Billfishes",
+    "Lifestyle": "Pelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Blue Marlin/fish_bluemarlin.png"
+      }
+    ],
+    "image": "resources/images/Blue Marlin/fish_bluemarlin.png"
+  }
+]

@@ -1,0 +1,380 @@
+[
+  {
+    "Species": "Bluegill",
+    "Rarity": "Common",
+    "Fish Group": "Panfishes",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Bluegill/fish_bluegill.png"
+      }
+    ],
+    "image": "resources/images/Bluegill/fish_bluegill.png"
+  },
+  {
+    "Species": "Redear Sunfish",
+    "Rarity": "Common",
+    "Fish Group": "Panfishes",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Redear Sunfish/fish_redearsunfish.png"
+      }
+    ],
+    "image": "resources/images/Redear Sunfish/fish_redearsunfish.png"
+  },
+  {
+    "Species": "Green Sunfish",
+    "Rarity": "Common",
+    "Fish Group": "Panfishes",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Green Sunfish/fish_greensunfish.png"
+      }
+    ],
+    "image": "resources/images/Green Sunfish/fish_greensunfish.png"
+  },
+  {
+    "Species": "Longear Sunfish",
+    "Rarity": "Common",
+    "Fish Group": "Panfishes",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Longear Sunfish/fish_longearsunfish.png"
+      }
+    ],
+    "image": "resources/images/Longear Sunfish/fish_longearsunfish.png"
+  },
+  {
+    "Species": "Warmouth",
+    "Rarity": "Common",
+    "Fish Group": "Panfishes",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Warmouth/fish_warmouth.png"
+      }
+    ],
+    "image": "resources/images/Warmouth/fish_warmouth.png"
+  },
+  {
+    "Species": "White Bass",
+    "Rarity": "Common",
+    "Fish Group": "Basses",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/White Bass/fish_whitebass.png"
+      }
+    ],
+    "image": "resources/images/White Bass/fish_whitebass.png"
+  },
+  {
+    "Species": "Black Crappie",
+    "Rarity": "Common",
+    "Fish Group": "Panfishes",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Black Crappie/fish_blackcrappie.png"
+      }
+    ],
+    "image": "resources/images/Black Crappie/fish_blackcrappie.png"
+  },
+  {
+    "Species": "White Crappie",
+    "Rarity": "Common",
+    "Fish Group": "Panfishes",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/White Crappie/fish_whitecrappie.png"
+      }
+    ],
+    "image": "resources/images/White Crappie/fish_whitecrappie.png"
+  },
+  {
+    "Species": "Common Carp",
+    "Rarity": "Rare",
+    "Fish Group": "Carps",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Invasive",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Common Carp/fish_commoncarp.png"
+      }
+    ],
+    "image": "resources/images/Common Carp/fish_commoncarp.png"
+  },
+  {
+    "Species": "Largemouth Bass",
+    "Rarity": "Rare",
+    "Fish Group": "Basses",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Largemouth Bass/fish_largemouthbass.png"
+      }
+    ],
+    "image": "resources/images/Largemouth Bass/fish_largemouthbass.png"
+  },
+  {
+    "Species": "Florida Bass",
+    "Rarity": "Rare",
+    "Fish Group": "Basses",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Florida Bass/fish_largemouthbass.png"
+      }
+    ],
+    "image": "resources/images/Florida Bass/fish_largemouthbass.png"
+  },
+  {
+    "Species": "Striped Bass",
+    "Rarity": "Rare",
+    "Fish Group": "Basses",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Striped Bass/fish_stripedbass.png"
+      }
+    ],
+    "image": "resources/images/Striped Bass/fish_stripedbass.png"
+  },
+  {
+    "Species": "Freshwater Drum",
+    "Rarity": "Rare",
+    "Fish Group": "Drums",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Freshwater Drum/fish_freshwaterdrum.png"
+      }
+    ],
+    "image": "resources/images/Freshwater Drum/fish_freshwaterdrum.png"
+  },
+  {
+    "Species": "Grass Pickerel",
+    "Rarity": "Rare",
+    "Fish Group": "Pikes",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Grass Pickerel/fish_grasspickerel.png"
+      }
+    ],
+    "image": "resources/images/Grass Pickerel/fish_grasspickerel.png"
+  },
+  {
+    "Species": "Channel Catfish",
+    "Rarity": "Rare",
+    "Fish Group": "Catfishes",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Channel Catfish/fish_channelcatfish.png"
+      }
+    ],
+    "image": "resources/images/Channel Catfish/fish_channelcatfish.png"
+  },
+  {
+    "Species": "Redfin Pickerel",
+    "Rarity": "Rare",
+    "Fish Group": "Pikes",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Redfin Pickerel/fish_redfinpickerel.png"
+      }
+    ],
+    "image": "resources/images/Redfin Pickerel/fish_redfinpickerel.png"
+  },
+  {
+    "Species": "Spotted Gar",
+    "Rarity": "Epic",
+    "Fish Group": "Gars",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Spotted Gar/fish_spottedgar.png"
+      }
+    ],
+    "image": "resources/images/Spotted Gar/fish_spottedgar.png"
+  },
+  {
+    "Species": "Blue Catfish",
+    "Rarity": "Epic",
+    "Fish Group": "Catfishes",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Blue Catfish/fish_bluecatfish.png"
+      }
+    ],
+    "image": "resources/images/Blue Catfish/fish_bluecatfish.png"
+  },
+  {
+    "Species": "Chain Pickerel",
+    "Rarity": "Epic",
+    "Fish Group": "Pikes",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Chain Pickerel/fish_chainpickerel.png"
+      }
+    ],
+    "image": "resources/images/Chain Pickerel/fish_chainpickerel.png"
+  },
+  {
+    "Species": "Smallmouth Buffalo",
+    "Rarity": "Epic",
+    "Fish Group": "Suckers",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Smallmouth Buffalo/fish_smallmouthbuffalo.png"
+      }
+    ],
+    "image": "resources/images/Smallmouth Buffalo/fish_smallmouthbuffalo.png"
+  },
+  {
+    "Species": "Grass Carp",
+    "Rarity": "Epic",
+    "Fish Group": "Carps",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Invasive",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Grass Carp/fish_grasscarp.png"
+      }
+    ],
+    "image": "resources/images/Grass Carp/fish_grasscarp.png"
+  },
+  {
+    "Species": "Shovelnose Sturgeon",
+    "Rarity": "Legendary",
+    "Fish Group": "Sturgeons",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Shovelnose Sturgeon/fish_shovelnosesturgeon.png"
+      }
+    ],
+    "image": "resources/images/Shovelnose Sturgeon/fish_shovelnosesturgeon.png"
+  },
+  {
+    "Species": "Bigmouth Buffalo",
+    "Rarity": "Legendary",
+    "Fish Group": "Suckers",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Bigmouth Buffalo/fish_bigmouthbuffalo.png"
+      }
+    ],
+    "image": "resources/images/Bigmouth Buffalo/fish_bigmouthbuffalo.png"
+  },
+  {
+    "Species": "Longnose Gar",
+    "Rarity": "Legendary",
+    "Fish Group": "Gars",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Longnose Gar/fish_longnosegar.png"
+      }
+    ],
+    "image": "resources/images/Longnose Gar/fish_longnosegar.png"
+  },
+  {
+    "Species": "Flathead Catfish",
+    "Rarity": "Mythical",
+    "Fish Group": "Catfishes",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Flathead Catfish/fish_flatheadcatfish.png"
+      }
+    ],
+    "image": "resources/images/Flathead Catfish/fish_flatheadcatfish.png"
+  },
+  {
+    "Species": "Alligator Gar",
+    "Rarity": "Mythical",
+    "Fish Group": "Gars",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Alligator Gar/fish_alligatorgar.png"
+      }
+    ],
+    "image": "resources/images/Alligator Gar/fish_alligatorgar.png"
+  },
+  {
+    "Species": "American Paddlefish",
+    "Rarity": "Mythical",
+    "Fish Group": "Paddlefishes",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/American Paddlefish/fish_americanpaddlefish.png"
+      }
+    ],
+    "image": "resources/images/American Paddlefish/fish_americanpaddlefish.png"
+  }
+]

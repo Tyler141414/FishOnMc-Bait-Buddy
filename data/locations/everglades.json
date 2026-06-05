@@ -1,0 +1,198 @@
+[
+  {
+    "Species": "Gafftopsail Catfish",
+    "Rarity": "Common",
+    "Fish Group": "Catfishes",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Gafftopsail Catfish/fish_gafftopsailcatfish.png"
+      }
+    ],
+    "image": "resources/images/Gafftopsail Catfish/fish_gafftopsailcatfish.png"
+  },
+  {
+    "Species": "Atlantic Croaker",
+    "Rarity": "Common",
+    "Fish Group": "Drums",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Atlantic Croaker/fish_atlanticcroaker.png"
+      }
+    ],
+    "image": "resources/images/Atlantic Croaker/fish_atlanticcroaker.png"
+  },
+  {
+    "Species": "Spotted Sunfish",
+    "Rarity": "Common",
+    "Fish Group": "Panfishes",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Spotted Sunfish/fish_spottedsunfish.png"
+      }
+    ],
+    "image": "resources/images/Spotted Sunfish/fish_spottedsunfish.png"
+  },
+  {
+    "Species": "Spotted Bass",
+    "Rarity": "Common",
+    "Fish Group": "Basses",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Spotted Bass/fish_spottedbass.png"
+      }
+    ],
+    "image": "resources/images/Spotted Bass/fish_spottedbass.png"
+  },
+  {
+    "Species": "Shoal Bass",
+    "Rarity": "Common",
+    "Fish Group": "Basses",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Shoal Bass/fish_shoalbass.png"
+      }
+    ],
+    "image": "resources/images/Shoal Bass/fish_shoalbass.png"
+  },
+  {
+    "Species": "Southern Flounder",
+    "Rarity": "Rare",
+    "Fish Group": "Flatfishes",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Southern Flounder/fish_southernflounder.png"
+      }
+    ],
+    "image": "resources/images/Southern Flounder/fish_southernflounder.png"
+  },
+  {
+    "Species": "Mangrove Snapper",
+    "Rarity": "Rare",
+    "Fish Group": "Snappers",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Mangrove Snapper/fish_mangrovesnapper.png"
+      }
+    ],
+    "image": "resources/images/Mangrove Snapper/fish_mangrovesnapper.png"
+  },
+  {
+    "Species": "Florida Bass",
+    "Rarity": "Rare",
+    "Fish Group": "Basses",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Florida Bass/fish_largemouthbass.png"
+      }
+    ],
+    "image": "resources/images/Florida Bass/fish_largemouthbass.png"
+  },
+  {
+    "Species": "Ruddy Bowfin",
+    "Rarity": "Epic",
+    "Fish Group": "Bowfins",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Ruddy Bowfin/fish_bowfin.png"
+      }
+    ],
+    "image": "resources/images/Ruddy Bowfin/fish_bowfin.png"
+  },
+  {
+    "Species": "Florida Gar",
+    "Rarity": "Epic",
+    "Fish Group": "Gars",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Florida Gar/fish_floridagar.png"
+      }
+    ],
+    "image": "resources/images/Florida Gar/fish_floridagar.png"
+  },
+  {
+    "Species": "Spotted Seatrout",
+    "Rarity": "Legendary",
+    "Fish Group": "Drums",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Spotted Seatrout/fish_spottedseatrout.png"
+      }
+    ],
+    "image": "resources/images/Spotted Seatrout/fish_spottedseatrout.png"
+  },
+  {
+    "Species": "Red Drum",
+    "Rarity": "Legendary",
+    "Fish Group": "Drums",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Red Drum/fish_reddrum.png"
+      }
+    ],
+    "image": "resources/images/Red Drum/fish_reddrum.png"
+  },
+  {
+    "Species": "Black Drum",
+    "Rarity": "Mythical",
+    "Fish Group": "Drums",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Black Drum/fish_blackdrum.png"
+      }
+    ],
+    "image": "resources/images/Black Drum/fish_blackdrum.png"
+  },
+  {
+    "Species": "American Alligator",
+    "Rarity": "Mythical",
+    "Fish Group": "Reptiles",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/American Alligator/fish_americanalligator.png"
+      }
+    ],
+    "image": "resources/images/American Alligator/fish_americanalligator.png"
+  }
+]

@@ -1,100 +1,198 @@
 [
-    {
-      "Species": "Bluegill",
-      "Rarity": "Common",
-      "Fish Group": "Panfishes",
-      "Lifestyle": "Benthopelagic",
-      "Ecosystem Role": "Native"
-    },
-    {
-      "Species": "Redear Sunfish",
-      "Rarity": "Common",
-      "Fish Group": "Panfishes",
-      "Lifestyle": "Demersal",
-      "Ecosystem Role": "Native"
-    },
-    {
-      "Species": "Green Sunfish",
-      "Rarity": "Common",
-      "Fish Group": "Panfishes",
-      "Lifestyle": "Benthopelagic",
-      "Ecosystem Role": "Native"
-    },
-    {
-      "Species": "Black Bullhead Catfish",
-      "Rarity": "Common",
-      "Fish Group": "Catfishes",
-      "Lifestyle": "Demersal",
-      "Ecosystem Role": "Native"
-    },
-    {
-      "Species": "Common Carp",
-      "Rarity": "Common",
-      "Fish Group": "Carps",
-      "Lifestyle": "Benthopelagic",
-      "Ecosystem Role": "Invasive"
-    },
-    {
-      "Species": "Black Crappie",
-      "Rarity": "Rare",
-      "Fish Group": "Panfishes",
-      "Lifestyle": "Benthopelagic",
-      "Ecosystem Role": "Native"
-    },
-    {
-      "Species": "White Crappie",
-      "Rarity": "Rare",
-      "Fish Group": "Panfishes",
-      "Lifestyle": "Demersal",
-      "Ecosystem Role": "Native"
-    },
-    {
-      "Species": "Spotted Bass",
-      "Rarity": "Rare",
-      "Fish Group": "Basses",
-      "Lifestyle": "Demersal",
-      "Ecosystem Role": "Native"
-    },
-    {
-      "Species": "Grass Carp",
-      "Rarity": "Rare",
-      "Fish Group": "Carps",
-      "Lifestyle": "Demersal",
-      "Ecosystem Role": "Invasive"
-    },
-    {
-      "Species": "Largemouth Bass",
-      "Rarity": "Epic",
-      "Fish Group": "Basses",
-      "Lifestyle": "Benthopelagic",
-      "Ecosystem Role": "Native"
-    },
-    {
-      "Species": "Florida Bass",
-      "Rarity": "Epic",
-      "Fish Group": "Basses",
-      "Lifestyle": "Benthopelagic",
-      "Ecosystem Role": "Native"
-    },
-    {
-      "Species": "Eyespot Bowfin",
-      "Rarity": "Epic",
-      "Fish Group": "Bowfins",
-      "Lifestyle": "Demersal",
-      "Ecosystem Role": "Native"
-    },
-    {
-      "Species": "Channel Catfish",
-      "Rarity": "Legendary",
-      "Fish Group": "Catfishes",
-      "Lifestyle": "Demersal",
-      "Ecosystem Role": "Native"
-    },
-    {
-      "Species": "Flathead Catfish",
-      "Rarity": "Mythical",
-      "Fish Group": "Catfishes",
-      "Lifestyle": "Demersal",
-      "Ecosystem Role": "Native"
-    }
+  {
+    "Species": "Bluegill",
+    "Rarity": "Common",
+    "Fish Group": "Panfishes",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Bluegill/fish_bluegill.png"
+      }
+    ],
+    "image": "resources/images/Bluegill/fish_bluegill.png"
+  },
+  {
+    "Species": "Redear Sunfish",
+    "Rarity": "Common",
+    "Fish Group": "Panfishes",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Redear Sunfish/fish_redearsunfish.png"
+      }
+    ],
+    "image": "resources/images/Redear Sunfish/fish_redearsunfish.png"
+  },
+  {
+    "Species": "Green Sunfish",
+    "Rarity": "Common",
+    "Fish Group": "Panfishes",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Green Sunfish/fish_greensunfish.png"
+      }
+    ],
+    "image": "resources/images/Green Sunfish/fish_greensunfish.png"
+  },
+  {
+    "Species": "Black Bullhead Catfish",
+    "Rarity": "Common",
+    "Fish Group": "Catfishes",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Black Bullhead Catfish/fish_blackbullheadcatfish.png"
+      }
+    ],
+    "image": "resources/images/Black Bullhead Catfish/fish_blackbullheadcatfish.png"
+  },
+  {
+    "Species": "Common Carp",
+    "Rarity": "Common",
+    "Fish Group": "Carps",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Invasive",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Common Carp/fish_commoncarp.png"
+      }
+    ],
+    "image": "resources/images/Common Carp/fish_commoncarp.png"
+  },
+  {
+    "Species": "Black Crappie",
+    "Rarity": "Rare",
+    "Fish Group": "Panfishes",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Black Crappie/fish_blackcrappie.png"
+      }
+    ],
+    "image": "resources/images/Black Crappie/fish_blackcrappie.png"
+  },
+  {
+    "Species": "White Crappie",
+    "Rarity": "Rare",
+    "Fish Group": "Panfishes",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/White Crappie/fish_whitecrappie.png"
+      }
+    ],
+    "image": "resources/images/White Crappie/fish_whitecrappie.png"
+  },
+  {
+    "Species": "Spotted Bass",
+    "Rarity": "Rare",
+    "Fish Group": "Basses",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Spotted Bass/fish_spottedbass.png"
+      }
+    ],
+    "image": "resources/images/Spotted Bass/fish_spottedbass.png"
+  },
+  {
+    "Species": "Grass Carp",
+    "Rarity": "Rare",
+    "Fish Group": "Carps",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Invasive",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Grass Carp/fish_grasscarp.png"
+      }
+    ],
+    "image": "resources/images/Grass Carp/fish_grasscarp.png"
+  },
+  {
+    "Species": "Largemouth Bass",
+    "Rarity": "Epic",
+    "Fish Group": "Basses",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Largemouth Bass/fish_largemouthbass.png"
+      }
+    ],
+    "image": "resources/images/Largemouth Bass/fish_largemouthbass.png"
+  },
+  {
+    "Species": "Florida Bass",
+    "Rarity": "Epic",
+    "Fish Group": "Basses",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Florida Bass/fish_largemouthbass.png"
+      }
+    ],
+    "image": "resources/images/Florida Bass/fish_largemouthbass.png"
+  },
+  {
+    "Species": "Eyespot Bowfin",
+    "Rarity": "Epic",
+    "Fish Group": "Bowfins",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Eyespot Bowfin/fish_bowfin.png"
+      }
+    ],
+    "image": "resources/images/Eyespot Bowfin/fish_bowfin.png"
+  },
+  {
+    "Species": "Channel Catfish",
+    "Rarity": "Legendary",
+    "Fish Group": "Catfishes",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Channel Catfish/fish_channelcatfish.png"
+      }
+    ],
+    "image": "resources/images/Channel Catfish/fish_channelcatfish.png"
+  },
+  {
+    "Species": "Flathead Catfish",
+    "Rarity": "Mythical",
+    "Fish Group": "Catfishes",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Flathead Catfish/fish_flatheadcatfish.png"
+      }
+    ],
+    "image": "resources/images/Flathead Catfish/fish_flatheadcatfish.png"
+  }
 ]

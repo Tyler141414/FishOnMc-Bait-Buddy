@@ -1,0 +1,562 @@
+[
+  {
+    "Species": "Atlantic Chub Mackerel",
+    "Rarity": "Common",
+    "Fish Group": "Mackerels",
+    "Lifestyle": "Pelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Atlantic Chub Mackerel/fish_atlanticchubmackerel.png"
+      }
+    ],
+    "image": "resources/images/Atlantic Chub Mackerel/fish_atlanticchubmackerel.png"
+  },
+  {
+    "Species": "Saddled Seabream",
+    "Rarity": "Common",
+    "Fish Group": "Seabreams",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Saddled Seabream/fish_saddledseabream.png"
+      }
+    ],
+    "image": "resources/images/Saddled Seabream/fish_saddledseabream.png"
+  },
+  {
+    "Species": "Painted Comber",
+    "Rarity": "Common",
+    "Fish Group": "Seabasses",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Painted Comber/fish_paintedcomber.png"
+      }
+    ],
+    "image": "resources/images/Painted Comber/fish_paintedcomber.png"
+  },
+  {
+    "Species": "Striped Red Mullet",
+    "Rarity": "Common",
+    "Fish Group": "Goatfishes",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Striped Red Mullet/fish_stripedredmullet.png"
+      }
+    ],
+    "image": "resources/images/Striped Red Mullet/fish_stripedredmullet.png"
+  },
+  {
+    "Species": "Rainbow Wrasse",
+    "Rarity": "Common",
+    "Fish Group": "Wrasses",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Rainbow Wrasse/fish_rainbowwrasse.png"
+      }
+    ],
+    "image": "resources/images/Rainbow Wrasse/fish_rainbowwrasse.png"
+  },
+  {
+    "Species": "Atlantic Spotted Flounder",
+    "Rarity": "Common",
+    "Fish Group": "Flatfishes",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Atlantic Spotted Flounder/fish_spottedflounder.png"
+      }
+    ],
+    "image": "resources/images/Atlantic Spotted Flounder/fish_spottedflounder.png"
+  },
+  {
+    "Species": "Red Mullet",
+    "Rarity": "Common",
+    "Fish Group": "Goatfishes",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Red Mullet/fish_redmullet.png"
+      }
+    ],
+    "image": "resources/images/Red Mullet/fish_redmullet.png"
+  },
+  {
+    "Species": "Two-banded Seabream",
+    "Rarity": "Common",
+    "Fish Group": "Seabreams",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Two-banded Seabream/fish_twobandedseabream.png"
+      }
+    ],
+    "image": "resources/images/Two-banded Seabream/fish_twobandedseabream.png"
+  },
+  {
+    "Species": "Sharpsnout Seabream",
+    "Rarity": "Common",
+    "Fish Group": "Seabreams",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Sharpsnout Seabream/fish_sheepheadseabream.png"
+      }
+    ],
+    "image": "resources/images/Sharpsnout Seabream/fish_sheepheadseabream.png"
+  },
+  {
+    "Species": "Greater Weaver",
+    "Rarity": "Common",
+    "Fish Group": "Weevers",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Greater Weaver/fish_greaterweaver.png"
+      }
+    ],
+    "image": "resources/images/Greater Weaver/fish_greaterweaver.png"
+  },
+  {
+    "Species": "Red Scorpionfish",
+    "Rarity": "Common",
+    "Fish Group": "Scorpionfishes",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Red Scorpionfish/fish_redscorpionfish.png"
+      }
+    ],
+    "image": "resources/images/Red Scorpionfish/fish_redscorpionfish.png"
+  },
+  {
+    "Species": "Flathead Grey Mullet",
+    "Rarity": "Common",
+    "Fish Group": "Mullets",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Flathead Grey Mullet/fish_flatheadgreymullet.png"
+      }
+    ],
+    "image": "resources/images/Flathead Grey Mullet/fish_flatheadgreymullet.png"
+  },
+  {
+    "Species": "Common Pandora",
+    "Rarity": "Common",
+    "Fish Group": "Seabreams",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Common Pandora/fish_commonpandora.png"
+      }
+    ],
+    "image": "resources/images/Common Pandora/fish_commonpandora.png"
+  },
+  {
+    "Species": "Thicklip Grey Mullet",
+    "Rarity": "Common",
+    "Fish Group": "Mullets",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Thicklip Grey Mullet/fish_thicklipgreymullet.png"
+      }
+    ],
+    "image": "resources/images/Thicklip Grey Mullet/fish_thicklipgreymullet.png"
+  },
+  {
+    "Species": "Blue Runner",
+    "Rarity": "Common",
+    "Fish Group": "Jacks",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Blue Runner/fish_bluerunner.png"
+      }
+    ],
+    "image": "resources/images/Blue Runner/fish_bluerunner.png"
+  },
+  {
+    "Species": "Brown Meagre",
+    "Rarity": "Rare",
+    "Fish Group": "Drums",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Brown Meagre/fish_brownmeagre.png"
+      }
+    ],
+    "image": "resources/images/Brown Meagre/fish_brownmeagre.png"
+  },
+  {
+    "Species": "Gilthead Seabream",
+    "Rarity": "Rare",
+    "Fish Group": "Seabreams",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Gilthead Seabream/fish_giltheadseabream.png"
+      }
+    ],
+    "image": "resources/images/Gilthead Seabream/fish_giltheadseabream.png"
+  },
+  {
+    "Species": "Red Porgy",
+    "Rarity": "Rare",
+    "Fish Group": "Seabreams",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Red Porgy/fish_redporgy.png"
+      }
+    ],
+    "image": "resources/images/Red Porgy/fish_redporgy.png"
+  },
+  {
+    "Species": "European Seabass",
+    "Rarity": "Rare",
+    "Fish Group": "Seabasses",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/European Seabass/fish_europeanseabass.png"
+      }
+    ],
+    "image": "resources/images/European Seabass/fish_europeanseabass.png"
+  },
+  {
+    "Species": "Atlantic Bonito",
+    "Rarity": "Rare",
+    "Fish Group": "Tunas",
+    "Lifestyle": "Pelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Atlantic Bonito/fish_atlanticbonito.png"
+      }
+    ],
+    "image": "resources/images/Atlantic Bonito/fish_atlanticbonito.png"
+  },
+  {
+    "Species": "Bluespotted Seabream",
+    "Rarity": "Rare",
+    "Fish Group": "Seabreams",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Bluespotted Seabream/fish_bluespottedbream.png"
+      }
+    ],
+    "image": "resources/images/Bluespotted Seabream/fish_bluespottedbream.png"
+  },
+  {
+    "Species": "European Hake",
+    "Rarity": "Rare",
+    "Fish Group": "Cods",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/European Hake/fish_europeanhake.png"
+      }
+    ],
+    "image": "resources/images/European Hake/fish_europeanhake.png"
+  },
+  {
+    "Species": "Mediterranean Moray",
+    "Rarity": "Rare",
+    "Fish Group": "Eels",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Mediterranean Moray/fish_mediterraneanmoray.png"
+      }
+    ],
+    "image": "resources/images/Mediterranean Moray/fish_mediterraneanmoray.png"
+  },
+  {
+    "Species": "John Dory",
+    "Rarity": "Rare",
+    "Fish Group": "Dories",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/John Dory/fish_johndory.png"
+      }
+    ],
+    "image": "resources/images/John Dory/fish_johndory.png"
+  },
+  {
+    "Species": "Spanish Ling",
+    "Rarity": "Epic",
+    "Fish Group": "Cods",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Spanish Ling/fish_spanishling.png"
+      }
+    ],
+    "image": "resources/images/Spanish Ling/fish_spanishling.png"
+  },
+  {
+    "Species": "White Grouper",
+    "Rarity": "Epic",
+    "Fish Group": "Groupers",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/White Grouper/fish_whitegrouper.png"
+      }
+    ],
+    "image": "resources/images/White Grouper/fish_whitegrouper.png"
+  },
+  {
+    "Species": "Common Stingray",
+    "Rarity": "Epic",
+    "Fish Group": "Rays",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Common Stingray/fish_commonstingray.png"
+      }
+    ],
+    "image": "resources/images/Common Stingray/fish_commonstingray.png"
+  },
+  {
+    "Species": "Blonde Skate",
+    "Rarity": "Epic",
+    "Fish Group": "Rays",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Blonde Skate/fish_blonderay.png"
+      }
+    ],
+    "image": "resources/images/Blonde Skate/fish_blonderay.png"
+  },
+  {
+    "Species": "Dusky Grouper",
+    "Rarity": "Epic",
+    "Fish Group": "Groupers",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Dusky Grouper/fish_duskygrouper.png"
+      }
+    ],
+    "image": "resources/images/Dusky Grouper/fish_duskygrouper.png"
+  },
+  {
+    "Species": "Turbot",
+    "Rarity": "Epic",
+    "Fish Group": "Flatfishes",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Turbot/fish_turbot.png"
+      }
+    ],
+    "image": "resources/images/Turbot/fish_turbot.png"
+  },
+  {
+    "Species": "Common Dentex",
+    "Rarity": "Epic",
+    "Fish Group": "Seabreams",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Common Dentex/fish_commondentex.png"
+      }
+    ],
+    "image": "resources/images/Common Dentex/fish_commondentex.png"
+  },
+  {
+    "Species": "Leerfish",
+    "Rarity": "Epic",
+    "Fish Group": "Jacks",
+    "Lifestyle": "Pelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Leerfish/fish_leerfish.png"
+      }
+    ],
+    "image": "resources/images/Leerfish/fish_leerfish.png"
+  },
+  {
+    "Species": "Angelshark",
+    "Rarity": "Legendary",
+    "Fish Group": "Sharks",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Angelshark/fish_angelshark.png"
+      }
+    ],
+    "image": "resources/images/Angelshark/fish_angelshark.png"
+  },
+  {
+    "Species": "Mediterranean Spearfish",
+    "Rarity": "Legendary",
+    "Fish Group": "Billfishes",
+    "Lifestyle": "Pelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Mediterranean Spearfish/fish_mediterraneanspearfish.png"
+      }
+    ],
+    "image": "resources/images/Mediterranean Spearfish/fish_mediterraneanspearfish.png"
+  },
+  {
+    "Species": "European Monkfish",
+    "Rarity": "Legendary",
+    "Fish Group": "Luminescents",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/European Monkfish/fish_europeanmonkfish.png"
+      }
+    ],
+    "image": "resources/images/European Monkfish/fish_europeanmonkfish.png"
+  },
+  {
+    "Species": "Meagre",
+    "Rarity": "Legendary",
+    "Fish Group": "Drums",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Meagre/fish_meagre.png"
+      }
+    ],
+    "image": "resources/images/Meagre/fish_meagre.png"
+  },
+  {
+    "Species": "European Conger",
+    "Rarity": "Legendary",
+    "Fish Group": "Eels",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/European Conger/fish_europeanconger.png"
+      }
+    ],
+    "image": "resources/images/European Conger/fish_europeanconger.png"
+  },
+  {
+    "Species": "Atlantic Bluefin Tuna",
+    "Rarity": "Mythical",
+    "Fish Group": "Tunas",
+    "Lifestyle": "Pelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Atlantic Bluefin Tuna/fish_atlanticbluefintuna.png"
+      }
+    ],
+    "image": "resources/images/Atlantic Bluefin Tuna/fish_atlanticbluefintuna.png"
+  },
+  {
+    "Species": "Common Guitarfish",
+    "Rarity": "Mythical",
+    "Fish Group": "Rays",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Common Guitarfish/fish_commonguitarfish.png"
+      }
+    ],
+    "image": "resources/images/Common Guitarfish/fish_commonguitarfish.png"
+  },
+  {
+    "Species": "Adriatic Sturgeon",
+    "Rarity": "Mythical",
+    "Fish Group": "Sturgeons",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Adriatic Sturgeon/fish_adriaticsturgeon.png"
+      }
+    ],
+    "image": "resources/images/Adriatic Sturgeon/fish_adriaticsturgeon.png"
+  }
+]

@@ -1,0 +1,590 @@
+[
+  {
+    "Species": "Crimson Snapper",
+    "Rarity": "Common",
+    "Fish Group": "Snappers",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Crimson Snapper/fish_crimsonsnapper.png"
+      }
+    ],
+    "image": "resources/images/Crimson Snapper/fish_crimsonsnapper.png"
+  },
+  {
+    "Species": "Doublespotted Queenfish",
+    "Rarity": "Common",
+    "Fish Group": "Drums",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Doublespotted Queenfish/fish_doublespottedqueenfish.png"
+      }
+    ],
+    "image": "resources/images/Doublespotted Queenfish/fish_doublespottedqueenfish.png"
+  },
+  {
+    "Species": "Mangrove Red Snapper",
+    "Rarity": "Common",
+    "Fish Group": "Snappers",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Mangrove Red Snapper/fish_mangroveredsnapper.png"
+      }
+    ],
+    "image": "resources/images/Mangrove Red Snapper/fish_mangroveredsnapper.png"
+  },
+  {
+    "Species": "Russell's Snapper",
+    "Rarity": "Common",
+    "Fish Group": "Snappers",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Russell's Snapper/fish_russelssnapper.png"
+      }
+    ],
+    "image": "resources/images/Russell's Snapper/fish_russelssnapper.png"
+  },
+  {
+    "Species": "Malabar Blood Snapper",
+    "Rarity": "Common",
+    "Fish Group": "Snappers",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Malabar Blood Snapper/fish_malabarbloodsnapper.png"
+      }
+    ],
+    "image": "resources/images/Malabar Blood Snapper/fish_malabarbloodsnapper.png"
+  },
+  {
+    "Species": "Camouflage Grouper",
+    "Rarity": "Common",
+    "Fish Group": "Groupers",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Camouflage Grouper/fish_camouflagegrouper.png"
+      }
+    ],
+    "image": "resources/images/Camouflage Grouper/fish_camouflagegrouper.png"
+  },
+  {
+    "Species": "Greasy Grouper",
+    "Rarity": "Common",
+    "Fish Group": "Groupers",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Greasy Grouper/fish_greasygrouper.png"
+      }
+    ],
+    "image": "resources/images/Greasy Grouper/fish_greasygrouper.png"
+  },
+  {
+    "Species": "Brown-marbled Grouper",
+    "Rarity": "Common",
+    "Fish Group": "Groupers",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Brown-marbled Grouper/fish_brownmarbledgrouper.png"
+      }
+    ],
+    "image": "resources/images/Brown-marbled Grouper/fish_brownmarbledgrouper.png"
+  },
+  {
+    "Species": "Rusty Jobfish",
+    "Rarity": "Common",
+    "Fish Group": "Snappers",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Rusty Jobfish/fish_rustyjobfish.png"
+      }
+    ],
+    "image": "resources/images/Rusty Jobfish/fish_rustyjobfish.png"
+  },
+  {
+    "Species": "Broad-barred King Mackerel",
+    "Rarity": "Common",
+    "Fish Group": "Mackerels",
+    "Lifestyle": "Pelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Broad-barred King Mackerel/fish_broadbarredspanishmackerel.png"
+      }
+    ],
+    "image": "resources/images/Broad-barred King Mackerel/fish_broadbarredspanishmackerel.png"
+  },
+  {
+    "Species": "Australian Bonito",
+    "Rarity": "Common",
+    "Fish Group": "Tunas",
+    "Lifestyle": "Pelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Australian Bonito/fish_australianbonito.png"
+      }
+    ],
+    "image": "resources/images/Australian Bonito/fish_australianbonito.png"
+  },
+  {
+    "Species": "Australian Spotted Mackerel",
+    "Rarity": "Common",
+    "Fish Group": "Mackerels",
+    "Lifestyle": "Pelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Australian Spotted Mackerel/fish_australianspottedmackerel.png"
+      }
+    ],
+    "image": "resources/images/Australian Spotted Mackerel/fish_australianspottedmackerel.png"
+  },
+  {
+    "Species": "Rainbow Runner",
+    "Rarity": "Rare",
+    "Fish Group": "Jacks",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Rainbow Runner/fish_rainbowrunner.png"
+      }
+    ],
+    "image": "resources/images/Rainbow Runner/fish_rainbowrunner.png"
+  },
+  {
+    "Species": "Whitetip Reef Shark",
+    "Rarity": "Rare",
+    "Fish Group": "Sharks",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Whitetip Reef Shark/fish_whitetipreefshark.png"
+      }
+    ],
+    "image": "resources/images/Whitetip Reef Shark/fish_whitetipreefshark.png"
+  },
+  {
+    "Species": "Pike Eel",
+    "Rarity": "Rare",
+    "Fish Group": "Eels",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Pike Eel/fish_pikeeel.png"
+      }
+    ],
+    "image": "resources/images/Pike Eel/fish_pikeeel.png"
+  },
+  {
+    "Species": "Coral Trout",
+    "Rarity": "Rare",
+    "Fish Group": "Groupers",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Coral Trout/fish_coraltrout.png"
+      }
+    ],
+    "image": "resources/images/Coral Trout/fish_coraltrout.png"
+  },
+  {
+    "Species": "Yellowspotted Trevally",
+    "Rarity": "Rare",
+    "Fish Group": "Trevallies",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Yellowspotted Trevally/fish_yellowspottedtrevally.png"
+      }
+    ],
+    "image": "resources/images/Yellowspotted Trevally/fish_yellowspottedtrevally.png"
+  },
+  {
+    "Species": "Bluefin Trevally",
+    "Rarity": "Rare",
+    "Fish Group": "Trevallies",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Bluefin Trevally/fish_bluefintrevally.png"
+      }
+    ],
+    "image": "resources/images/Bluefin Trevally/fish_bluefintrevally.png"
+  },
+  {
+    "Species": "Golden Trevally",
+    "Rarity": "Rare",
+    "Fish Group": "Trevallies",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Golden Trevally/fish_goldentrevally.png"
+      }
+    ],
+    "image": "resources/images/Golden Trevally/fish_goldentrevally.png"
+  },
+  {
+    "Species": "Dusky Flathead",
+    "Rarity": "Rare",
+    "Fish Group": "Flatheads",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Dusky Flathead/fish_duskyflathead.png"
+      }
+    ],
+    "image": "resources/images/Dusky Flathead/fish_duskyflathead.png"
+  },
+  {
+    "Species": "Bigeye Trevally",
+    "Rarity": "Rare",
+    "Fish Group": "Trevallies",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Bigeye Trevally/fish_bigeyetrevally.png"
+      }
+    ],
+    "image": "resources/images/Bigeye Trevally/fish_bigeyetrevally.png"
+  },
+  {
+    "Species": "Longtail Tuna",
+    "Rarity": "Rare",
+    "Fish Group": "Tunas",
+    "Lifestyle": "Pelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Longtail Tuna/fish_longtailtuna.png"
+      }
+    ],
+    "image": "resources/images/Longtail Tuna/fish_longtailtuna.png"
+  },
+  {
+    "Species": "Red Emperor",
+    "Rarity": "Epic",
+    "Fish Group": "Snappers",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Red Emperor/fish_redemperor.png"
+      }
+    ],
+    "image": "resources/images/Red Emperor/fish_redemperor.png"
+  },
+  {
+    "Species": "Australasian Snapper",
+    "Rarity": "Epic",
+    "Fish Group": "Snappers",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Australasian Snapper/fish_australasiansnapper.png"
+      }
+    ],
+    "image": "resources/images/Australasian Snapper/fish_australasiansnapper.png"
+  },
+  {
+    "Species": "Bigfin Reef Squid",
+    "Rarity": "Epic",
+    "Fish Group": "Squids",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Bigfin Reef Squid/fish_bigfinreefsquid.png"
+      }
+    ],
+    "image": "resources/images/Bigfin Reef Squid/fish_bigfinreefsquid.png"
+  },
+  {
+    "Species": "Potato Grouper",
+    "Rarity": "Epic",
+    "Fish Group": "Groupers",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Potato Grouper/fish_potatogrouper.png"
+      }
+    ],
+    "image": "resources/images/Potato Grouper/fish_potatogrouper.png"
+  },
+  {
+    "Species": "Gray Reef Shark",
+    "Rarity": "Epic",
+    "Fish Group": "Sharks",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Gray Reef Shark/fish_grayreefshark.png"
+      }
+    ],
+    "image": "resources/images/Gray Reef Shark/fish_grayreefshark.png"
+  },
+  {
+    "Species": "King Threadfin",
+    "Rarity": "Epic",
+    "Fish Group": "Threadfins",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/King Threadfin/fish_kingthreadfin.png"
+      }
+    ],
+    "image": "resources/images/King Threadfin/fish_kingthreadfin.png"
+  },
+  {
+    "Species": "Dogtooth Tuna",
+    "Rarity": "Epic",
+    "Fish Group": "Tunas",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Dogtooth Tuna/fish_dogtoothtuna.png"
+      }
+    ],
+    "image": "resources/images/Dogtooth Tuna/fish_dogtoothtuna.png"
+  },
+  {
+    "Species": "Giant Trevally",
+    "Rarity": "Epic",
+    "Fish Group": "Trevallies",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Giant Trevally/fish_gianttrevally.png"
+      }
+    ],
+    "image": "resources/images/Giant Trevally/fish_gianttrevally.png"
+  },
+  {
+    "Species": "Sand Tiger Shark",
+    "Rarity": "Legendary",
+    "Fish Group": "Sharks",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Sand Tiger Shark/fish_sandtigershark.png"
+      }
+    ],
+    "image": "resources/images/Sand Tiger Shark/fish_sandtigershark.png"
+  },
+  {
+    "Species": "Silvertip Shark",
+    "Rarity": "Legendary",
+    "Fish Group": "Sharks",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Silvertip Shark/fish_silvertipshark.png"
+      }
+    ],
+    "image": "resources/images/Silvertip Shark/fish_silvertipshark.png"
+  },
+  {
+    "Species": "Humphead Wrasse",
+    "Rarity": "Legendary",
+    "Fish Group": "Wrasses",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Humphead Wrasse/fish_humpheadwrasse.png"
+      }
+    ],
+    "image": "resources/images/Humphead Wrasse/fish_humpheadwrasse.png"
+  },
+  {
+    "Species": "Indo-Pacific Sailfish",
+    "Rarity": "Legendary",
+    "Fish Group": "Billfishes",
+    "Lifestyle": "Pelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Indo-Pacific Sailfish/fish_indopacificsailfish.png"
+      }
+    ],
+    "image": "resources/images/Indo-Pacific Sailfish/fish_indopacificsailfish.png"
+  },
+  {
+    "Species": "Yellowfin Tuna",
+    "Rarity": "Legendary",
+    "Fish Group": "Tunas",
+    "Lifestyle": "Pelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Yellowfin Tuna/fish_yellowfintuna.png"
+      }
+    ],
+    "image": "resources/images/Yellowfin Tuna/fish_yellowfintuna.png"
+  },
+  {
+    "Species": "Oceanic Whitetip Shark",
+    "Rarity": "Legendary",
+    "Fish Group": "Sharks",
+    "Lifestyle": "Pelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Oceanic Whitetip Shark/fish_oceanicwhitetipshark.png"
+      }
+    ],
+    "image": "resources/images/Oceanic Whitetip Shark/fish_oceanicwhitetipshark.png"
+  },
+  {
+    "Species": "Striped Marlin",
+    "Rarity": "Legendary",
+    "Fish Group": "Billfishes",
+    "Lifestyle": "Pelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Striped Marlin/fish_stripedmarlin.png"
+      }
+    ],
+    "image": "resources/images/Striped Marlin/fish_stripedmarlin.png"
+  },
+  {
+    "Species": "Sicklefin Lemon Shark",
+    "Rarity": "Mythical",
+    "Fish Group": "Sharks",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Sicklefin Lemon Shark/fish_sicklefinlemonshark.png"
+      }
+    ],
+    "image": "resources/images/Sicklefin Lemon Shark/fish_sicklefinlemonshark.png"
+  },
+  {
+    "Species": "Tiger Shark",
+    "Rarity": "Mythical",
+    "Fish Group": "Sharks",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Tiger Shark/fish_tigershark.png"
+      }
+    ],
+    "image": "resources/images/Tiger Shark/fish_tigershark.png"
+  },
+  {
+    "Species": "Queensland Grouper",
+    "Rarity": "Mythical",
+    "Fish Group": "Groupers",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Queensland Grouper/fish_queenslandgrouper.png"
+      }
+    ],
+    "image": "resources/images/Queensland Grouper/fish_queenslandgrouper.png"
+  },
+  {
+    "Species": "Southern Bluefin Tuna",
+    "Rarity": "Mythical",
+    "Fish Group": "Tunas",
+    "Lifestyle": "Pelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Southern Bluefin Tuna/fish_southernbluefintuna.png"
+      }
+    ],
+    "image": "resources/images/Southern Bluefin Tuna/fish_southernbluefintuna.png"
+  },
+  {
+    "Species": "Black Marlin",
+    "Rarity": "Mythical",
+    "Fish Group": "Billfishes",
+    "Lifestyle": "Pelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Black Marlin/fish_blackmarlin.png"
+      }
+    ],
+    "image": "resources/images/Black Marlin/fish_blackmarlin.png"
+  }
+]

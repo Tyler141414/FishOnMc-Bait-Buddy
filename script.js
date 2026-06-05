@@ -56,8 +56,9 @@ async function main(){
   }
 
   async function matches(bait,locName,locObj){
-    // bait must be appropriate for the location's water type
-    const typeMatch = (bait.type==='Universal' || bait.type==='any' || (locObj && bait.type===locObj.waterType));
+    // bait must be appropriate for the location's water type OR be a location-specific bait
+    const typeVal = (bait.type||'').toString();
+    const typeMatch = (typeVal==='Universal' || typeVal==='any' || (locObj && (typeVal===locObj.waterType || typeVal===locObj.name)));
     if(!typeMatch) return false;
     // load species for this location
     const locSpeciesArr = await getLocSpecies(locObj);
@@ -92,7 +93,25 @@ async function main(){
       if(q && !(bait.name.toLowerCase().includes(q) || (bait.targets||[]).join(' ').toLowerCase().includes(q) || (bait.desc||'').toLowerCase().includes(q))) continue;
 
       const tpl=createFromTemplate(el('#baitTpl'));
-      tpl.querySelector('.icon').textContent = bait.icon || '🎣';
+      // render bait image (prefer `bait.image`, then `links[rel=image]`, then local resources/images/baits fallback)
+      const iconEl = tpl.querySelector('.icon');
+      const baitCandidates = [];
+      if(bait.image) baitCandidates.push(bait.image);
+      const baitLinks = bait.links || bait.Links || [];
+      if(Array.isArray(baitLinks)){
+        for(const ln of baitLinks){ if(ln && ln.rel==='image' && ln.href) baitCandidates.push(ln.href); }
+      }
+      // fallback to common local filename patterns based on bait name
+      const baitSlug = (bait.name||'').toLowerCase().replace(/[^a-z0-9]+/g,'_').replace(/^_|_$/g,'');
+      baitCandidates.push(`resources/images/baits/${baitSlug}.png`);
+      baitCandidates.push(`resources/images/baits/${baitSlug}.jpg`);
+      baitCandidates.push(`resources/images/baits/${baitSlug}.webp`);
+      const img = document.createElement('img');
+      img.className = 'bait-img';
+      img.alt = bait.name || 'bait';
+      img.setAttribute('data-candidates', JSON.stringify(baitCandidates.filter(Boolean)));
+      iconEl.innerHTML = '';
+      iconEl.appendChild(img);
       tpl.querySelector('.name').textContent = bait.name;
       const tierEl = tpl.querySelector('.tier');
       const rawRarity = (bait.rarity||'').toString();
@@ -115,6 +134,8 @@ async function main(){
       });
       tpl.addEventListener('keydown', (ev)=>{ if(ev.key==='Enter' || ev.key===' '){ ev.preventDefault(); tpl.click(); } });
       list.appendChild(tpl);
+      // attempt to load bait image candidates for this item
+      tryLoadSpeciesImages(tpl);
     }
   }
 
@@ -156,12 +177,54 @@ async function main(){
         const rawRarity = (rarity||'').toString();
         const rarityClass = rawRarity.toLowerCase().replace(/\s+/g,'-').replace(/[^a-z0-9_\-]/g,'');
         const raritySpanClass = 'rarity rarity-pill' + (rarityClass? ' rarity-'+rarityClass : '');
-        parts.push(`<div class="species"><div class="title">${name}<span class="${raritySpanClass}">${rarity}</span></div><div class="desc">${group}${group && lifestyle? ' • ': ''}${lifestyle}${(role? ' • '+role : '')}</div></div>`);
+        // build image candidate list: prefer explicit HATEOAS `image` link or `image` field
+        const candidates = [];
+        // prefer explicit image field
+        if(item.image){ candidates.push(item.image); }
+        // prefer links with rel=image
+        const links = item.links || item.Links || [];
+        if(Array.isArray(links)){
+          for(const ln of links){ if(ln && ln.rel==='image' && ln.href){ candidates.push(ln.href); } }
+        }
+        // fallback: try common filenames inside resources/images/{Species}/
+        const dirName = (name||'').replace(/[\\/:*?"<>|]/g,'-');
+        const slug = (name||'').toLowerCase().replace(/[^a-z0-9]+/g,'_').replace(/^_|_$/g,'');
+        const fallback = [
+          `resources/images/${dirName}/fish_${slug}.png`,
+          `resources/images/${dirName}/fish_${slug}.jpg`,
+          `resources/images/${dirName}/${slug}.png`,
+          `resources/images/${dirName}/${slug}.jpg`,
+          `resources/images/${dirName}/${slug}.webp`,
+          `resources/images/${dirName}/fish_${slug}.webp`
+        ];
+        for(const f of fallback) candidates.push(f);
+        const candJson = JSON.stringify(candidates.filter(Boolean));
+        parts.push(`<div class="species"><img data-candidates='${candJson}' class="species-img" alt="${name}"><div class="species-info"><div class="title">${name}<span class="${raritySpanClass}">${rarity}</span></div><div class="desc">${group}${group && lifestyle? ' • ': ''}${lifestyle}${(role? ' • '+role : '')}</div></div></div>`);
       });
       parts.push('</div>');
       html = parts.join('');
     }
     openModal(`Location: ${locName} — Bait: ${bait.name}`, html);
+    // initialize species images (attempt candidate URLs sequentially)
+    tryLoadSpeciesImages(modalBody);
+  }
+
+  function tryLoadSpeciesImages(root){
+    if(!root) return;
+    const imgs = root.querySelectorAll('img[data-candidates]');
+    imgs.forEach(img=>{
+      let list = [];
+      try{ list = JSON.parse(img.getAttribute('data-candidates') || '[]'); }catch(e){ list = []; }
+      if(!Array.isArray(list) || list.length===0) return;
+      let idx = 0;
+      const tryNext = ()=>{
+        if(idx>=list.length){ img.style.display='none'; return; }
+        img.src = list[idx];
+        img.onerror = ()=>{ idx++; tryNext(); };
+        img.onload = ()=>{ img.style.display='inline-block'; };
+      };
+      tryNext();
+    });
   }
 
   locSel.addEventListener('change', render);

@@ -1,0 +1,226 @@
+[
+  {
+    "Species": "Rendahl's Tandan",
+    "Rarity": "Common",
+    "Fish Group": "Catfishes",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Rendahl's Tandan/fish_rendahlstandan.png"
+      }
+    ],
+    "image": "resources/images/Rendahl's Tandan/fish_rendahlstandan.png"
+  },
+  {
+    "Species": "Silver Tandan",
+    "Rarity": "Common",
+    "Fish Group": "Catfishes",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Silver Tandan/fish_silvertandan.png"
+      }
+    ],
+    "image": "resources/images/Silver Tandan/fish_silvertandan.png"
+  },
+  {
+    "Species": "Spangled Perch",
+    "Rarity": "Common",
+    "Fish Group": "Grunters",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Spangled Perch/fish_spangledperch.png"
+      }
+    ],
+    "image": "resources/images/Spangled Perch/fish_spangledperch.png"
+  },
+  {
+    "Species": "Bony Bream",
+    "Rarity": "Common",
+    "Fish Group": "Shads",
+    "Lifestyle": "Pelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Bony Bream/fish_bonybream.png"
+      }
+    ],
+    "image": "resources/images/Bony Bream/fish_bonybream.png"
+  },
+  {
+    "Species": "Silver Perch",
+    "Rarity": "Common",
+    "Fish Group": "Grunters",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Silver Perch/fish_silverperch.png"
+      }
+    ],
+    "image": "resources/images/Silver Perch/fish_silverperch.png"
+  },
+  {
+    "Species": "Two-spined Blackfish",
+    "Rarity": "Common",
+    "Fish Group": "Temperate Perches",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Two-spined Blackfish/fish_twospinedblackfish.png"
+      }
+    ],
+    "image": "resources/images/Two-spined Blackfish/fish_twospinedblackfish.png"
+  },
+  {
+    "Species": "River Blackfish",
+    "Rarity": "Rare",
+    "Fish Group": "Temperate Perches",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/River Blackfish/fish_riverblackfish.png"
+      }
+    ],
+    "image": "resources/images/River Blackfish/fish_riverblackfish.png"
+  },
+  {
+    "Species": "Macquarie Perch",
+    "Rarity": "Rare",
+    "Fish Group": "Temperate Perches",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Macquarie Perch/fish_macquarieperch.png"
+      }
+    ],
+    "image": "resources/images/Macquarie Perch/fish_macquarieperch.png"
+  },
+  {
+    "Species": "Eel Tailed Catfish",
+    "Rarity": "Rare",
+    "Fish Group": "Catfishes",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Eel Tailed Catfish/fish_eeltailedcatfish.png"
+      }
+    ],
+    "image": "resources/images/Eel Tailed Catfish/fish_eeltailedcatfish.png"
+  },
+  {
+    "Species": "Australian Bass",
+    "Rarity": "Rare",
+    "Fish Group": "Temperate Perches",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Australian Bass/fish_australianbass.png"
+      }
+    ],
+    "image": "resources/images/Australian Bass/fish_australianbass.png"
+  },
+  {
+    "Species": "Short-finned Eel",
+    "Rarity": "Epic",
+    "Fish Group": "Eels",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Short-finned Eel/fish_shortfinnedeel.png"
+      }
+    ],
+    "image": "resources/images/Short-finned Eel/fish_shortfinnedeel.png"
+  },
+  {
+    "Species": "Trout Cod",
+    "Rarity": "Epic",
+    "Fish Group": "Cods",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Trout Cod/fish_troutcod.png"
+      }
+    ],
+    "image": "resources/images/Trout Cod/fish_troutcod.png"
+  },
+  {
+    "Species": "Estuary Perch",
+    "Rarity": "Epic",
+    "Fish Group": "Temperate Perches",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Estuary Perch/fish_estuaryperch.png"
+      }
+    ],
+    "image": "resources/images/Estuary Perch/fish_estuaryperch.png"
+  },
+  {
+    "Species": "Speckled Longfin Eel",
+    "Rarity": "Legendary",
+    "Fish Group": "Eels",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Speckled Longfin Eel/fish_speckledlongfineel.png"
+      }
+    ],
+    "image": "resources/images/Speckled Longfin Eel/fish_speckledlongfineel.png"
+  },
+  {
+    "Species": "Golden Perch",
+    "Rarity": "Mythical",
+    "Fish Group": "Temperate Perches",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Golden Perch/fish_goldenperch.png"
+      }
+    ],
+    "image": "resources/images/Golden Perch/fish_goldenperch.png"
+  },
+  {
+    "Species": "Murray Cod",
+    "Rarity": "Mythical",
+    "Fish Group": "Cods",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Murray Cod/fish_murraycod.png"
+      }
+    ],
+    "image": "resources/images/Murray Cod/fish_murraycod.png"
+  }
+]

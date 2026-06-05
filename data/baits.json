@@ -1,52 +1,1277 @@
 [
-  {"id":"bread","name":"Bread","type":"Freshwater","rarity":"Common","likelihood":70,"sizeBonus":null,"targets":["Carps","Eurasian Minnows","Suckers"],"icon":"🍞","desc":"Freshwater Bite Speed: +30"},
-  {"id":"dough_balls","name":"Dough Balls","type":"Freshwater","rarity":"Common","likelihood":60,"sizeBonus":null,"targets":["Carps"],"icon":"🍪","desc":"Freshwater Bite Speed: +25"},
-  {"id":"pink_salmon_roe","name":"Pink Salmon Roe","type":"Freshwater","rarity":"Common","likelihood":60,"sizeBonus":null,"targets":["Salmons"],"icon":"🟣","desc":"Freshwater Bite Speed: +25"},
-  {"id":"worms","name":"Worms","type":"Freshwater","rarity":"Common","likelihood":70,"sizeBonus":null,"targets":["Panfishes","Drums","Perches","Eurasian Minnows","Barbels","Temperate Perches"],"icon":"🪱","desc":"Freshwater Bite Speed: +30"},
-  {"id":"zebra_mussels","name":"Zebra Mussels","type":"Freshwater","rarity":"Common","likelihood":60,"sizeBonus":null,"targets":["Catfishes","Drums"],"icon":null,"desc":"Freshwater Bite Speed: +25"},
-  {"id":"chicken_nugget","name":"Chicken Nugget","type":"Freshwater","rarity":"Rare","likelihood":70,"sizeBonus":null,"targets":["Catfishes"],"icon":"🍗","desc":"Freshwater Bite Speed: -50"},
-  {"id":"cut_shad","name":"Cut Shad","type":"Freshwater","rarity":"Rare","likelihood":75,"sizeBonus":null,"targets":["Catfishes"],"icon":null,"desc":"Freshwater Bite Speed: -25"},
-  {"id":"french_fry","name":"French Fry","type":"Freshwater","rarity":"Rare","likelihood":70,"sizeBonus":null,"targets":["Catfishes","Carps"],"icon":null,"desc":"Freshwater Bite Speed: +25"},
-  {"id":"minnow_live_bait","name":"Minnow Live Bait","type":"Freshwater","rarity":"Rare","likelihood":75,"sizeBonus":null,"targets":["Basses","Pikes","Perches"],"icon":"🐟","desc":"Freshwater Bite Speed: +50"},
-  {"id":"nightcrawler","name":"Nightcrawler","type":"Freshwater","rarity":"Rare","likelihood":80,"sizeBonus":null,"targets":["Panfishes","Eurasian Minnows","Temperate Perches","Perches","Basses","Trouts","Drums"],"icon":"🪱","desc":"Freshwater Bite Speed: +50"},
-  {"id":"shiner_live_bait","name":"Shiner Live Bait","type":"Freshwater","rarity":"Rare","likelihood":75,"sizeBonus":null,"targets":["Basses","Pikes"],"icon":null,"desc":"Freshwater Bite Speed: +50"},
-  {"id":"small_chunk_of_meat","name":"Small Chunk Of Meat","type":"Freshwater","rarity":"Rare","likelihood":75,"sizeBonus":2,"targets":["Catfishes","Eels","Rays","Reptiles"],"icon":"🥩","desc":"Freshwater Bite Speed: -75"},
-  {"id":"sweet_corn","name":"Sweet Corn","type":"Freshwater","rarity":"Rare","likelihood":70,"sizeBonus":null,"targets":["Carps","Suckers"],"icon":null,"desc":"Freshwater Bite Speed: +50"},
-  {"id":"trout_dough","name":"Trout Dough","type":"Freshwater","rarity":"Rare","likelihood":70,"sizeBonus":null,"targets":["Trouts"],"icon":null,"desc":"Freshwater Bite Speed: +40"},
-  {"id":"chicken_liver","name":"Chicken Liver","type":"Freshwater","rarity":"Epic","likelihood":80,"sizeBonus":2,"targets":["Catfishes"],"icon":null,"desc":"Freshwater Bite Speed: -50"},
-  {"id":"chinook_salmon_roe","name":"Chinook Salmon Roe","type":"Freshwater","rarity":"Epic","likelihood":80,"sizeBonus":null,"targets":["Salmons"],"icon":"🔴","desc":"Freshwater Bite Speed: +75"},
-  {"id":"cut_bream","name":"Cut Bream","type":"Freshwater","rarity":"Epic","likelihood":80,"sizeBonus":2,"targets":["Catfishes","Eels"],"icon":null,"desc":"Freshwater Bite Speed: -50"},
-  {"id":"cut_carp","name":"Cut Carp","type":"Freshwater","rarity":"Epic","likelihood":80,"sizeBonus":2,"targets":["Catfishes","Gars"],"icon":null,"desc":"Freshwater Bite Speed: -75"},
-  {"id":"cut_roach","name":"Cut Roach","type":"Freshwater","rarity":"Epic","likelihood":80,"sizeBonus":2,"targets":["Zander","Northern Pike"],"icon":null,"desc":"Freshwater Bite Speed: -50"},
-  {"id":"nightcrawlers","name":"Nightcrawlers","type":"Freshwater","rarity":"Epic","likelihood":85,"sizeBonus":3,"targets":["Sturgeons","Catfishes"],"icon":null,"desc":"Freshwater Bite Speed: -75"},
-  {"id":"shad_live_bait","name":"Shad Live Bait","type":"Freshwater","rarity":"Epic","likelihood":80,"sizeBonus":null,"targets":["Basses"],"icon":null,"desc":"Freshwater Bite Speed: +50"},
-  {"id":"carp_head","name":"Carp Head","type":"Freshwater","rarity":"Legendary","likelihood":90,"sizeBonus":4,"targets":["Catfishes","Gars"],"icon":"🦴","desc":"Freshwater Bite Speed: -100"},
-  {"id":"large_chunk_of_meat","name":"Large Chunk Of Meat","type":"Freshwater","rarity":"Legendary","likelihood":90,"sizeBonus":null,"targets":["Bonytongues","Sharks"],"icon":null,"desc":"Freshwater Bite Speed: -100"},
-  {"id":"rotten_chicken","name":"Rotten Chicken","type":"Freshwater","rarity":"Legendary","likelihood":100,"sizeBonus":null,"targets":["American Alligator"],"icon":null,"desc":"Freshwater Bite Speed: -250"},
-  {"id":"clam","name":"Clam","type":"Saltwater","rarity":"Common","likelihood":65,"sizeBonus":null,"targets":["Seabreams","Snappers","Reef Fishes","Drums"],"icon":null,"desc":"Saltwater Bite Speed: +30"},
-  {"id":"grass_shrimp","name":"Grass Shrimp","type":"Saltwater","rarity":"Common","likelihood":null,"sizeBonus":null,"targets":[],"icon":null,"desc":"Saltwater Bite Speed: +50"},
-  {"id":"sand_flea","name":"Sand Flea","type":"Saltwater","rarity":"Common","likelihood":70,"sizeBonus":null,"targets":["Jacks","Seabreams","Drums"],"icon":null,"desc":"Saltwater Bite Speed: +25"},
-  {"id":"sand_shrimp","name":"Sand Shrimp","type":"Saltwater","rarity":"Common","likelihood":60,"sizeBonus":null,"targets":["Flatfishes","Surfperches","Drums","Seabreams"],"icon":null,"desc":"Saltwater Bite Speed: +30"},
-  {"id":"sand_worm","name":"Sand Worm","type":"Saltwater","rarity":"Common","likelihood":60,"sizeBonus":null,"targets":["Wrasses","Mullets","Surfperches","Drums","Seabasses"],"icon":null,"desc":"Saltwater Bite Speed: +25"},
-  {"id":"scallop","name":"Scallop","type":"Saltwater","rarity":"Common","likelihood":65,"sizeBonus":null,"targets":["Seabreams","Snappers","Reef Fishes"],"icon":null,"desc":"Saltwater Bite Speed: +35"},
-  {"id":"small_cut_squid","name":"Small Cut Squid","type":"Saltwater","rarity":"Common","likelihood":70,"sizeBonus":null,"targets":["Snappers","Flounders","Seabasses","Grunts","Jacks","Seabreams","Mullets"],"icon":null,"desc":"Saltwater Bite Speed: +30"},
-  {"id":"cut_octopus","name":"Cut Octopus","type":"Saltwater","rarity":"Rare","likelihood":80,"sizeBonus":null,"targets":["Demersal"],"icon":null,"desc":"Saltwater Bite Speed: +50"},
-  {"id":"fiddler_crab","name":"Fiddler Crab","type":"Saltwater","rarity":"Rare","likelihood":70,"sizeBonus":null,"targets":["Drums","Seabreams"],"icon":null,"desc":"Saltwater Bite Speed: +50"},
-  {"id":"herring_live_bait","name":"Herring Live Bait","type":"Saltwater","rarity":"Rare","likelihood":75,"sizeBonus":null,"targets":["Flatfishes","Seabasses","Cods"],"icon":null,"desc":"Saltwater Bite Speed: +40"},
-  {"id":"medium_cut_squid","name":"Medium Cut Squid","type":"Saltwater","rarity":"Rare","likelihood":75,"sizeBonus":null,"targets":["Mackerels","Snooks","Tarpons","Groupers","Wrasses"],"icon":null,"desc":"Saltwater Bite Speed: +50"},
-  {"id":"menhaden_live_bait","name":"Menhaden Live Bait","type":"Saltwater","rarity":"Rare","likelihood":75,"sizeBonus":null,"targets":["Jacks","Mackerels"],"icon":null,"desc":"Saltwater Bite Speed: +40"},
-  {"id":"mullet_live_bait","name":"Mullet Live Bait","type":"Saltwater","rarity":"Rare","likelihood":75,"sizeBonus":null,"targets":["Seabasses","Groupers","Eels","Jacks"],"icon":null,"desc":"Saltwater Bite Speed: +50"},
-  {"id":"mussels","name":"Mussels","type":"Saltwater","rarity":"Rare","likelihood":75,"sizeBonus":null,"targets":["Seabreams","Snappers","Reef Fishes","Drums"],"icon":null,"desc":"Saltwater Bite Speed: +50"},
-  {"id":"small_chunk_of_bonito_cutbait","name":"Small Chunk Of Bonito Cutbait","type":"Saltwater","rarity":"Rare","likelihood":70,"sizeBonus":null,"targets":["Snappers","Jacks"],"icon":null,"desc":"Saltwater Bite Speed: +50"},
-  {"id":"white_shrimp","name":"White Shrimp","type":"Saltwater","rarity":"Rare","likelihood":75,"sizeBonus":null,"targets":["Seabreams","Snappers","Jacks","Grunts","Wrasses","Reef Fishes"],"icon":null,"desc":"Saltwater Bite Speed: +50"},
-  {"id":"cut_mullet","name":"Cut Mullet","type":"Saltwater","rarity":"Epic","likelihood":85,"sizeBonus":null,"targets":["Cobia","Jacks","Groupers","Seabasses"],"icon":null,"desc":"Saltwater Bite Speed: +75"},
-  {"id":"mackerel_live_bait","name":"Mackerel Live Bait","type":"Saltwater","rarity":"Epic","likelihood":80,"sizeBonus":null,"targets":["Billfishes","Trevallies","Tunas"],"icon":null,"desc":"Saltwater Bite Speed: +80"},
-  {"id":"pinfish_live_bait","name":"Pinfish Live Bait","type":"Saltwater","rarity":"Epic","likelihood":90,"sizeBonus":null,"targets":["Cubera Snapper","Cobia","Greater Amberjack","Red Drum","Common Snook","Spotted Seatrout","Great Barracuda"],"icon":null,"desc":"Saltwater Bite Speed: +110"},
-  {"id":"sardine_live_bait","name":"Sardine Live Bait","type":"Saltwater","rarity":"Epic","likelihood":80,"sizeBonus":null,"targets":["Snappers"],"icon":null,"desc":"Saltwater Bite Speed: +70"},
-  {"id":"ballyhoo_live_bait","name":"Ballyhoo Live Bait","type":"Saltwater","rarity":"Legendary","likelihood":95,"sizeBonus":null,"targets":["Pelagic"],"icon":null,"desc":"Saltwater Bite Speed: +110"},
-  {"id":"bonito_live_bait","name":"Bonito Live Bait","type":"Saltwater","rarity":"Legendary","likelihood":90,"sizeBonus":null,"targets":["Trevallies","Billfishes","Sharks"],"icon":null,"desc":"Saltwater Bite Speed: +110"},
-  {"id":"cownose_ray_cutbait","name":"Cownose Ray Cutbait","type":"Saltwater","rarity":"Legendary","likelihood":90,"sizeBonus":3,"targets":["Sharks"],"icon":null,"desc":"Saltwater Bite Speed: +100"},
-  {"id":"large_chunk_of_bonito_cutbait","name":"Large Chunk Of Bonito Cutbait","type":"Saltwater","rarity":"Legendary","likelihood":90,"sizeBonus":4,"targets":["Sharks"],"icon":null,"desc":"Saltwater Bite Speed: +100"},
-  {"id":"large_cut_squid","name":"Large Cut Squid","type":"Saltwater","rarity":"Legendary","likelihood":90,"sizeBonus":null,"targets":["Sharks","Groupers","Tunas"],"icon":null,"desc":"Saltwater Bite Speed: +100"},
-  {"id":"salmon_head","name":"Salmon Head","type":"Saltwater","rarity":"Legendary","likelihood":90,"sizeBonus":3,"targets":["Atlantic Halibut","Pacific Halibut"],"icon":null,"desc":"Saltwater Bite Speed: -50"}
+  {
+    "id": "bread",
+    "name": "Bread",
+    "type": "Freshwater",
+    "rarity": "Common",
+    "likelihood": 70,
+    "sizeBonus": null,
+    "targets": [
+      "Carps",
+      "Eurasian Minnows",
+      "Suckers"
+    ],
+    "icon": "🍞",
+    "desc": "Freshwater Bite Speed: +30",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_bread.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_bread.png"
+  },
+  {
+    "id": "dough_balls",
+    "name": "Dough Balls",
+    "type": "Freshwater",
+    "rarity": "Common",
+    "likelihood": 60,
+    "sizeBonus": null,
+    "targets": [
+      "Carps"
+    ],
+    "icon": "🍪",
+    "desc": "Freshwater Bite Speed: +25",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_doughballs.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_doughballs.png"
+  },
+  {
+    "id": "pink_salmon_roe",
+    "name": "Pink Salmon Roe",
+    "type": "Freshwater",
+    "rarity": "Common",
+    "likelihood": 60,
+    "sizeBonus": null,
+    "targets": [
+      "Salmons"
+    ],
+    "icon": "🟣",
+    "desc": "Freshwater Bite Speed: +25",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_pink_salmon_roe.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_pink_salmon_roe.png"
+  },
+  {
+    "id": "worms",
+    "name": "Worms",
+    "type": "Freshwater",
+    "rarity": "Common",
+    "likelihood": 70,
+    "sizeBonus": null,
+    "targets": [
+      "Panfishes",
+      "Drums",
+      "Perches",
+      "Eurasian Minnows",
+      "Barbels",
+      "Temperate Perches"
+    ],
+    "icon": "🪱",
+    "desc": "Freshwater Bite Speed: +30",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_worm.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_worm.png"
+  },
+  {
+    "id": "zebra_mussels",
+    "name": "Zebra Mussels",
+    "type": "Freshwater",
+    "rarity": "Common",
+    "likelihood": 60,
+    "sizeBonus": null,
+    "targets": [
+      "Catfishes",
+      "Drums"
+    ],
+    "icon": null,
+    "desc": "Freshwater Bite Speed: +25",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_zebra_mussels.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_zebra_mussels.png"
+  },
+  {
+    "id": "chicken_nugget",
+    "name": "Chicken Nugget",
+    "type": "Freshwater",
+    "rarity": "Rare",
+    "likelihood": 70,
+    "sizeBonus": null,
+    "targets": [
+      "Catfishes"
+    ],
+    "icon": "🍗",
+    "desc": "Freshwater Bite Speed: -50",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_chickennugget.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_chickennugget.png"
+  },
+  {
+    "id": "cut_shad",
+    "name": "Cut Shad",
+    "type": "Freshwater",
+    "rarity": "Rare",
+    "likelihood": 75,
+    "sizeBonus": null,
+    "targets": [
+      "Catfishes"
+    ],
+    "icon": null,
+    "desc": "Freshwater Bite Speed: -25",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_cut_shad.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_cut_shad.png"
+  },
+  {
+    "id": "french_fry",
+    "name": "French Fry",
+    "type": "Freshwater",
+    "rarity": "Rare",
+    "likelihood": 70,
+    "sizeBonus": null,
+    "targets": [
+      "Catfishes",
+      "Carps"
+    ],
+    "icon": null,
+    "desc": "Freshwater Bite Speed: +25",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_french_fry.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_french_fry.png"
+  },
+  {
+    "id": "minnow_live_bait",
+    "name": "Minnow Live Bait",
+    "type": "Freshwater",
+    "rarity": "Rare",
+    "likelihood": 75,
+    "sizeBonus": null,
+    "targets": [
+      "Basses",
+      "Pikes",
+      "Perches"
+    ],
+    "icon": "🐟",
+    "desc": "Freshwater Bite Speed: +50",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_minnow.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_minnow.png"
+  },
+  {
+    "id": "nightcrawler",
+    "name": "Nightcrawler",
+    "type": "Freshwater",
+    "rarity": "Rare",
+    "likelihood": 80,
+    "sizeBonus": null,
+    "targets": [
+      "Panfishes",
+      "Eurasian Minnows",
+      "Temperate Perches",
+      "Perches",
+      "Basses",
+      "Trouts",
+      "Drums"
+    ],
+    "icon": "🪱",
+    "desc": "Freshwater Bite Speed: +50",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_nightcrawler.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_nightcrawler.png"
+  },
+  {
+    "id": "shiner_live_bait",
+    "name": "Shiner Live Bait",
+    "type": "Freshwater",
+    "rarity": "Rare",
+    "likelihood": 75,
+    "sizeBonus": null,
+    "targets": [
+      "Basses",
+      "Pikes"
+    ],
+    "icon": null,
+    "desc": "Freshwater Bite Speed: +50",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_shiner.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_shiner.png"
+  },
+  {
+    "id": "small_chunk_of_meat",
+    "name": "Small Chunk Of Meat",
+    "type": "Freshwater",
+    "rarity": "Rare",
+    "likelihood": 75,
+    "sizeBonus": 2,
+    "targets": [
+      "Catfishes",
+      "Eels",
+      "Rays",
+      "Reptiles"
+    ],
+    "icon": "🥩",
+    "desc": "Freshwater Bite Speed: -75",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_chunkofmeat_small.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_chunkofmeat_small.png"
+  },
+  {
+    "id": "sweet_corn",
+    "name": "Sweet Corn",
+    "type": "Freshwater",
+    "rarity": "Rare",
+    "likelihood": 70,
+    "sizeBonus": null,
+    "targets": [
+      "Carps",
+      "Suckers"
+    ],
+    "icon": null,
+    "desc": "Freshwater Bite Speed: +50",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_sweetcorn.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_sweetcorn.png"
+  },
+  {
+    "id": "trout_dough",
+    "name": "Trout Dough",
+    "type": "Freshwater",
+    "rarity": "Rare",
+    "likelihood": 70,
+    "sizeBonus": null,
+    "targets": [
+      "Trouts"
+    ],
+    "icon": null,
+    "desc": "Freshwater Bite Speed: +40",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/fetch.php?w=48&tok=62e0e0&media=bait_doughballs.png"
+      }
+    ],
+    "image": "resources/images/baits/fetch.php?w=48&tok=62e0e0&media=bait_doughballs.png"
+  },
+  {
+    "id": "chicken_liver",
+    "name": "Chicken Liver",
+    "type": "Freshwater",
+    "rarity": "Epic",
+    "likelihood": 80,
+    "sizeBonus": 2,
+    "targets": [
+      "Catfishes"
+    ],
+    "icon": null,
+    "desc": "Freshwater Bite Speed: -50",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_chickenliver.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_chickenliver.png"
+  },
+  {
+    "id": "chinook_salmon_roe",
+    "name": "Chinook Salmon Roe",
+    "type": "Freshwater",
+    "rarity": "Epic",
+    "likelihood": 80,
+    "sizeBonus": null,
+    "targets": [
+      "Salmons"
+    ],
+    "icon": "🔴",
+    "desc": "Freshwater Bite Speed: +75",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_chinook_salmon_roe.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_chinook_salmon_roe.png"
+  },
+  {
+    "id": "cut_bream",
+    "name": "Cut Bream",
+    "type": "Freshwater",
+    "rarity": "Epic",
+    "likelihood": 80,
+    "sizeBonus": 2,
+    "targets": [
+      "Catfishes",
+      "Eels"
+    ],
+    "icon": null,
+    "desc": "Freshwater Bite Speed: -50",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_cut_bream.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_cut_bream.png"
+  },
+  {
+    "id": "cut_carp",
+    "name": "Cut Carp",
+    "type": "Freshwater",
+    "rarity": "Epic",
+    "likelihood": 80,
+    "sizeBonus": 2,
+    "targets": [
+      "Catfishes",
+      "Gars"
+    ],
+    "icon": null,
+    "desc": "Freshwater Bite Speed: -75",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_cut_carp.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_cut_carp.png"
+  },
+  {
+    "id": "cut_roach",
+    "name": "Cut Roach",
+    "type": "Freshwater",
+    "rarity": "Epic",
+    "likelihood": 80,
+    "sizeBonus": 2,
+    "targets": [
+      "Zander",
+      "Northern Pike"
+    ],
+    "icon": null,
+    "desc": "Freshwater Bite Speed: -50",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_cut_roach.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_cut_roach.png"
+  },
+  {
+    "id": "nightcrawlers",
+    "name": "Nightcrawlers",
+    "type": "Freshwater",
+    "rarity": "Epic",
+    "likelihood": 85,
+    "sizeBonus": 3,
+    "targets": [
+      "Sturgeons",
+      "Catfishes"
+    ],
+    "icon": null,
+    "desc": "Freshwater Bite Speed: -75",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_hooknightcrawlers.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_hooknightcrawlers.png"
+  },
+  {
+    "id": "shad_live_bait",
+    "name": "Shad Live Bait",
+    "type": "Freshwater",
+    "rarity": "Epic",
+    "likelihood": 80,
+    "sizeBonus": null,
+    "targets": [
+      "Basses"
+    ],
+    "icon": null,
+    "desc": "Freshwater Bite Speed: +50",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_shad.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_shad.png"
+  },
+  {
+    "id": "carp_head",
+    "name": "Carp Head",
+    "type": "Freshwater",
+    "rarity": "Legendary",
+    "likelihood": 90,
+    "sizeBonus": 4,
+    "targets": [
+      "Catfishes",
+      "Gars"
+    ],
+    "icon": "🦴",
+    "desc": "Freshwater Bite Speed: -100",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_carp_head.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_carp_head.png"
+  },
+  {
+    "id": "large_chunk_of_meat",
+    "name": "Large Chunk Of Meat",
+    "type": "Freshwater",
+    "rarity": "Legendary",
+    "likelihood": 90,
+    "sizeBonus": null,
+    "targets": [
+      "Bonytongues",
+      "Sharks"
+    ],
+    "icon": null,
+    "desc": "Freshwater Bite Speed: -100",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_chunkofmeat_large.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_chunkofmeat_large.png"
+  },
+  {
+    "id": "rotten_chicken",
+    "name": "Rotten Chicken",
+    "type": "Freshwater",
+    "rarity": "Legendary",
+    "likelihood": 100,
+    "sizeBonus": null,
+    "targets": [
+      "American Alligator"
+    ],
+    "icon": null,
+    "desc": "Freshwater Bite Speed: -250",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_rottenchickenbait.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_rottenchickenbait.png"
+  },
+  {
+    "id": "clam",
+    "name": "Clam",
+    "type": "Saltwater",
+    "rarity": "Common",
+    "likelihood": 65,
+    "sizeBonus": null,
+    "targets": [
+      "Seabreams",
+      "Snappers",
+      "Reef Fishes",
+      "Drums"
+    ],
+    "icon": null,
+    "desc": "Saltwater Bite Speed: +30",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_clam.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_clam.png"
+  },
+  {
+    "id": "grass_shrimp",
+    "name": "Grass Shrimp",
+    "type": "Saltwater",
+    "rarity": "Common",
+    "likelihood": null,
+    "sizeBonus": null,
+    "targets": [],
+    "icon": null,
+    "desc": "Saltwater Bite Speed: +50",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_grass_shrimp.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_grass_shrimp.png"
+  },
+  {
+    "id": "sand_flea",
+    "name": "Sand Flea",
+    "type": "Saltwater",
+    "rarity": "Common",
+    "likelihood": 70,
+    "sizeBonus": null,
+    "targets": [
+      "Jacks",
+      "Seabreams",
+      "Drums"
+    ],
+    "icon": null,
+    "desc": "Saltwater Bite Speed: +25",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_sandflea.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_sandflea.png"
+  },
+  {
+    "id": "sand_shrimp",
+    "name": "Sand Shrimp",
+    "type": "Saltwater",
+    "rarity": "Common",
+    "likelihood": 60,
+    "sizeBonus": null,
+    "targets": [
+      "Flatfishes",
+      "Surfperches",
+      "Drums",
+      "Seabreams"
+    ],
+    "icon": null,
+    "desc": "Saltwater Bite Speed: +30",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_sandshrimp.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_sandshrimp.png"
+  },
+  {
+    "id": "sand_worm",
+    "name": "Sand Worm",
+    "type": "Saltwater",
+    "rarity": "Common",
+    "likelihood": 60,
+    "sizeBonus": null,
+    "targets": [
+      "Wrasses",
+      "Mullets",
+      "Surfperches",
+      "Drums",
+      "Seabasses"
+    ],
+    "icon": null,
+    "desc": "Saltwater Bite Speed: +25",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_ragworm.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_ragworm.png"
+  },
+  {
+    "id": "scallop",
+    "name": "Scallop",
+    "type": "Saltwater",
+    "rarity": "Common",
+    "likelihood": 65,
+    "sizeBonus": null,
+    "targets": [
+      "Seabreams",
+      "Snappers",
+      "Reef Fishes"
+    ],
+    "icon": null,
+    "desc": "Saltwater Bite Speed: +35",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_scallop.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_scallop.png"
+  },
+  {
+    "id": "small_cut_squid",
+    "name": "Small Cut Squid",
+    "type": "Saltwater",
+    "rarity": "Common",
+    "likelihood": 70,
+    "sizeBonus": null,
+    "targets": [
+      "Snappers",
+      "Flounders",
+      "Seabasses",
+      "Grunts",
+      "Jacks",
+      "Seabreams",
+      "Mullets"
+    ],
+    "icon": null,
+    "desc": "Saltwater Bite Speed: +30",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_cut_squid.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_cut_squid.png"
+  },
+  {
+    "id": "cut_octopus",
+    "name": "Cut Octopus",
+    "type": "Saltwater",
+    "rarity": "Rare",
+    "likelihood": 80,
+    "sizeBonus": null,
+    "targets": [
+      "Demersal"
+    ],
+    "icon": null,
+    "desc": "Saltwater Bite Speed: +50",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_cut_octopus.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_cut_octopus.png"
+  },
+  {
+    "id": "fiddler_crab",
+    "name": "Fiddler Crab",
+    "type": "Saltwater",
+    "rarity": "Rare",
+    "likelihood": 70,
+    "sizeBonus": null,
+    "targets": [
+      "Drums",
+      "Seabreams"
+    ],
+    "icon": null,
+    "desc": "Saltwater Bite Speed: +50",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_fiddler_crab.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_fiddler_crab.png"
+  },
+  {
+    "id": "herring_live_bait",
+    "name": "Herring Live Bait",
+    "type": "Saltwater",
+    "rarity": "Rare",
+    "likelihood": 75,
+    "sizeBonus": null,
+    "targets": [
+      "Flatfishes",
+      "Seabasses",
+      "Cods"
+    ],
+    "icon": null,
+    "desc": "Saltwater Bite Speed: +40",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_chickenliver.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_chickenliver.png"
+  },
+  {
+    "id": "medium_cut_squid",
+    "name": "Medium Cut Squid",
+    "type": "Saltwater",
+    "rarity": "Rare",
+    "likelihood": 75,
+    "sizeBonus": null,
+    "targets": [
+      "Mackerels",
+      "Snooks",
+      "Tarpons",
+      "Groupers",
+      "Wrasses"
+    ],
+    "icon": null,
+    "desc": "Saltwater Bite Speed: +50",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_cut_squid.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_cut_squid.png"
+  },
+  {
+    "id": "menhaden_live_bait",
+    "name": "Menhaden Live Bait",
+    "type": "Saltwater",
+    "rarity": "Rare",
+    "likelihood": 75,
+    "sizeBonus": null,
+    "targets": [
+      "Jacks",
+      "Mackerels"
+    ],
+    "icon": null,
+    "desc": "Saltwater Bite Speed: +40",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_chickenliver.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_chickenliver.png"
+  },
+  {
+    "id": "mullet_live_bait",
+    "name": "Mullet Live Bait",
+    "type": "Saltwater",
+    "rarity": "Rare",
+    "likelihood": 75,
+    "sizeBonus": null,
+    "targets": [
+      "Seabasses",
+      "Groupers",
+      "Eels",
+      "Jacks"
+    ],
+    "icon": null,
+    "desc": "Saltwater Bite Speed: +50",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_chickenliver.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_chickenliver.png"
+  },
+  {
+    "id": "mussels",
+    "name": "Mussels",
+    "type": "Saltwater",
+    "rarity": "Rare",
+    "likelihood": 75,
+    "sizeBonus": null,
+    "targets": [
+      "Seabreams",
+      "Snappers",
+      "Reef Fishes",
+      "Drums"
+    ],
+    "icon": null,
+    "desc": "Saltwater Bite Speed: +50",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_mussels.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_mussels.png"
+  },
+  {
+    "id": "small_chunk_of_bonito_cutbait",
+    "name": "Small Chunk Of Bonito Cutbait",
+    "type": "Saltwater",
+    "rarity": "Rare",
+    "likelihood": 70,
+    "sizeBonus": null,
+    "targets": [
+      "Snappers",
+      "Jacks"
+    ],
+    "icon": null,
+    "desc": "Saltwater Bite Speed: +50",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_chunkofmeat_small.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_chunkofmeat_small.png"
+  },
+  {
+    "id": "white_shrimp",
+    "name": "White Shrimp",
+    "type": "Saltwater",
+    "rarity": "Rare",
+    "likelihood": 75,
+    "sizeBonus": null,
+    "targets": [
+      "Seabreams",
+      "Snappers",
+      "Jacks",
+      "Grunts",
+      "Wrasses",
+      "Reef Fishes"
+    ],
+    "icon": null,
+    "desc": "Saltwater Bite Speed: +50",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_white_shrimp.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_white_shrimp.png"
+  },
+  {
+    "id": "cut_mullet",
+    "name": "Cut Mullet",
+    "type": "Saltwater",
+    "rarity": "Epic",
+    "likelihood": 85,
+    "sizeBonus": null,
+    "targets": [
+      "Cobia",
+      "Jacks",
+      "Groupers",
+      "Seabasses"
+    ],
+    "icon": null,
+    "desc": "Saltwater Bite Speed: +75",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_cut_mullet.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_cut_mullet.png"
+  },
+  {
+    "id": "mackerel_live_bait",
+    "name": "Mackerel Live Bait",
+    "type": "Saltwater",
+    "rarity": "Epic",
+    "likelihood": 80,
+    "sizeBonus": null,
+    "targets": [
+      "Billfishes",
+      "Trevallies",
+      "Tunas"
+    ],
+    "icon": null,
+    "desc": "Saltwater Bite Speed: +80",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_mackerel_livebait.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_mackerel_livebait.png"
+  },
+  {
+    "id": "pinfish_live_bait",
+    "name": "Pinfish Live Bait",
+    "type": "Saltwater",
+    "rarity": "Epic",
+    "likelihood": 90,
+    "sizeBonus": null,
+    "targets": [
+      "Cubera Snapper",
+      "Cobia",
+      "Greater Amberjack",
+      "Red Drum",
+      "Common Snook",
+      "Spotted Seatrout",
+      "Great Barracuda"
+    ],
+    "icon": null,
+    "desc": "Saltwater Bite Speed: +110",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_chickenliver.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_chickenliver.png"
+  },
+  {
+    "id": "sardine_live_bait",
+    "name": "Sardine Live Bait",
+    "type": "Saltwater",
+    "rarity": "Epic",
+    "likelihood": 80,
+    "sizeBonus": null,
+    "targets": [
+      "Snappers"
+    ],
+    "icon": null,
+    "desc": "Saltwater Bite Speed: +70",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_chickenliver.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_chickenliver.png"
+  },
+  {
+    "id": "ballyhoo_live_bait",
+    "name": "Ballyhoo Live Bait",
+    "type": "Saltwater",
+    "rarity": "Legendary",
+    "likelihood": 95,
+    "sizeBonus": null,
+    "targets": [
+      "Pelagic"
+    ],
+    "icon": null,
+    "desc": "Saltwater Bite Speed: +110",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_chickenliver.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_chickenliver.png"
+  },
+  {
+    "id": "bonito_live_bait",
+    "name": "Bonito Live Bait",
+    "type": "Saltwater",
+    "rarity": "Legendary",
+    "likelihood": 90,
+    "sizeBonus": null,
+    "targets": [
+      "Trevallies",
+      "Billfishes",
+      "Sharks"
+    ],
+    "icon": null,
+    "desc": "Saltwater Bite Speed: +110",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_bonito_livebait.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_bonito_livebait.png"
+  },
+  {
+    "id": "cownose_ray_cutbait",
+    "name": "Cownose Ray Cutbait",
+    "type": "Saltwater",
+    "rarity": "Legendary",
+    "likelihood": 90,
+    "sizeBonus": 3,
+    "targets": [
+      "Sharks"
+    ],
+    "icon": null,
+    "desc": "Saltwater Bite Speed: +100",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_cownose_ray_cutbait.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_cownose_ray_cutbait.png"
+  },
+  {
+    "id": "large_chunk_of_bonito_cutbait",
+    "name": "Large Chunk Of Bonito Cutbait",
+    "type": "Saltwater",
+    "rarity": "Legendary",
+    "likelihood": 90,
+    "sizeBonus": 4,
+    "targets": [
+      "Sharks"
+    ],
+    "icon": null,
+    "desc": "Saltwater Bite Speed: +100",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_chunkofmeat_large.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_chunkofmeat_large.png"
+  },
+  {
+    "id": "large_cut_squid",
+    "name": "Large Cut Squid",
+    "type": "Saltwater",
+    "rarity": "Legendary",
+    "likelihood": 90,
+    "sizeBonus": null,
+    "targets": [
+      "Sharks",
+      "Groupers",
+      "Tunas"
+    ],
+    "icon": null,
+    "desc": "Saltwater Bite Speed: +100",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_cut_squid.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_cut_squid.png"
+  },
+  {
+    "id": "salmon_head",
+    "name": "Salmon Head",
+    "type": "Saltwater",
+    "rarity": "Legendary",
+    "likelihood": 90,
+    "sizeBonus": 3,
+    "targets": [
+      "Atlantic Halibut",
+      "Pacific Halibut"
+    ],
+    "icon": null,
+    "desc": "Saltwater Bite Speed: -50",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_sea_run_salmon_head.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_sea_run_salmon_head.png"
+  },
+  {
+    "id": "bardi_grub",
+    "name": "Bardi Grub",
+    "type": "Murray River",
+    "rarity": "Rare",
+    "likelihood": 70,
+    "sizeBonus": null,
+    "targets": [
+      "Murray Cod",
+      "Golden Perch",
+      "Silver Perch",
+      "Trout Cod"
+    ],
+    "icon": null,
+    "desc": "Murray River Bite Speed: +50",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_bardi_grub.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_bardi_grub.png"
+  },
+  {
+    "id": "cut_piranha",
+    "name": "Cut Piranha",
+    "type": "Amazon River",
+    "rarity": "Rare",
+    "likelihood": 70,
+    "sizeBonus": 2,
+    "targets": [
+      "Catfishes",
+      "Rays"
+    ],
+    "icon": null,
+    "desc": "Amazon River Bite Speed: -50",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_cut_piranha.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_cut_piranha.png"
+  },
+  {
+    "id": "sand_eel",
+    "name": "Sand Eel",
+    "type": "Cape Cod",
+    "rarity": "Rare",
+    "likelihood": 75,
+    "sizeBonus": null,
+    "targets": [
+      "Basses",
+      "Seabasses",
+      "Flatfishes"
+    ],
+    "icon": null,
+    "desc": "Cape Cod Bite Speed: +60",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_sandeel.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_sandeel.png"
+  },
+  {
+    "id": "florida_crawfish",
+    "name": "Florida Crawfish",
+    "type": "Everglades",
+    "rarity": "Epic",
+    "likelihood": 85,
+    "sizeBonus": null,
+    "targets": [
+      "Basses",
+      "Drums",
+      "Catfishes"
+    ],
+    "icon": null,
+    "desc": "Everglades Bite Speed: +75",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_florida_crawfish.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_florida_crawfish.png"
+  },
+  {
+    "id": "louisiana_crawfish",
+    "name": "Louisiana Crawfish",
+    "type": "Toledo Bend Reservoir",
+    "rarity": "Epic",
+    "likelihood": 85,
+    "sizeBonus": null,
+    "targets": [
+      "Basses",
+      "Drums",
+      "Catfishes"
+    ],
+    "icon": null,
+    "desc": "Toledo Bend Reservoir Bite Speed: +75",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_louisiana_crawfish.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_louisiana_crawfish.png"
+  },
+  {
+    "id": "mozzarella_cube",
+    "name": "Mozzarella Cube",
+    "type": "Murray River",
+    "rarity": "Epic",
+    "likelihood": 80,
+    "sizeBonus": null,
+    "targets": [
+      "Murray Cod"
+    ],
+    "icon": null,
+    "desc": "Murray River Likelihood: 80%",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/fetch.php?w=48&tok=64062b&media=bait_mozzarella.png"
+      }
+    ],
+    "image": "resources/images/baits/fetch.php?w=48&tok=64062b&media=bait_mozzarella.png"
+  },
+  {
+    "id": "rusty_crawfish",
+    "name": "Rusty Crawfish",
+    "type": "Great Lakes",
+    "rarity": "Epic",
+    "likelihood": 80,
+    "sizeBonus": null,
+    "targets": [
+      "Basses",
+      "Perches"
+    ],
+    "icon": null,
+    "desc": "Great Lakes Bite Speed: +75",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_rusty_crawfish.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_rusty_crawfish.png"
+  },
+  {
+    "id": "yabby_crawfish",
+    "name": "Yabby Crawfish",
+    "type": "Murray River",
+    "rarity": "Epic",
+    "likelihood": 90,
+    "sizeBonus": null,
+    "targets": [
+      "Murray Cod",
+      "Trout Cod",
+      "Golden Perch"
+    ],
+    "icon": null,
+    "desc": "Murray River Bite Speed: -100",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_yabby_crawfish.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_yabby_crawfish.png"
+  },
+  {
+    "id": "murray_crawfish",
+    "name": "Murray Crawfish",
+    "type": "Murray River",
+    "rarity": "Legendary",
+    "likelihood": 90,
+    "sizeBonus": 4,
+    "targets": [
+      "Cods"
+    ],
+    "icon": null,
+    "desc": "Murray River Bite Speed: +75",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/bait_murray_crawfish.png"
+      }
+    ],
+    "image": "resources/images/baits/bait_murray_crawfish.png"
+  }
 ]

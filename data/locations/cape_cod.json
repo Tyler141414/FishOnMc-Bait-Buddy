@@ -1,0 +1,254 @@
+[
+  {
+    "Species": "Black Sea Bass",
+    "Rarity": "Common",
+    "Fish Group": "Seabasses",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Black Sea Bass/fish_blackseabass.png"
+      }
+    ],
+    "image": "resources/images/Black Sea Bass/fish_blackseabass.png"
+  },
+  {
+    "Species": "Atlantic Mackerel",
+    "Rarity": "Common",
+    "Fish Group": "Mackerels",
+    "Lifestyle": "Pelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Atlantic Mackerel/fish_atlanticmackerel.png"
+      }
+    ],
+    "image": "resources/images/Atlantic Mackerel/fish_atlanticmackerel.png"
+  },
+  {
+    "Species": "Winter Flounder",
+    "Rarity": "Common",
+    "Fish Group": "Flatfishes",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Winter Flounder/fish_winterflounder.png"
+      }
+    ],
+    "image": "resources/images/Winter Flounder/fish_winterflounder.png"
+  },
+  {
+    "Species": "Bluefish",
+    "Rarity": "Common",
+    "Fish Group": "Seabasses",
+    "Lifestyle": "Pelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Bluefish/fish_bluefish.png"
+      }
+    ],
+    "image": "resources/images/Bluefish/fish_bluefish.png"
+  },
+  {
+    "Species": "American Shad",
+    "Rarity": "Common",
+    "Fish Group": "Shads",
+    "Lifestyle": "Pelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/American Shad/fish_americanshad.png"
+      }
+    ],
+    "image": "resources/images/American Shad/fish_americanshad.png"
+  },
+  {
+    "Species": "Haddock",
+    "Rarity": "Rare",
+    "Fish Group": "Cods",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Haddock/fish_haddock.png"
+      }
+    ],
+    "image": "resources/images/Haddock/fish_haddock.png"
+  },
+  {
+    "Species": "Cusk",
+    "Rarity": "Rare",
+    "Fish Group": "Cods",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Cusk/fish_cusk.png"
+      }
+    ],
+    "image": "resources/images/Cusk/fish_cusk.png"
+  },
+  {
+    "Species": "Summer Flounder",
+    "Rarity": "Rare",
+    "Fish Group": "Flatfishes",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Summer Flounder/fish_summerflounder.png"
+      }
+    ],
+    "image": "resources/images/Summer Flounder/fish_summerflounder.png"
+  },
+  {
+    "Species": "Pollock",
+    "Rarity": "Rare",
+    "Fish Group": "Cods",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Pollock/fish_pollock.png"
+      }
+    ],
+    "image": "resources/images/Pollock/fish_pollock.png"
+  },
+  {
+    "Species": "Atlantic Cod",
+    "Rarity": "Epic",
+    "Fish Group": "Cods",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Atlantic Cod/fish_atlanticcod.png"
+      }
+    ],
+    "image": "resources/images/Atlantic Cod/fish_atlanticcod.png"
+  },
+  {
+    "Species": "Striped Bass",
+    "Rarity": "Epic",
+    "Fish Group": "Seabasses",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Striped Bass/fish_stripedbass.png"
+      }
+    ],
+    "image": "resources/images/Striped Bass/fish_stripedbass.png"
+  },
+  {
+    "Species": "Wolffish",
+    "Rarity": "Epic",
+    "Fish Group": "Wolffishes",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Wolffish/fish_wolffish.png"
+      }
+    ],
+    "image": "resources/images/Wolffish/fish_wolffish.png"
+  },
+  {
+    "Species": "Blue Shark",
+    "Rarity": "Epic",
+    "Fish Group": "Sharks",
+    "Lifestyle": "Pelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Blue Shark/fish_blueshark.png"
+      }
+    ],
+    "image": "resources/images/Blue Shark/fish_blueshark.png"
+  },
+  {
+    "Species": "Common Thresher",
+    "Rarity": "Legendary",
+    "Fish Group": "Sharks",
+    "Lifestyle": "Pelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Common Thresher/fish_commonthresher.png"
+      }
+    ],
+    "image": "resources/images/Common Thresher/fish_commonthresher.png"
+  },
+  {
+    "Species": "Atlantic Halibut",
+    "Rarity": "Legendary",
+    "Fish Group": "Flatfishes",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Atlantic Halibut/fish_atlantichalibut.png"
+      }
+    ],
+    "image": "resources/images/Atlantic Halibut/fish_atlantichalibut.png"
+  },
+  {
+    "Species": "Porbeagle Shark",
+    "Rarity": "Legendary",
+    "Fish Group": "Sharks",
+    "Lifestyle": "Pelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Porbeagle Shark/fish_porbeagleshark.png"
+      }
+    ],
+    "image": "resources/images/Porbeagle Shark/fish_porbeagleshark.png"
+  },
+  {
+    "Species": "Atlantic Bluefin Tuna",
+    "Rarity": "Mythical",
+    "Fish Group": "Tunas",
+    "Lifestyle": "Pelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Atlantic Bluefin Tuna/fish_atlanticbluefintuna.png"
+      }
+    ],
+    "image": "resources/images/Atlantic Bluefin Tuna/fish_atlanticbluefintuna.png"
+  },
+  {
+    "Species": "Shortfin Mako Shark",
+    "Rarity": "Mythical",
+    "Fish Group": "Sharks",
+    "Lifestyle": "Pelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Shortfin Mako Shark/fish_shortfinmakoshark.png"
+      }
+    ],
+    "image": "resources/images/Shortfin Mako Shark/fish_shortfinmakoshark.png"
+  }
+]

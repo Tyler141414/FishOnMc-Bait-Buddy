@@ -1,0 +1,240 @@
+[
+  {
+    "Species": "White Bream",
+    "Rarity": "Common",
+    "Fish Group": "Eurasian Minnows",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/White Bream/fish_whitebream.png"
+      }
+    ],
+    "image": "resources/images/White Bream/fish_whitebream.png"
+  },
+  {
+    "Species": "Roach",
+    "Rarity": "Common",
+    "Fish Group": "Eurasian Minnows",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Roach/fish_roach.png"
+      }
+    ],
+    "image": "resources/images/Roach/fish_roach.png"
+  },
+  {
+    "Species": "European Perch",
+    "Rarity": "Common",
+    "Fish Group": "Perches",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/European Perch/fish_europeanperch.png"
+      }
+    ],
+    "image": "resources/images/European Perch/fish_europeanperch.png"
+  },
+  {
+    "Species": "Sichel",
+    "Rarity": "Common",
+    "Fish Group": "Eurasian Minnows",
+    "Lifestyle": "Pelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Sichel/fish_sichel.png"
+      }
+    ],
+    "image": "resources/images/Sichel/fish_sichel.png"
+  },
+  {
+    "Species": "Crucian Carp",
+    "Rarity": "Common",
+    "Fish Group": "Carps",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Crucian Carp/fish_cruciancarp.png"
+      }
+    ],
+    "image": "resources/images/Crucian Carp/fish_cruciancarp.png"
+  },
+  {
+    "Species": "Tench",
+    "Rarity": "Rare",
+    "Fish Group": "Eurasian Minnows",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Tench/fish_tench.png"
+      }
+    ],
+    "image": "resources/images/Tench/fish_tench.png"
+  },
+  {
+    "Species": "Freshwater Bream",
+    "Rarity": "Rare",
+    "Fish Group": "Eurasian Minnows",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Freshwater Bream/fish_freshwaterbream.png"
+      }
+    ],
+    "image": "resources/images/Freshwater Bream/fish_freshwaterbream.png"
+  },
+  {
+    "Species": "Barbel",
+    "Rarity": "Rare",
+    "Fish Group": "Barbels",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Barbel/fish_barbel.png"
+      }
+    ],
+    "image": "resources/images/Barbel/fish_barbel.png"
+  },
+  {
+    "Species": "European Eel",
+    "Rarity": "Epic",
+    "Fish Group": "Eels",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/European Eel/fish_europeaneel.png"
+      }
+    ],
+    "image": "resources/images/European Eel/fish_europeaneel.png"
+  },
+  {
+    "Species": "Asp",
+    "Rarity": "Epic",
+    "Fish Group": "Eurasian Minnows",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Asp/fish_asp.png"
+      }
+    ],
+    "image": "resources/images/Asp/fish_asp.png"
+  },
+  {
+    "Species": "Zander",
+    "Rarity": "Epic",
+    "Fish Group": "Perches",
+    "Lifestyle": "Pelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Zander/fish_zander.png"
+      }
+    ],
+    "image": "resources/images/Zander/fish_zander.png"
+  },
+  {
+    "Species": "Sevruga Sturgeon",
+    "Rarity": "Legendary",
+    "Fish Group": "Sturgeons",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Sevruga Sturgeon/fish_sevrugasturgeon.png"
+      }
+    ],
+    "image": "resources/images/Sevruga Sturgeon/fish_sevrugasturgeon.png"
+  },
+  {
+    "Species": "Sterlet Sturgeon",
+    "Rarity": "Legendary",
+    "Fish Group": "Sturgeons",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Sterlet Sturgeon/fish_sterletsturgeon.png"
+      }
+    ],
+    "image": "resources/images/Sterlet Sturgeon/fish_sterletsturgeon.png"
+  },
+  {
+    "Species": "Common Sturgeon",
+    "Rarity": "Legendary",
+    "Fish Group": "Sturgeons",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Common Sturgeon/fish_commonsturgeon.png"
+      }
+    ],
+    "image": "resources/images/Common Sturgeon/fish_commonsturgeon.png"
+  },
+  {
+    "Species": "Huchen",
+    "Rarity": "Mythical",
+    "Fish Group": "Salmons",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Huchen/fish_hutchen.png"
+      }
+    ],
+    "image": "resources/images/Huchen/fish_hutchen.png"
+  },
+  {
+    "Species": "Wels Catfish",
+    "Rarity": "Mythical",
+    "Fish Group": "Catfishes",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Wels Catfish/fish_welscatfish.png"
+      }
+    ],
+    "image": "resources/images/Wels Catfish/fish_welscatfish.png"
+  },
+  {
+    "Species": "Beluga Sturgeon",
+    "Rarity": "Mythical",
+    "Fish Group": "Sturgeons",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Beluga Sturgeon/fish_belugasturgeon.png"
+      }
+    ],
+    "image": "resources/images/Beluga Sturgeon/fish_belugasturgeon.png"
+  }
+]

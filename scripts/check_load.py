@@ -55,10 +55,16 @@ applicable = []
 for bait in baits:
     # debug: show bait name and targets
     # print('Bait:', bait.get('name'), 'targets:', bait.get('targets'))
-    # type filter: if bait.type is Freshwater, ensure location waterType is Freshwater
-    if bait.get('type')=='Freshwater' and loc.get('waterType')!='Freshwater':
-        continue
-        # SPA logic: do not filter by bait.locations here; only respect bait.type vs location waterType
+    # type filter: support Freshwater/Saltwater or location-specific bait types
+    bt = bait.get('type')
+    if bt and bt not in ('Universal','any'):
+        if bt in ('Freshwater','Saltwater'):
+            if loc.get('waterType') != bt:
+                continue
+        else:
+            # location-specific bait: only valid for that exact location name
+            if bt != loc.get('name'):
+                continue
     # species match: if bait has no targets, assume usable; otherwise check targets vs fish names
     targets = (bait.get('targets') or [])
     if targets and not no_fish:
