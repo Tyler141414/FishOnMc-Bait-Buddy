@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>FishOnMc Bait Filter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>FishOnMc — Bait & Lure Filter</h1>
+  </header>
+
+  <main>
+    <section class="controls">
+      <label>Location: <select id="locationSelect"></select></label>
+      <label>Type: <select id="typeSelect"><option value="any">Any</option><option value="Freshwater">Freshwater</option><option value="Saltwater">Saltwater</option><option value="Universal">Universal</option></select></label>
+      <input id="search" placeholder="Search bait/lure name or target..." />
+    </section>
+
+    <section id="results">
+      <ul id="baitList"></ul>
+    </section>
+  </main>
+
+  <template id="baitTpl">
+    <li class="bait">
+      <div class="left">
+        <div class="icon"></div>
+      </div>
+      <div class="body">
+        <div class="title-row">
+          <h3 class="name"></h3>
+          <span class="tier"></span>
+        </div>
+        <div class="meta"></div>
+        <div class="targets"></div>
+      </div>
+    </li>
+  </template>
+
+  <script src="script.js" type="module"></script>
+</body>
+</html>
+
+<!-- Modal for showing matching fish -->
+<div id="modal" class="modal" aria-hidden="true">
+  <div class="modal-overlay" data-role="overlay"></div>
+  <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal-close" aria-label="Close">×</button>
+    <h2 id="modalTitle">Details</h2>
+    <div id="modalBody" class="card"></div>
+  </div>
+</div>

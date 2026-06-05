@@ -1,0 +1,65 @@
+:root{--bg:#f6f8fa;--card:#fff;--muted:#666}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;background:var(--bg);margin:0;color:#111}
+header{background:#0b6; padding:12px 20px;color:#032;}
+header h1{margin:0;font-size:18px}
+main{max-width:980px;margin:20px auto;padding:0 16px}
+.controls{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:12px}
+select,input{padding:6px;border:1px solid #ccc;border-radius:6px}
+#results{background:transparent}
+#baitList{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+.bait{background:var(--card);padding:12px;border-radius:8px;display:flex;gap:12px;align-items:flex-start;box-shadow:0 1px 2px rgba(0,0,0,0.04)}
+.left .icon{width:56px;height:56px;border-radius:8px;background:#eef;display:flex;align-items:center;justify-content:center;font-size:28px}
+.bait{transition:transform 160ms ease, box-shadow 160ms ease}
+.bait{cursor:pointer}
+.bait:focus{outline:2px solid rgba(13,110,253,0.12);outline-offset:2px}
+.bait:hover{transform:translateY(-4px);box-shadow:0 6px 18px rgba(0,0,0,0.08)}
+.bait.selected{box-shadow:0 8px 20px rgba(13,110,253,0.12);border:1px solid rgba(13,110,253,0.12)}
+.bait:hover .left .icon{transform:scale(1.03)}
+.title-row{display:flex;align-items:center;gap:8px}
+.name{margin:0;font-size:16px}
+.tier{background:#eee;padding:4px 8px;border-radius:6px;font-size:12px;color:var(--muted);display:inline-block}
+
+/* Rarity pill styles */
+.rarity-pill{color:white;font-weight:600}
+.rarity-common{background:#6c757d} /* grey */
+.rarity-rare{background:#0d6efd} /* blue */
+.rarity-epic{background:#198754} /* green */
+.rarity-legendary{background:#fd7e14} /* orange */
+.rarity-mythical{background:#dc3545} /* red */
+
+/* ensure tier element shows the rarity background (higher specificity) */
+.tier.rarity-common{background:#6c757d;color:#fff}
+.tier.rarity-rare{background:#0d6efd;color:#fff}
+.tier.rarity-epic{background:#198754;color:#fff}
+.tier.rarity-legendary{background:#fd7e14;color:#fff}
+.tier.rarity-mythical{background:#dc3545;color:#fff}
+.meta{font-size:13px;color:var(--muted);margin-top:6px}
+.targets{margin-top:8px;font-size:13px}
+.muted{color:var(--muted)}
+
+#details{margin-top:18px}
+#detailsTitle{font-size:16px;margin:0 0 8px}
+#detailsContent{background:var(--card);padding:12px;border-radius:8px}
+.species-list{display:flex;flex-direction:column;gap:8px}
+.species{padding:8px;border-radius:6px;border:1px solid #eee;background:#fafafa}
+.species .title{font-weight:600}
+.species .rarity{font-size:12px;margin-left:8px;display:inline-block;padding:2px 8px;border-radius:6px;background:#eee;color:var(--muted);font-weight:600}
+.species .desc{font-size:13px;color:var(--muted);margin-top:6px}
+
+/* Ensure rarity-pill classes override the .species .rarity rule */
+.rarity-pill.rarity-common{background:#6c757d;color:#fff}
+.rarity-pill.rarity-rare{background:#0d6efd;color:#fff}
+.rarity-pill.rarity-epic{background:#198754;color:#fff}
+.rarity-pill.rarity-legendary{background:#fd7e14;color:#fff}
+.rarity-pill.rarity-mythical{background:#dc3545;color:#fff}
+
+/* Modal styles */
+.modal{position:fixed;inset:0;display:none;align-items:center;justify-content:center;z-index:1000}
+.modal.show{display:flex}
+.modal-overlay{position:absolute;inset:0;background:rgba(0,0,0,0.45)}
+.modal-content{position:relative;background:var(--card);padding:16px;border-radius:10px;max-width:760px;width:95%;box-shadow:0 12px 40px rgba(0,0,0,0.2);z-index:1}
+.modal-close{position:absolute;right:10px;top:8px;border:0;background:transparent;font-size:22px;line-height:1;color:#444;cursor:pointer}
+.modal .card{background:transparent;padding:0}
+
+/* make modal content scrollable on small screens */
+.modal-content{max-height:80vh;overflow:auto}

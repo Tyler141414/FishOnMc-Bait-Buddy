@@ -1,0 +1,18 @@
+[
+  {"name":"Cypress Lake","level":0,"climate":"Subtropical","waterType":"Freshwater"},
+  {"name":"Kenai River","level":5,"climate":"Subarctic","waterType":"Freshwater"},
+  {"name":"Lake Biwa","level":10,"climate":"Subtropical","waterType":"Freshwater"},
+  {"name":"Murray River","level":15,"climate":"Semi-Arid","waterType":"Freshwater"},
+  {"name":"Everglades","level":20,"climate":"Savanna","waterType":"Freshwater"},
+  {"name":"Key West","level":30,"climate":"Savanna","waterType":"Saltwater"},
+  {"name":"Toledo Bend Reservoir","level":40,"climate":"Subtropical","waterType":"Freshwater"},
+  {"name":"Great Lakes","level":50,"climate":"Continental","waterType":"Freshwater"},
+  {"name":"Danube River","level":60,"climate":"Continental","waterType":"Freshwater"},
+  {"name":"Oil Rig","level":65,"climate":"Savanna","waterType":"Saltwater"},
+  {"name":"Amazon River","level":70,"climate":"Rainforest","waterType":"Freshwater"},
+  {"name":"Mediterranean Sea","level":80,"climate":"Mediterranean","waterType":"Saltwater"},
+  {"name":"Cape Cod","level":90,"climate":"Oceanic","waterType":"Saltwater"},
+  {"name":"Hawaii","level":100,"climate":"Savanna","waterType":"Saltwater"},
+  {"name":"Lofoten Islands","level":110,"climate":"Subarctic","waterType":"Saltwater"},
+  {"name":"Cairns","level":120,"climate":"Monsoon","waterType":"Saltwater"}
+]
