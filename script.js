@@ -13,8 +13,7 @@ async function main(){
   const locSel=el('#locationSelect');
   locations.forEach(loc=>{const o=document.createElement('option');o.value=loc.name;o.textContent=`${loc.name} (${loc.waterType})`;locSel.appendChild(o)});
 
-  const typeSel=el('#typeSelect');
-  const search=el('#search');
+  const raritySel=el('#raritySelect');
 
   const perLocationCache = {};
   function slugify(name){
@@ -84,13 +83,11 @@ async function main(){
   async function render(){
     const selLocName=locSel.value || locations[0].name;
     const locObj=locations.find(l=>l.name===selLocName)||locations[0];
-    const typeFilter=typeSel.value;
-    const q=search.value.trim().toLowerCase();
+    const rarityFilter=raritySel.value;
     const list=el('#baitList'); list.innerHTML='';
     for(const bait of baits){
       if(!(await matches(bait,selLocName,locObj))) continue;
-      if(typeFilter!=='any' && bait.type!==typeFilter) continue;
-      if(q && !(bait.name.toLowerCase().includes(q) || (bait.targets||[]).join(' ').toLowerCase().includes(q) || (bait.desc||'').toLowerCase().includes(q))) continue;
+      if(rarityFilter!=='any' && ((bait.rarity||'').toString().toLowerCase() !== rarityFilter.toLowerCase())) continue;
 
       const tpl=createFromTemplate(el('#baitTpl'));
       // render bait image (prefer `bait.image`, then `links[rel=image]`, then local resources/images/baits fallback)
@@ -228,8 +225,7 @@ async function main(){
   }
 
   locSel.addEventListener('change', render);
-  typeSel.addEventListener('change', render);
-  search.addEventListener('input', () => {render();});
+  raritySel.addEventListener('change', render);
 
   // modal helpers
   const modal = el('#modal');
@@ -261,6 +257,7 @@ async function main(){
 
   // set default and render
   locSel.selectedIndex = 0;
+  raritySel.selectedIndex = 0;
   render();
 }
 
