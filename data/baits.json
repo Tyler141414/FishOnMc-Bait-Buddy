@@ -296,10 +296,10 @@
     "links": [
       {
         "rel": "image",
-        "href": "resources/images/baits/fetch.php?w=48&tok=62e0e0&media=bait_doughballs.png"
+        "href": "resources/images/baits/bait_powerbait_dough.png"
       }
     ],
-    "image": "resources/images/baits/fetch.php?w=48&tok=62e0e0&media=bait_doughballs.png"
+    "image": "resources/images/baits/bait_powerbait_dough.png"
   },
   {
     "id": "chicken_liver",
@@ -723,10 +723,10 @@
     "links": [
       {
         "rel": "image",
-        "href": "resources/images/baits/bait_chickenliver.png"
+        "href": "resources/images/baits/bait_threadfin_herring.png"
       }
     ],
-    "image": "resources/images/baits/bait_chickenliver.png"
+    "image": "resources/images/baits/bait_threadfin_herring.png"
   },
   {
     "id": "medium_cut_squid",
@@ -768,10 +768,10 @@
     "links": [
       {
         "rel": "image",
-        "href": "resources/images/baits/bait_chickenliver.png"
+        "href": "resources/images/baits/bait_gulf_menhaden.png"
       }
     ],
-    "image": "resources/images/baits/bait_chickenliver.png"
+    "image": "resources/images/baits/bait_gulf_menhaden.png"
   },
   {
     "id": "mullet_live_bait",
@@ -791,10 +791,10 @@
     "links": [
       {
         "rel": "image",
-        "href": "resources/images/baits/bait_chickenliver.png"
+        "href": "resources/images/baits/bait_mulletbait.png"
       }
     ],
-    "image": "resources/images/baits/bait_chickenliver.png"
+    "image": "resources/images/baits/bait_mulletbait.png"
   },
   {
     "id": "mussels",
@@ -835,10 +835,10 @@
     "links": [
       {
         "rel": "image",
-        "href": "resources/images/baits/bait_chunkofmeat_small.png"
+        "href": "resources/images/baits/bait_bonito_cutbait.png"
       }
     ],
-    "image": "resources/images/baits/bait_chunkofmeat_small.png"
+    "image": "resources/images/baits/bait_bonito_cutbait.png"
   },
   {
     "id": "white_shrimp",
@@ -931,10 +931,10 @@
     "links": [
       {
         "rel": "image",
-        "href": "resources/images/baits/bait_chickenliver.png"
+        "href": "resources/images/baits/bait_pinfishbait.png"
       }
     ],
-    "image": "resources/images/baits/bait_chickenliver.png"
+    "image": "resources/images/baits/bait_pinfishbait.png"
   },
   {
     "id": "sardine_live_bait",
@@ -951,10 +951,10 @@
     "links": [
       {
         "rel": "image",
-        "href": "resources/images/baits/bait_chickenliver.png"
+        "href": "resources/images/baits/bait_sardine.png"
       }
     ],
-    "image": "resources/images/baits/bait_chickenliver.png"
+    "image": "resources/images/baits/bait_sardine.png"
   },
   {
     "id": "ballyhoo_live_bait",
@@ -971,10 +971,10 @@
     "links": [
       {
         "rel": "image",
-        "href": "resources/images/baits/bait_chickenliver.png"
+        "href": "resources/images/baits/bait_ballyhoo.png"
       }
     ],
-    "image": "resources/images/baits/bait_chickenliver.png"
+    "image": "resources/images/baits/bait_ballyhoo.png"
   },
   {
     "id": "bonito_live_bait",
@@ -1033,10 +1033,10 @@
     "links": [
       {
         "rel": "image",
-        "href": "resources/images/baits/bait_chunkofmeat_large.png"
+        "href": "resources/images/baits/bait_cutbait.png"
       }
     ],
-    "image": "resources/images/baits/bait_chunkofmeat_large.png"
+    "image": "resources/images/baits/bait_cutbait.png"
   },
   {
     "id": "large_cut_squid",
@@ -1206,10 +1206,10 @@
     "links": [
       {
         "rel": "image",
-        "href": "resources/images/baits/fetch.php?w=48&tok=64062b&media=bait_mozzarella.png"
+        "href": "resources/images/baits/bait_mozzarella.png"
       }
     ],
-    "image": "resources/images/baits/fetch.php?w=48&tok=64062b&media=bait_mozzarella.png"
+    "image": "resources/images/baits/bait_mozzarella.png"
   },
   {
     "id": "rusty_crawfish",

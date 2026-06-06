@@ -1,0 +1,61 @@
+<header class="app-header">
+  <div class="header-shell">
+    <div class="brand-mark" aria-hidden="true">
+      <span>FO</span>
+    </div>
+    <div class="brand-copy">
+      <p class="eyebrow">FishOnMc Companion</p>
+      <h1>Bait & Lure Intelligence</h1>
+      <p class="disclaimer">Independent player-made reference by Tyler141414.</p>
+    </div>
+    <dl class="header-stats" aria-label="Current filter summary">
+      <div>
+        <dt>Location</dt>
+        <dd>{{ selectedLocationName() || 'Loading' }}</dd>
+      </div>
+      <div>
+        <dt>Water</dt>
+        <dd>{{ selectedLocation()?.waterType || 'Any' }}</dd>
+      </div>
+      <div>
+        <dt>Tackle</dt>
+        <dd>{{ state().baits.length }}</dd>
+      </div>
+      <div>
+        <dt>Rarity</dt>
+        <dd>{{ activeRarityLabel() }}</dd>
+      </div>
+    </dl>
+  </div>
+</header>
+
+<main>
+  <app-bait-filters
+    [locations]="state().locations"
+    [selectedLocationName]="state().selectedLocationName"
+    [selectedRarity]="state().selectedRarity"
+    [rarityOptions]="rarityOptions"
+    (locationChange)="changeLocation($event)"
+    (rarityChange)="changeRarity($event)"
+  />
+
+  @if (state().loadError) {
+    <section class="status" role="alert">{{ state().loadError }}</section>
+  } @else if (state().isLoading) {
+    <section class="status">Loading tackle data...</section>
+  } @else {
+    <app-bait-list
+      [baits]="state().baits"
+      [selectedBait]="state().selectedBait"
+      (baitSelected)="selectBait($event)"
+    />
+  }
+</main>
+
+<app-species-modal
+  [isOpen]="state().isModalOpen"
+  [selectedLocationName]="selectedLocationName()"
+  [bait]="state().selectedBait"
+  [species]="state().selectedSpecies"
+  (closed)="closeDetails()"
+/>

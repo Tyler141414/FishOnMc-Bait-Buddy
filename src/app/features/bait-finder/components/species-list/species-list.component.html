@@ -1,0 +1,22 @@
+@if (species.length === 0) {
+  <div class="muted">No matching species found for this bait in this location.</div>
+} @else {
+  <div class="species-list">
+    @for (item of species; track item.displayName) {
+      <div class="species">
+        <app-fallback-image
+          [candidates]="item.imageCandidates"
+          [alt]="item.displayName"
+          variant="species"
+        />
+        <div class="species-info">
+          <div class="title">
+            {{ item.displayName }}
+            <span class="rarity rarity-pill" [ngClass]="item.rarityClass">{{ item.displayRarity }}</span>
+          </div>
+          <div class="desc">{{ item.details }}</div>
+        </div>
+      </div>
+    }
+  </div>
+}

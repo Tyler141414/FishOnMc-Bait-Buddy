@@ -1,24 +1,29 @@
-# FishOnMc Bait Filter
+# FishOnMc Bait Buddy
 
-Static single-page app to filter baits/lures for FishOnMc by location. Designed to be hosted on GitHub Pages — no server required.
+Angular single-page app for filtering baits and lures for FishOnMc by location and rarity.
 
-Usage
-- Push this repository to GitHub and enable GitHub Pages (branch: main).
-- Open `index.html` in a browser locally or via Pages.
+This is a personal project by Tyler141414 and is not affiliated with FishOnMc or any other entity.
 
-Scraper
-------
+## Development
 
-Run the scraper to generate full JSON exports from the wiki (best-effort):
+Install dependencies:
 
 ```bash
-python3 -m pip install -r requirements.txt
-python3 scripts/scrape_wiki.py
+npm install
 ```
 
-Outputs will be written to `data/*.generated.json` for review and integration.
+Start the local Angular dev server:
 
-Notes
-- Data is a sample subset pulled from the FishOnMc wiki tacklebox and locations pages. Add or extend `data/baits.json` and `data/locations.json` to include more items.
-# FishOnMc-Bait-Buddy
-Helpful tool for tracking bait uses
+```bash
+npm start
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+## Data
+
+The app reads static JSON from `data/` and image assets from `resources/`. Angular is configured to copy both folders into the built app.

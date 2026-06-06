@@ -33,7 +33,13 @@
     "Fish Group": "Carps",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": []
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/White Crucian Carp/fish_japanesewhitecruciancarp.png"
+      }
+    ],
+    "image": "resources/images/White Crucian Carp/fish_japanesewhitecruciancarp.png"
   },
   {
     "Species": "Rock Catfish",
@@ -41,7 +47,13 @@
     "Fish Group": "Catfishes",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": []
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Rockcatfish/fish_rockcatfish.png"
+      }
+    ],
+    "image": "resources/images/Rockcatfish/fish_rockcatfish.png"
   },
   {
     "Species": "Hasu",
@@ -77,7 +89,13 @@
     "Fish Group": "Salmons",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": []
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Red-spotted Masu/fish_redspottedmasusalmon.png"
+      }
+    ],
+    "image": "resources/images/Red-spotted Masu/fish_redspottedmasusalmon.png"
   },
   {
     "Species": "Round Crucian Carp",
@@ -99,7 +117,13 @@
     "Fish Group": "Trouts",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": []
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/Kirikuchi Carp/fish_kirikuchichar.png"
+      }
+    ],
+    "image": "resources/images/Kirikuchi Carp/fish_kirikuchichar.png"
   },
   {
     "Species": "Smallmouth Bass",

@@ -1,0 +1,22 @@
+:host {
+  display: contents;
+}
+
+.bait-img {
+  background: transparent;
+  border-radius: var(--radius);
+  display: inline-block;
+  height: 48px;
+  object-fit: contain;
+  width: 48px;
+}
+
+.species-img {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  flex: 0 0 72px;
+  height: 72px;
+  object-fit: cover;
+  width: 72px;
+}
