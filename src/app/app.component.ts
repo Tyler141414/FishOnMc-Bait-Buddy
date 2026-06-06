@@ -27,6 +27,7 @@ export class AppComponent implements OnInit {
 
   readonly state = this.facade.state;
   readonly selectedLocationName = computed(() => this.state().selectedLocationName);
+  readonly selectedFishLabel = computed(() => this.state().selectedFishName || 'All fish');
   readonly selectedLocation = computed(() => {
     const state = this.state();
     return state.locations.find((location) => location.name === state.selectedLocationName);
@@ -42,6 +43,10 @@ export class AppComponent implements OnInit {
 
   changeLocation(locationName: string): void {
     void this.facade.setLocation(locationName);
+  }
+
+  changeFish(fishName: string): void {
+    void this.facade.setFish(fishName);
   }
 
   changeRarity(rarity: RarityFilter): void {

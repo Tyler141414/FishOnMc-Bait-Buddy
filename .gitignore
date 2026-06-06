@@ -37,6 +37,15 @@ yarn-error.log
 testem.log
 /typings
 
+# Local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
 # System files
 .DS_Store
 Thumbs.db

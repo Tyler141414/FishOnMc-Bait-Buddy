@@ -67,7 +67,7 @@ h1 {
 .header-stats {
   display: grid;
   gap: 1px;
-  grid-template-columns: repeat(4, minmax(86px, 1fr));
+  grid-template-columns: repeat(5, minmax(82px, 1fr));
   margin: 0;
   overflow: hidden;
 }
@@ -175,7 +175,13 @@ main {
   }
 
   .header-stats div:nth-child(4) {
+    border-radius: 0;
+  }
+
+  .header-stats div:nth-child(5) {
+    border-bottom-left-radius: var(--radius);
     border-bottom-right-radius: var(--radius);
+    grid-column: 1 / -1;
   }
 
   main {

@@ -70,6 +70,8 @@ export interface SpeciesViewModel extends Species {
 export interface BaitFinderState {
   locations: LocationInfo[];
   selectedLocationName: string;
+  availableSpecies: SpeciesViewModel[];
+  selectedFishName: string;
   selectedRarity: RarityFilter;
   baits: BaitViewModel[];
   selectedBait?: BaitViewModel;

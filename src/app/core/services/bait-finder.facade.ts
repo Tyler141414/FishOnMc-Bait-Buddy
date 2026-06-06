@@ -14,6 +14,8 @@ import { BaitRepositoryService } from './bait-repository.service';
 const initialState: BaitFinderState = {
   locations: [],
   selectedLocationName: '',
+  availableSpecies: [],
+  selectedFishName: '',
   selectedRarity: 'any',
   baits: [],
   selectedSpecies: [],
@@ -57,6 +59,17 @@ export class BaitFinderFacade {
   async setLocation(locationName: string): Promise<void> {
     this.patchState({
       selectedLocationName: locationName,
+      selectedFishName: '',
+      selectedBait: undefined,
+      selectedSpecies: [],
+      isModalOpen: false,
+    });
+    await this.refreshBaits();
+  }
+
+  async setFish(fishName: string): Promise<void> {
+    this.patchState({
+      selectedFishName: fishName,
       selectedBait: undefined,
       selectedSpecies: [],
       isModalOpen: false,
@@ -109,13 +122,22 @@ export class BaitFinderFacade {
 
     const species = await this.repository.loadLocationSpecies(location);
     const selectedRarity = this.state().selectedRarity;
+    const selectedFishName = this.state().selectedFishName;
+    const selectedFish = selectedFishName
+      ? species.find((item) => this.speciesName(item) === selectedFishName)
+      : undefined;
     const baits = this.allBaits
-      .filter((bait) => baitMatchesLocation(bait, location, species))
+      .filter((bait) => selectedFish
+        ? baitTypeMatchesLocation(bait, location) && speciesMatchesTargets(selectedFish, bait.targets || [])
+        : baitMatchesLocation(bait, location, species))
       .filter((bait) => selectedRarity === 'any'
         || (bait.rarity || '').toLowerCase() === selectedRarity.toLowerCase())
       .map(toBaitViewModel);
 
-    this.patchState({ baits });
+    this.patchState({
+      availableSpecies: species.map(toSpeciesViewModel),
+      baits,
+    });
   }
 
   private async matchSpeciesForBait(bait: Bait, location: LocationInfo): Promise<SpeciesViewModel[]> {
@@ -134,6 +156,10 @@ export class BaitFinderFacade {
     const state = this.state();
     return state.locations.find((location) => location.name === state.selectedLocationName)
       || state.locations[0];
+  }
+
+  private speciesName(species: SpeciesViewModel | { Species?: string; species?: string }): string {
+    return species.Species || species.species || '';
   }
 
   private patchState(patch: Partial<BaitFinderState>): void {

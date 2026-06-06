@@ -18,6 +18,10 @@
         <dd>{{ selectedLocation()?.waterType || 'Any' }}</dd>
       </div>
       <div>
+        <dt>Fish</dt>
+        <dd>{{ selectedFishLabel() }}</dd>
+      </div>
+      <div>
         <dt>Tackle</dt>
         <dd>{{ state().baits.length }}</dd>
       </div>
@@ -32,10 +36,13 @@
 <main>
   <app-bait-filters
     [locations]="state().locations"
+    [species]="state().availableSpecies"
     [selectedLocationName]="state().selectedLocationName"
+    [selectedFishName]="state().selectedFishName"
     [selectedRarity]="state().selectedRarity"
     [rarityOptions]="rarityOptions"
     (locationChange)="changeLocation($event)"
+    (fishChange)="changeFish($event)"
     (rarityChange)="changeRarity($event)"
   />
 

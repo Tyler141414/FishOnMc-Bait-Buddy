@@ -1,7 +1,7 @@
 <section class="controls" aria-label="Filters">
   <div class="control-heading">
     <h2>Find compatible tackle</h2>
-    <p>Filter by destination and rarity to compare bait and lure options.</p>
+    <p>Filter by destination, fish, and rarity to compare bait and lure options.</p>
   </div>
   <div class="control-fields">
     <label>
@@ -9,6 +9,16 @@
       <select [ngModel]="selectedLocationName" (ngModelChange)="locationChange.emit($event)">
         @for (location of locations; track location.name) {
           <option [value]="location.name">{{ location.name }}</option>
+        }
+      </select>
+    </label>
+
+    <label>
+      <span>Fish</span>
+      <select [ngModel]="selectedFishName" (ngModelChange)="fishChange.emit($event)">
+        <option value="">All fish</option>
+        @for (fish of species; track fish.displayName) {
+          <option [value]="fish.displayName">{{ fish.displayName }}</option>
         }
       </select>
     </label>
