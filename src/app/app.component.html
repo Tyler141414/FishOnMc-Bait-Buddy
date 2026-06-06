@@ -8,6 +8,38 @@
       <h1>Bait & Lure Intelligence</h1>
       <p class="disclaimer">Independent player-made reference by Tyler141414.</p>
     </div>
+    <label class="theme-switch">
+      <span class="theme-switch__control">
+        <input
+          type="checkbox"
+          [checked]="theme() === 'dark'"
+        [attr.aria-label]="themeToggleLabel()"
+        (change)="setThemeModeFromEvent($event)"
+      />
+        <span class="theme-switch__track" aria-hidden="true">
+          <svg class="theme-switch__icon theme-switch__icon--sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <circle cx="12" cy="12" r="4" fill="currentColor"></circle>
+            <g stroke="currentColor" stroke-linecap="round" stroke-width="1.8">
+              <line x1="12" y1="2.5" x2="12" y2="5.5"></line>
+              <line x1="12" y1="18.5" x2="12" y2="21.5"></line>
+              <line x1="2.5" y1="12" x2="5.5" y2="12"></line>
+              <line x1="18.5" y1="12" x2="21.5" y2="12"></line>
+              <line x1="5.2" y1="5.2" x2="7.4" y2="7.4"></line>
+              <line x1="16.6" y1="16.6" x2="18.8" y2="18.8"></line>
+              <line x1="5.2" y1="18.8" x2="7.4" y2="16.6"></line>
+              <line x1="16.6" y1="7.4" x2="18.8" y2="5.2"></line>
+            </g>
+          </svg>
+          <span class="theme-switch__thumb"></span>
+          <svg class="theme-switch__icon theme-switch__icon--moon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path
+              d="M16.5 14.7c-3.4 0-6.2-2.8-6.2-6.2 0-1.4.5-2.7 1.2-3.7-3.2 1-5.5 4-5.5 7.5 0 4.3 3.5 7.8 7.8 7.8 3.5 0 6.5-2.3 7.5-5.5-1 .7-2.3 1.1-4 1.1Z"
+              fill="currentColor"
+            ></path>
+          </svg>
+        </span>
+      </span>
+    </label>
     <dl class="header-stats" aria-label="Current filter summary">
       <div>
         <dt>Location</dt>

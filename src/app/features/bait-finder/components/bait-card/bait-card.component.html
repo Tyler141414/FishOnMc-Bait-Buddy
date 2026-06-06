@@ -1,7 +1,10 @@
 <article
   class="bait"
   [class.selected]="selected"
+  role="button"
   tabindex="0"
+  [attr.aria-pressed]="selected"
+  [attr.aria-label]="'Show species for ' + bait.name"
   (click)="select()"
   (keydown.enter)="select()"
   (keydown.space)="select(); $event.preventDefault()"

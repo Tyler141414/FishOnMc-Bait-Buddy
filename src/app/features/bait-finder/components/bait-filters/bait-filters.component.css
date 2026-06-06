@@ -55,8 +55,16 @@ select {
 
 select:focus {
   border-color: var(--accent);
-  box-shadow: 0 0 0 3px rgba(26, 127, 100, 0.14);
+  box-shadow: 0 0 0 3px var(--focus-ring);
   outline: 0;
+}
+
+label:hover {
+  color: var(--muted-strong);
+}
+
+label:focus-within {
+  color: var(--muted-strong);
 }
 
 @media (max-width: 820px) {

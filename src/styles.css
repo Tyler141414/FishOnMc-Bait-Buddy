@@ -1,9 +1,10 @@
-body {
+:root {
+  color-scheme: light;
   --accent: #1a7f64;
   --accent-strong: #0f5d4f;
   --accent-soft: #dff5ee;
   --bg: #f4f7f6;
-  --card: #fff;
+  --card: #ffffff;
   --card-muted: #f8faf9;
   --ink: #15201c;
   --muted: #65736f;
@@ -13,13 +14,35 @@ body {
   --shadow-sm: 0 1px 2px rgba(21, 32, 28, 0.06), 0 1px 8px rgba(21, 32, 28, 0.04);
   --shadow-md: 0 14px 32px rgba(21, 32, 28, 0.12);
   --radius: 8px;
+  --page-glow: rgba(223, 245, 238, 0.9);
+  --focus-ring: rgba(26, 127, 100, 0.14);
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --bg: #0b1210;
+  --card: #13211d;
+  --card-muted: #182924;
+  --ink: #edf5f1;
+  --muted: #a1b0ab;
+  --muted-strong: #c1cfca;
+  --line: #253530;
+  --line-strong: #39514a;
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.35), 0 1px 8px rgba(0, 0, 0, 0.22);
+  --shadow-md: 0 14px 32px rgba(0, 0, 0, 0.38);
+  --page-glow: rgba(25, 95, 74, 0.24);
+  --focus-ring: rgba(107, 219, 181, 0.24);
+}
+
+body {
   background:
-    linear-gradient(180deg, rgba(223, 245, 238, 0.9) 0, rgba(244, 247, 246, 0) 280px),
+    linear-gradient(180deg, var(--page-glow) 0, rgba(0, 0, 0, 0) 280px),
     var(--bg);
   color: var(--ink);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   margin: 0;
   min-width: 320px;
+  transition: background-color 160ms ease, color 160ms ease;
 }
 
 * {

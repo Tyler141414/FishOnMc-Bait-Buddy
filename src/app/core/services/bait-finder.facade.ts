@@ -29,6 +29,8 @@ export class BaitFinderFacade {
   readonly state = signal<BaitFinderState>(initialState);
 
   private allBaits: Bait[] = [];
+  private refreshRequestId = 0;
+  private bodyOverflowBeforeModal: string | undefined;
 
   constructor(private readonly repository: BaitRepositoryService) {}
 
@@ -64,6 +66,7 @@ export class BaitFinderFacade {
       selectedSpecies: [],
       isModalOpen: false,
     });
+    this.unlockBodyScroll();
     await this.refreshBaits();
   }
 
@@ -74,6 +77,7 @@ export class BaitFinderFacade {
       selectedSpecies: [],
       isModalOpen: false,
     });
+    this.unlockBodyScroll();
     await this.refreshBaits();
   }
 
@@ -84,6 +88,7 @@ export class BaitFinderFacade {
       selectedSpecies: [],
       isModalOpen: false,
     });
+    this.unlockBodyScroll();
     await this.refreshBaits();
   }
 
@@ -96,12 +101,16 @@ export class BaitFinderFacade {
 
     const selectedSpecies = await this.matchSpeciesForBait(bait, location);
 
+    if (location.name !== this.selectedLocation()?.name) {
+      return;
+    }
+
     this.patchState({
       selectedBait: bait,
       selectedSpecies,
       isModalOpen: true,
     });
-    document.body.style.overflow = 'hidden';
+    this.lockBodyScroll();
   }
 
   closeDetails(): void {
@@ -109,20 +118,41 @@ export class BaitFinderFacade {
       isModalOpen: false,
       selectedSpecies: [],
     });
-    document.body.style.overflow = '';
+    this.unlockBodyScroll();
   }
 
   private async refreshBaits(): Promise<void> {
-    const location = this.selectedLocation();
+    const requestId = ++this.refreshRequestId;
+    const state = this.state();
+    const location = this.selectedLocation(state);
+    const selectedRarity = state.selectedRarity;
+    const selectedFishName = state.selectedFishName;
 
     if (!location) {
       this.patchState({ baits: [] });
       return;
     }
 
-    const species = await this.repository.loadLocationSpecies(location);
-    const selectedRarity = this.state().selectedRarity;
-    const selectedFishName = this.state().selectedFishName;
+    let species: Awaited<ReturnType<BaitRepositoryService['loadLocationSpecies']>>;
+
+    try {
+      species = await this.repository.loadLocationSpecies(location);
+    } catch (error) {
+      if (requestId === this.refreshRequestId) {
+        this.patchState({
+          baits: [],
+          availableSpecies: [],
+          loadError: `Failed to load species for ${location.name}: ${error instanceof Error ? error.message : String(error)}`,
+        });
+      }
+
+      return;
+    }
+
+    if (requestId !== this.refreshRequestId) {
+      return;
+    }
+
     const selectedFish = selectedFishName
       ? species.find((item) => this.speciesName(item) === selectedFishName)
       : undefined;
@@ -137,6 +167,7 @@ export class BaitFinderFacade {
     this.patchState({
       availableSpecies: species.map(toSpeciesViewModel),
       baits,
+      loadError: '',
     });
   }
 
@@ -152,8 +183,7 @@ export class BaitFinderFacade {
       .map(toSpeciesViewModel);
   }
 
-  private selectedLocation(): LocationInfo | undefined {
-    const state = this.state();
+  private selectedLocation(state = this.state()): LocationInfo | undefined {
     return state.locations.find((location) => location.name === state.selectedLocationName)
       || state.locations[0];
   }
@@ -164,5 +194,23 @@ export class BaitFinderFacade {
 
   private patchState(patch: Partial<BaitFinderState>): void {
     this.state.update((current) => ({ ...current, ...patch }));
+  }
+
+  private lockBodyScroll(): void {
+    if (typeof document === 'undefined' || this.bodyOverflowBeforeModal !== undefined) {
+      return;
+    }
+
+    this.bodyOverflowBeforeModal = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+  }
+
+  private unlockBodyScroll(): void {
+    if (typeof document === 'undefined' || this.bodyOverflowBeforeModal === undefined) {
+      return;
+    }
+
+    document.body.style.overflow = this.bodyOverflowBeforeModal;
+    this.bodyOverflowBeforeModal = undefined;
   }
 }

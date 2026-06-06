@@ -12,7 +12,7 @@
 }
 
 .species-img {
-  background: #fff;
+  background: var(--card-muted);
   border: 1px solid var(--line);
   border-radius: var(--radius);
   flex: 0 0 72px;

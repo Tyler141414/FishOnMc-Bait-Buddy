@@ -4,9 +4,9 @@
 }
 
 .app-header {
-  background: rgba(255, 255, 255, 0.86);
+  background: var(--card);
   border-bottom: 1px solid var(--line);
-  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.8) inset;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.65) inset;
   padding: 18px 20px;
   position: sticky;
   top: 0;
@@ -25,11 +25,11 @@
 
 .brand-mark {
   align-items: center;
-  background: linear-gradient(145deg, #0f5d4f, #1a7f64);
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: linear-gradient(145deg, var(--accent-strong), var(--accent));
+  border: 1px solid var(--line-strong);
   border-radius: var(--radius);
-  box-shadow: 0 8px 18px rgba(15, 93, 79, 0.18);
-  color: #f5fff9;
+  box-shadow: var(--shadow-sm);
+  color: #fff;
   display: flex;
   font-size: 15px;
   font-weight: 900;
@@ -64,10 +64,119 @@ h1 {
   margin: 5px 0 0;
 }
 
+.theme-switch {
+  align-items: center;
+  display: inline-flex;
+  justify-self: end;
+  white-space: nowrap;
+}
+
+.theme-switch__control {
+  display: inline-flex;
+  position: relative;
+}
+
+.theme-switch__control input {
+  height: 1px;
+  opacity: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.theme-switch__track {
+  align-items: center;
+  background: var(--card-muted);
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  box-shadow: none;
+  display: inline-flex;
+  height: 22px;
+  justify-content: space-between;
+  padding: 2px;
+  transition: border-color 160ms ease, background-color 160ms ease;
+  width: 42px;
+}
+
+.theme-switch__icon {
+  color: var(--muted);
+  height: 10px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: color 160ms ease, opacity 160ms ease;
+  width: 10px;
+  z-index: 0;
+}
+
+.theme-switch__icon--sun {
+  left: 5px;
+  opacity: 0.95;
+}
+
+.theme-switch__icon--moon {
+  right: 5px;
+  opacity: 0.75;
+}
+
+.theme-switch__icon--sun circle,
+.theme-switch__icon--sun line,
+.theme-switch__icon--moon path {
+  fill: currentColor;
+  stroke: currentColor;
+}
+
+.theme-switch__thumb {
+  background: var(--muted-strong);
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.22);
+  display: block;
+  height: 16px;
+  transform: translateX(0);
+  transition: transform 160ms ease, background-color 160ms ease;
+  width: 16px;
+  z-index: 1;
+}
+
+.theme-switch:hover .theme-switch__track {
+  border-color: var(--accent);
+}
+
+.theme-switch:focus-within .theme-switch__track {
+  outline: 3px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+.theme-switch__control input:checked + .theme-switch__track {
+  background: linear-gradient(180deg, var(--accent), var(--accent-strong));
+  border-color: var(--accent-strong);
+}
+
+.theme-switch__control input:checked + .theme-switch__track .theme-switch__thumb {
+  background: #fff;
+  transform: translateX(20px);
+}
+
+.theme-switch__control input:checked + .theme-switch__track .theme-switch__icon--sun {
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.theme-switch__control input:checked + .theme-switch__track .theme-switch__icon--moon {
+  color: rgba(255, 255, 255, 0.96);
+}
+
+.theme-switch__control input:not(:checked) + .theme-switch__track .theme-switch__icon--sun {
+  color: var(--accent-strong);
+}
+
+.theme-switch__control input:not(:checked) + .theme-switch__track .theme-switch__icon--moon {
+  color: var(--muted);
+}
+
 .header-stats {
   display: grid;
   gap: 1px;
   grid-template-columns: repeat(5, minmax(82px, 1fr));
+  grid-column: 1 / -1;
   margin: 0;
   overflow: hidden;
 }
@@ -130,6 +239,12 @@ main {
     grid-template-columns: auto minmax(0, 1fr);
   }
 
+  .theme-switch {
+    grid-column: 2;
+    justify-self: end;
+    margin-top: 2px;
+  }
+
   .header-stats {
     grid-column: 1 / -1;
     width: 100%;
@@ -149,6 +264,25 @@ main {
   .brand-mark {
     height: 40px;
     width: 40px;
+  }
+
+  .theme-switch__track {
+    height: 20px;
+    width: 38px;
+  }
+
+  .theme-switch__thumb {
+    height: 14px;
+    width: 14px;
+  }
+
+  .theme-switch__icon {
+    height: 9px;
+    width: 9px;
+  }
+
+  .theme-switch__control input:checked + .theme-switch__track .theme-switch__thumb {
+    transform: translateX(18px);
   }
 
   .header-stats {

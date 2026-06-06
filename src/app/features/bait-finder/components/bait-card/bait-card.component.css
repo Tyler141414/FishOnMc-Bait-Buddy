@@ -13,7 +13,7 @@
 }
 
 .bait:focus {
-  outline: 3px solid rgba(26, 127, 100, 0.16);
+  outline: 3px solid var(--focus-ring);
   outline-offset: 2px;
 }
 
@@ -25,14 +25,12 @@
 
 .bait.selected {
   border-color: var(--accent);
-  box-shadow: 0 0 0 3px rgba(26, 127, 100, 0.12), var(--shadow-sm);
+  box-shadow: 0 0 0 3px var(--focus-ring), var(--shadow-sm);
 }
 
 .left .icon {
   align-items: center;
-  background:
-    radial-gradient(circle at 50% 20%, rgba(255, 255, 255, 0.95), rgba(223, 245, 238, 0.88)),
-    var(--accent-soft);
+  background: var(--card-muted);
   border: 1px solid var(--line);
   border-radius: var(--radius);
   display: flex;
@@ -99,6 +97,7 @@
   color: var(--accent-strong);
   font-size: 11px;
   font-weight: 800;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
 }
 

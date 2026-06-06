@@ -1,12 +1,19 @@
 <div class="modal" [class.show]="isOpen" [attr.aria-hidden]="!isOpen">
   <div class="modal-overlay" (click)="closed.emit()"></div>
-  <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+  <div
+    #modalContent
+    class="modal-content"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="modalTitle"
+    tabindex="-1"
+  >
     <div class="modal-header">
       <div>
         <p class="modal-kicker">{{ selectedLocationName }}</p>
         <h2 id="modalTitle">{{ title }}</h2>
       </div>
-      <button class="modal-close" type="button" aria-label="Close" (click)="closed.emit()">Close</button>
+      <button #closeButton class="modal-close" type="button" aria-label="Close" (click)="closed.emit()">Close</button>
     </div>
     <div class="species-panel">
       <app-species-list [species]="species" />

@@ -32,8 +32,19 @@ export class BaitRepositoryService {
     }
 
     const request = this.loadJson<unknown>(`data/locations/${slug}.json`)
-      .then((payload) => normalizeSpeciesPayload(payload, location, slug))
-      .catch(() => []);
+      .then((payload) => {
+        const species = normalizeSpeciesPayload(payload, location, slug);
+
+        if (species.length === 0) {
+          throw new Error(`No species data found for ${location.name}`);
+        }
+
+        return species;
+      })
+      .catch((error) => {
+        this.speciesCache.delete(slug);
+        throw error;
+      });
 
     this.speciesCache.set(slug, request);
     return request;

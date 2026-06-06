@@ -5,6 +5,28 @@
   <title>Bait Filter Companion for FishOnMc</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    (function () {
+      var theme = 'light';
+
+      try {
+        var storedTheme = window.localStorage.getItem('fishonmc-theme');
+
+        if (storedTheme === 'dark' || storedTheme === 'light') {
+          theme = storedTheme;
+        } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          theme = 'dark';
+        }
+      } catch (error) {
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          theme = 'dark';
+        }
+      }
+
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.style.colorScheme = theme;
+    })();
+  </script>
   <link rel="icon" type="image/svg+xml" href="favicon.svg?v=fo">
   <link rel="alternate icon" type="image/x-icon" href="favicon.ico?v=fo">
 </head>

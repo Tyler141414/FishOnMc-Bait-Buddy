@@ -1,6 +1,7 @@
-import { ChangeDetectionStrategy, Component, OnInit, computed, inject } from '@angular/core';
+import { ChangeDetectionStrategy, Component, OnInit, computed, effect, inject, signal } from '@angular/core';
 import { BaitViewModel, RarityFilter, SelectOption } from './core/models/bait.models';
 import { BaitFinderFacade } from './core/services/bait-finder.facade';
+import { applyTheme, persistTheme, ThemeMode, getInitialTheme } from './core/utils/theme.utils';
 import { BaitFiltersComponent } from './features/bait-finder/components/bait-filters/bait-filters.component';
 import { BaitListComponent } from './features/bait-finder/components/bait-list/bait-list.component';
 import { SpeciesModalComponent } from './features/bait-finder/components/species-modal/species-modal.component';
@@ -15,6 +16,10 @@ import { SpeciesModalComponent } from './features/bait-finder/components/species
 })
 export class AppComponent implements OnInit {
   private readonly facade = inject(BaitFinderFacade);
+  readonly theme = signal<ThemeMode>(getInitialTheme());
+  private readonly themeEffect = effect(() => {
+    applyTheme(this.theme());
+  });
 
   readonly rarityOptions: SelectOption<RarityFilter>[] = [
     { value: 'any', label: 'Any' },
@@ -36,9 +41,20 @@ export class AppComponent implements OnInit {
     const selectedRarity = this.state().selectedRarity;
     return this.rarityOptions.find((option) => option.value === selectedRarity)?.label || 'Any';
   });
+  readonly themeToggleLabel = computed(() => this.theme() === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
 
   ngOnInit(): void {
     void this.facade.initialize();
+  }
+
+  setThemeMode(isDarkMode: boolean): void {
+    const nextTheme: ThemeMode = isDarkMode ? 'dark' : 'light';
+    this.theme.set(nextTheme);
+    persistTheme(nextTheme);
+  }
+
+  setThemeModeFromEvent(event: Event): void {
+    this.setThemeMode((event.target as HTMLInputElement).checked);
   }
 
   changeLocation(locationName: string): void {
