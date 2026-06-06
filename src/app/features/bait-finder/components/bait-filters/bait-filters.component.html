@@ -1,0 +1,25 @@
+<section class="controls" aria-label="Filters">
+  <div class="control-heading">
+    <h2>Find compatible tackle</h2>
+    <p>Filter by destination and rarity to compare bait and lure options.</p>
+  </div>
+  <div class="control-fields">
+    <label>
+      <span>Location</span>
+      <select [ngModel]="selectedLocationName" (ngModelChange)="locationChange.emit($event)">
+        @for (location of locations; track location.name) {
+          <option [value]="location.name">{{ location.name }}</option>
+        }
+      </select>
+    </label>
+
+    <label>
+      <span>Rarity</span>
+      <select [ngModel]="selectedRarity" (ngModelChange)="rarityChange.emit($event)">
+        @for (rarity of rarityOptions; track rarity.value) {
+          <option [value]="rarity.value">{{ rarity.label }}</option>
+        }
+      </select>
+    </label>
+  </div>
+</section>

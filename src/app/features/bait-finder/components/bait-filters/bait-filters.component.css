@@ -1,0 +1,67 @@
+.controls {
+  align-items: end;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  display: grid;
+  gap: 18px;
+  grid-template-columns: minmax(220px, 1fr) minmax(420px, auto);
+  margin-bottom: 18px;
+  padding: 18px;
+}
+
+.control-heading h2 {
+  color: var(--ink);
+  font-size: 18px;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.control-heading p {
+  color: var(--muted);
+  font-size: 13px;
+  margin: 5px 0 0;
+}
+
+.control-fields {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: minmax(220px, 1.4fr) minmax(150px, 0.6fr);
+}
+
+label {
+  color: var(--muted-strong);
+  display: grid;
+  font-size: 12px;
+  font-weight: 800;
+  gap: 7px;
+  text-transform: uppercase;
+}
+
+select {
+  appearance: none;
+  background:
+    linear-gradient(45deg, transparent 50%, var(--muted-strong) 50%) right 18px center / 6px 6px no-repeat,
+    linear-gradient(135deg, var(--muted-strong) 50%, transparent 50%) right 12px center / 6px 6px no-repeat,
+    var(--card-muted);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+  color: var(--ink);
+  min-height: 42px;
+  padding: 9px 36px 9px 12px;
+  width: 100%;
+}
+
+select:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(26, 127, 100, 0.14);
+  outline: 0;
+}
+
+@media (max-width: 820px) {
+  .controls,
+  .control-fields {
+    grid-template-columns: 1fr;
+  }
+}

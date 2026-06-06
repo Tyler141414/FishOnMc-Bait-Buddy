@@ -1,0 +1,32 @@
+<article
+  class="bait"
+  [class.selected]="selected"
+  tabindex="0"
+  (click)="select()"
+  (keydown.enter)="select()"
+  (keydown.space)="select(); $event.preventDefault()"
+>
+  <div class="left">
+    <div class="icon">
+      <app-fallback-image
+        [candidates]="bait.imageCandidates"
+        [alt]="bait.name || 'bait'"
+        variant="bait"
+      />
+    </div>
+  </div>
+  <div class="body">
+    <div class="title-row">
+      <h3 class="name">{{ bait.name }}</h3>
+      <span class="tier rarity-pill" [ngClass]="bait.rarityClass">{{ bait.rarity }}</span>
+    </div>
+    <div class="meta">{{ bait.meta }}</div>
+    @if (bait.desc) {
+      <div class="effect">{{ bait.desc }}</div>
+    }
+    <div class="targets">
+      <span class="target-label">Targets</span>
+      <span>{{ (bait.targets || []).length ? (bait.targets || []).join(', ') : 'All species' }}</span>
+    </div>
+  </div>
+</article>

@@ -1,0 +1,15 @@
+<section id="results">
+  <ul id="baitList">
+    @for (bait of baits; track bait.name) {
+      <li>
+        <app-bait-card
+          [bait]="bait"
+          [selected]="selectedBait?.name === bait.name"
+          (selectedChange)="baitSelected.emit($event)"
+        />
+      </li>
+    } @empty {
+      <li class="status">No tackle matches the selected filters.</li>
+    }
+  </ul>
+</section>

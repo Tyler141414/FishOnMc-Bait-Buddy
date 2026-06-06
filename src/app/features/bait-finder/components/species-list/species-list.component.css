@@ -1,0 +1,55 @@
+.muted {
+  color: var(--muted);
+  padding: 12px 2px;
+}
+
+.species-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.species {
+  align-items: flex-start;
+  background: var(--card-muted);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  display: flex;
+  gap: 12px;
+  padding: 10px;
+}
+
+.species-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.species .title {
+  color: var(--ink);
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.species .rarity {
+  border-radius: 999px;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 1;
+  margin-left: 6px;
+  padding: 4px 8px;
+  vertical-align: 1px;
+}
+
+.species .desc {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.4;
+  margin-top: 6px;
+}
+
+@media (max-width: 480px) {
+  .species {
+    gap: 10px;
+    padding: 9px;
+  }
+}

@@ -1,0 +1,1057 @@
+[
+  {
+    "id": "crankbait_tiger_craw",
+    "kind": "Lure",
+    "lureType": "Crankbait",
+    "color": "Tiger Craw",
+    "name": "Crankbait - Tiger Craw",
+    "type": "Freshwater",
+    "rarity": "Rare",
+    "uses": 30,
+    "sizes": [
+      "1/4oz",
+      "3/8oz",
+      "1/2oz"
+    ],
+    "likelihood": 70,
+    "sizeBonus": 2,
+    "targets": [
+      "Basses"
+    ],
+    "desc": "Freshwater Bite Speed: +30",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/lure_crankbait_tigercraw.png"
+      }
+    ],
+    "image": "resources/images/baits/lure_crankbait_tigercraw.png"
+  },
+  {
+    "id": "crankbait_smokin_shad",
+    "kind": "Lure",
+    "lureType": "Crankbait",
+    "color": "Smokin' Shad",
+    "name": "Crankbait - Smokin' Shad",
+    "type": "Freshwater",
+    "rarity": "Rare",
+    "uses": 30,
+    "sizes": [
+      "1/4oz",
+      "3/8oz",
+      "1/2oz"
+    ],
+    "likelihood": 70,
+    "sizeBonus": 2,
+    "targets": [
+      "Basses"
+    ],
+    "desc": "Freshwater Bite Speed: +30",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/lure_crankbait_sexyshad.png"
+      }
+    ],
+    "image": "resources/images/baits/lure_crankbait_sexyshad.png"
+  },
+  {
+    "id": "roostertail_fire_tiger",
+    "kind": "Lure",
+    "lureType": "Roostertail",
+    "color": "Fire Tiger",
+    "name": "Roostertail - Fire Tiger",
+    "type": "Freshwater",
+    "rarity": "Rare",
+    "uses": 20,
+    "sizes": [
+      "1/8oz",
+      "1/4oz"
+    ],
+    "likelihood": 80,
+    "sizeBonus": 1,
+    "targets": [
+      "Basses",
+      "Panfishes",
+      "Trouts",
+      "Perches",
+      "Temperate Perches",
+      "Pikes"
+    ],
+    "desc": "Freshwater Bite Speed: +30",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/lure_roostertail_firetiger.png"
+      }
+    ],
+    "image": "resources/images/baits/lure_roostertail_firetiger.png"
+  },
+  {
+    "id": "roostertail_bubblegum",
+    "kind": "Lure",
+    "lureType": "Roostertail",
+    "color": "Bubblegum",
+    "name": "Roostertail - Bubblegum",
+    "type": "Freshwater",
+    "rarity": "Rare",
+    "uses": 20,
+    "sizes": [
+      "1/8oz",
+      "1/4oz"
+    ],
+    "likelihood": 70,
+    "sizeBonus": 1,
+    "targets": [
+      "Trouts",
+      "Panfishes"
+    ],
+    "desc": "Freshwater Bite Speed: +50",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/lure_roostertail_pinkfluorescent.png"
+      }
+    ],
+    "image": "resources/images/baits/lure_roostertail_pinkfluorescent.png"
+  },
+  {
+    "id": "roostertail_white_chartreuse",
+    "kind": "Lure",
+    "lureType": "Roostertail",
+    "color": "White Chartreuse",
+    "name": "Roostertail - White Chartreuse",
+    "type": "Freshwater",
+    "rarity": "Rare",
+    "uses": 20,
+    "sizes": [
+      "1/8oz",
+      "1/4oz"
+    ],
+    "likelihood": 70,
+    "sizeBonus": 1,
+    "targets": [
+      "Largemouth Bass",
+      "Smallmouth Bass",
+      "Sauger",
+      "Walleye"
+    ],
+    "desc": "Freshwater Bite Speed: +50",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/lure_roostertail_whitechartreuse.png"
+      }
+    ],
+    "image": "resources/images/baits/lure_roostertail_whitechartreuse.png"
+  },
+  {
+    "id": "crankbait_bluegill",
+    "kind": "Lure",
+    "lureType": "Crankbait",
+    "color": "Bluegill",
+    "name": "Crankbait - Bluegill",
+    "type": "Freshwater",
+    "rarity": "Epic",
+    "uses": 30,
+    "sizes": [
+      "1/4oz",
+      "1/2oz"
+    ],
+    "likelihood": 80,
+    "sizeBonus": 1,
+    "targets": [
+      "Basses",
+      "Perches",
+      "Pikes"
+    ],
+    "desc": "Freshwater Bite Speed: +75",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/lure_crankbait_bluegill.png"
+      }
+    ],
+    "image": "resources/images/baits/lure_crankbait_bluegill.png"
+  },
+  {
+    "id": "spinner_bait_chartreuse",
+    "kind": "Lure",
+    "lureType": "Spinner Bait",
+    "color": "Chartreuse",
+    "name": "Spinner Bait - Chartreuse",
+    "type": "Freshwater",
+    "rarity": "Epic",
+    "uses": 50,
+    "sizes": [
+      "5/8oz",
+      "1oz",
+      "1.5oz"
+    ],
+    "likelihood": 80,
+    "sizeBonus": 2,
+    "targets": [
+      "Northern Pike",
+      "Muskellunge",
+      "Tiger Muskellunge"
+    ],
+    "desc": "Freshwater Bite Speed: +80",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/lure_spinnerbait_chartreuse.png"
+      }
+    ],
+    "image": "resources/images/baits/lure_spinnerbait_chartreuse.png"
+  },
+  {
+    "id": "frog_rainforest_yellow",
+    "kind": "Lure",
+    "lureType": "Frog",
+    "color": "Rainforest Yellow",
+    "name": "Frog - Rainforest Yellow",
+    "type": "Freshwater",
+    "rarity": "Epic",
+    "uses": 30,
+    "sizes": [
+      "3/8oz",
+      "1/2oz",
+      "5/8oz"
+    ],
+    "likelihood": 80,
+    "sizeBonus": 2,
+    "targets": [
+      "Largemouth Bass",
+      "Florida Bass"
+    ],
+    "desc": "Freshwater Bite Speed: +50",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/lure_frog_rainforestyellow.png"
+      }
+    ],
+    "image": "resources/images/baits/lure_frog_rainforestyellow.png"
+  },
+  {
+    "id": "spinnerbait_white_shad",
+    "kind": "Lure",
+    "lureType": "Spinnerbait",
+    "color": "White Shad",
+    "name": "Spinnerbait - White Shad",
+    "type": "Freshwater",
+    "rarity": "Legendary",
+    "uses": 50,
+    "sizes": [
+      "1/4oz",
+      "3/8oz",
+      "1/2oz"
+    ],
+    "likelihood": 90,
+    "sizeBonus": 2,
+    "targets": [
+      "Basses"
+    ],
+    "desc": "Freshwater Bite Speed: +100",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/lure_spinnerbait_whiteshad.png"
+      }
+    ],
+    "image": "resources/images/baits/lure_spinnerbait_whiteshad.png"
+  },
+  {
+    "id": "spinner_bait_golden_shiner",
+    "kind": "Lure",
+    "lureType": "Spinner Bait",
+    "color": "Golden Shiner",
+    "name": "Spinner Bait - Golden Shiner",
+    "type": "Freshwater",
+    "rarity": "Legendary",
+    "uses": 50,
+    "sizes": [
+      "5/8oz",
+      "1oz",
+      "1.5oz"
+    ],
+    "likelihood": 90,
+    "sizeBonus": 2,
+    "targets": [
+      "Northern Pike",
+      "Muskellunge",
+      "Tiger Muskellunge"
+    ],
+    "desc": "Freshwater Bite Speed: +110",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/lure_spinnerbait_goldenshiner.png"
+      }
+    ],
+    "image": "resources/images/baits/lure_spinnerbait_goldenshiner.png"
+  },
+  {
+    "id": "frog_leopard",
+    "kind": "Lure",
+    "lureType": "Frog",
+    "color": "Leopard",
+    "name": "Frog - Leopard",
+    "type": "Freshwater",
+    "rarity": "Legendary",
+    "uses": 30,
+    "sizes": [
+      "3/8oz",
+      "1/2oz",
+      "5/8oz"
+    ],
+    "likelihood": null,
+    "sizeBonus": 2,
+    "targets": [
+      "Largemouth Bass",
+      "Florida Bass"
+    ],
+    "desc": "Freshwater Bite Speed: +100",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/lure_frog_leopard.png"
+      }
+    ],
+    "image": "resources/images/baits/lure_frog_leopard.png"
+  },
+  {
+    "id": "glide_bait_rainbow_trout",
+    "kind": "Lure",
+    "lureType": "Glide Bait",
+    "color": "Rainbow Trout",
+    "name": "Glide Bait - Rainbow Trout",
+    "type": "Freshwater",
+    "rarity": "Legendary",
+    "uses": 50,
+    "sizes": [
+      "8in"
+    ],
+    "likelihood": 100,
+    "sizeBonus": 3,
+    "targets": [
+      "Smallmouth Bass",
+      "Lake Trout",
+      "Northern Pike",
+      "Muskellunge",
+      "Tiger Muskellunge"
+    ],
+    "desc": "Freshwater Bite Speed: -100",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/lure_glidebaitrainbowtrout.png"
+      }
+    ],
+    "image": "resources/images/baits/lure_glidebaitrainbowtrout.png"
+  },
+  {
+    "id": "diving_plug_olive",
+    "kind": "Lure",
+    "lureType": "Diving Plug",
+    "color": "Olive",
+    "name": "Diving Plug - Olive",
+    "type": "Freshwater",
+    "rarity": "Legendary",
+    "uses": 40,
+    "sizes": [
+      "1/2oz"
+    ],
+    "likelihood": 100,
+    "sizeBonus": 3,
+    "targets": [
+      "Largemouth Bass",
+      "Smallmouth Bass",
+      "Speckled Peacock Bass",
+      "Butterfly Peacock Bass"
+    ],
+    "desc": "Freshwater Bite Speed: -50",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/lure_divingplugolive.png"
+      }
+    ],
+    "image": "resources/images/baits/lure_divingplugolive.png"
+  },
+  {
+    "id": "diving_plug_fire_tiger",
+    "kind": "Lure",
+    "lureType": "Diving Plug",
+    "color": "Fire Tiger",
+    "name": "Diving Plug - Fire Tiger",
+    "type": "Freshwater",
+    "rarity": "Legendary",
+    "uses": 40,
+    "sizes": [
+      "1/2oz"
+    ],
+    "likelihood": 100,
+    "sizeBonus": null,
+    "targets": [
+      "Northern Pike",
+      "Zander",
+      "Golden Perch",
+      "Murray Cod",
+      "Speckled Peacock Bass",
+      "Butterfly Peacock Bass",
+      "Trahira"
+    ],
+    "desc": "Freshwater Bite Speed: -20",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/lure_divingplugfiretiger.png"
+      }
+    ],
+    "image": "resources/images/baits/lure_divingplugfiretiger.png"
+  },
+  {
+    "id": "diving_plug_banana",
+    "kind": "Lure",
+    "lureType": "Diving Plug",
+    "color": "Banana",
+    "name": "Diving Plug - Banana",
+    "type": "Freshwater",
+    "rarity": "Legendary",
+    "uses": 40,
+    "sizes": [
+      "1/2oz"
+    ],
+    "likelihood": 100,
+    "sizeBonus": null,
+    "targets": [
+      "Northern Pike",
+      "Zander",
+      "Golden Perch",
+      "Murray Cod",
+      "Speckled Peacock Bass",
+      "Butterfly Peacock Bass",
+      "Trahira"
+    ],
+    "desc": "Freshwater Bite Speed: -10",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/lure_divingplugbanana.png"
+      }
+    ],
+    "image": "resources/images/baits/lure_divingplugbanana.png"
+  },
+  {
+    "id": "popper_black_magic",
+    "kind": "Lure",
+    "lureType": "Popper",
+    "color": "Black Magic",
+    "name": "Popper - Black Magic",
+    "type": "Freshwater",
+    "rarity": "Legendary",
+    "uses": 40,
+    "sizes": [
+      "4in"
+    ],
+    "likelihood": 100,
+    "sizeBonus": null,
+    "targets": [
+      "Largemouth Bass",
+      "Smallmouth Bass"
+    ],
+    "desc": "Freshwater Bite Speed: +90",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/lure_popperblackmagic.png"
+      }
+    ],
+    "image": "resources/images/baits/lure_popperblackmagic.png"
+  },
+  {
+    "id": "popper_ghost",
+    "kind": "Lure",
+    "lureType": "Popper",
+    "color": "Ghost",
+    "name": "Popper - Ghost",
+    "type": "Freshwater",
+    "rarity": "Legendary",
+    "uses": 40,
+    "sizes": [
+      "4in"
+    ],
+    "likelihood": 100,
+    "sizeBonus": null,
+    "targets": [
+      "Northern Pike",
+      "Muskellunge",
+      "Tiger Muskellunge"
+    ],
+    "desc": "Freshwater Bite Speed: +90",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/lure_popperghost.png"
+      }
+    ],
+    "image": "resources/images/baits/lure_popperghost.png"
+  },
+  {
+    "id": "glide_bait_crystal",
+    "kind": "Lure",
+    "lureType": "Glide Bait",
+    "color": "Crystal",
+    "name": "Glide Bait - Crystal",
+    "type": "Freshwater",
+    "rarity": "Mythical",
+    "uses": 50,
+    "sizes": [
+      "8in"
+    ],
+    "likelihood": 100,
+    "sizeBonus": 5,
+    "targets": [
+      "Northern Pike",
+      "Muskellunge",
+      "Tiger Muskellunge"
+    ],
+    "desc": "Freshwater Bite Speed: -100",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/lure_glidebaitcrystal.png"
+      }
+    ],
+    "image": "resources/images/baits/lure_glidebaitcrystal.png"
+  },
+  {
+    "id": "glide_bait_bluegill",
+    "kind": "Lure",
+    "lureType": "Glide Bait",
+    "color": "Bluegill",
+    "name": "Glide Bait - Bluegill",
+    "type": "Freshwater",
+    "rarity": "Mythical",
+    "uses": 50,
+    "sizes": [
+      "8in"
+    ],
+    "likelihood": 100,
+    "sizeBonus": 5,
+    "targets": [
+      "Largemouth Bass",
+      "Smallmouth Bass"
+    ],
+    "desc": "Freshwater Bite Speed: -100",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/lure_glidebaitbluegill.png"
+      }
+    ],
+    "image": "resources/images/baits/lure_glidebaitbluegill.png"
+  },
+  {
+    "id": "bucktail_jig_chartreuse",
+    "kind": "Lure",
+    "lureType": "Bucktail Jig",
+    "color": "Chartreuse",
+    "name": "Bucktail Jig - Chartreuse",
+    "type": "Saltwater",
+    "rarity": "Epic",
+    "uses": 25,
+    "sizes": [
+      "1/2oz"
+    ],
+    "likelihood": 80,
+    "sizeBonus": null,
+    "targets": [
+      "Common Snook",
+      "Red Drum",
+      "Spotted Seatrout"
+    ],
+    "desc": "Saltwater Bite Speed: +75",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/lure_bucktail_jig_chartreuse.png"
+      }
+    ],
+    "image": "resources/images/baits/lure_bucktail_jig_chartreuse.png"
+  },
+  {
+    "id": "bucktail_jig_dark_shad",
+    "kind": "Lure",
+    "lureType": "Bucktail Jig",
+    "color": "Dark Shad",
+    "name": "Bucktail Jig - Dark Shad",
+    "type": "Saltwater",
+    "rarity": "Epic",
+    "uses": 25,
+    "sizes": [
+      "3/4oz"
+    ],
+    "likelihood": 80,
+    "sizeBonus": null,
+    "targets": [
+      "Spotted Seatrout",
+      "Striped Bass",
+      "Bluefish"
+    ],
+    "desc": "Saltwater Bite Speed: +75",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/lure_bucktail_jig_dark_shad.png"
+      }
+    ],
+    "image": "resources/images/baits/lure_bucktail_jig_dark_shad.png"
+  },
+  {
+    "id": "bucktail_jig_ghost",
+    "kind": "Lure",
+    "lureType": "Bucktail Jig",
+    "color": "Ghost",
+    "name": "Bucktail Jig - Ghost",
+    "type": "Saltwater",
+    "rarity": "Epic",
+    "uses": 25,
+    "sizes": [
+      "2oz"
+    ],
+    "likelihood": 90,
+    "sizeBonus": null,
+    "targets": [
+      "Common Snook",
+      "Spotted Seatrout",
+      "Red Drum",
+      "Striped Bass",
+      "Bluefish",
+      "Cobia",
+      "Mangrove Snapper",
+      "Mutton Snapper"
+    ],
+    "desc": "Saltwater Bite Speed: +75",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/lure_bucktail_jig_white.png"
+      }
+    ],
+    "image": "resources/images/baits/lure_bucktail_jig_white.png"
+  },
+  {
+    "id": "jerkbait_blueback_herring",
+    "kind": "Lure",
+    "lureType": "Jerkbait",
+    "color": "Blueback Herring",
+    "name": "Jerkbait - Blueback Herring",
+    "type": "Saltwater",
+    "rarity": "Epic",
+    "uses": 30,
+    "sizes": [
+      "4in",
+      "5in",
+      "6in"
+    ],
+    "likelihood": 80,
+    "sizeBonus": null,
+    "targets": [
+      "Trevallies",
+      "Tarpons",
+      "Snooks",
+      "Mackerels"
+    ],
+    "desc": "Saltwater Bite Speed: +65",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/lure_jerkbait_blueback_herring.png"
+      }
+    ],
+    "image": "resources/images/baits/lure_jerkbait_blueback_herring.png"
+  },
+  {
+    "id": "jerkbait_redhead",
+    "kind": "Lure",
+    "lureType": "Jerkbait",
+    "color": "Redhead",
+    "name": "Jerkbait - Redhead",
+    "type": "Saltwater",
+    "rarity": "Epic",
+    "uses": 30,
+    "sizes": [
+      "4in",
+      "5in",
+      "6in"
+    ],
+    "likelihood": 80,
+    "sizeBonus": null,
+    "targets": [
+      "Common Snook",
+      "Red Drum"
+    ],
+    "desc": "Saltwater Bite Speed: +65",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/lure_jerkbait_redhead.png"
+      }
+    ],
+    "image": "resources/images/baits/lure_jerkbait_redhead.png"
+  },
+  {
+    "id": "saltwater_spoon_gold",
+    "kind": "Lure",
+    "lureType": "Saltwater Spoon",
+    "color": "Gold",
+    "name": "Saltwater Spoon - Gold",
+    "type": "Saltwater",
+    "rarity": "Epic",
+    "uses": 25,
+    "sizes": [
+      "1/2oz"
+    ],
+    "likelihood": 80,
+    "sizeBonus": null,
+    "targets": [
+      "Barracudas",
+      "Mackerels",
+      "Jacks",
+      "Seabasses"
+    ],
+    "desc": "Saltwater Bite Speed: +70",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/lure_saltwater_spoon_gold.png"
+      }
+    ],
+    "image": "resources/images/baits/lure_saltwater_spoon_gold.png"
+  },
+  {
+    "id": "saltwater_spoon_silver",
+    "kind": "Lure",
+    "lureType": "Saltwater Spoon",
+    "color": "Silver",
+    "name": "Saltwater Spoon - Silver",
+    "type": "Saltwater",
+    "rarity": "Epic",
+    "uses": 25,
+    "sizes": [
+      "1/2oz"
+    ],
+    "likelihood": 85,
+    "sizeBonus": null,
+    "targets": [
+      "Barracudas",
+      "Mackerels",
+      "Jacks",
+      "Seabasses",
+      "Drums"
+    ],
+    "desc": "Saltwater Bite Speed: +80",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/lure_saltwater_spoon_silver.png"
+      }
+    ],
+    "image": "resources/images/baits/lure_saltwater_spoon_silver.png"
+  },
+  {
+    "id": "jerkbait_mullet",
+    "kind": "Lure",
+    "lureType": "Jerkbait",
+    "color": "Mullet",
+    "name": "Jerkbait - Mullet",
+    "type": "Saltwater",
+    "rarity": "Legendary",
+    "uses": 30,
+    "sizes": [
+      "4in",
+      "5in",
+      "6in"
+    ],
+    "likelihood": 90,
+    "sizeBonus": null,
+    "targets": [
+      "Trevallies",
+      "Tarpons",
+      "Snooks",
+      "Mackerels"
+    ],
+    "desc": "Saltwater Bite Speed: +110",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/lure_jerkbait_mullet.png"
+      }
+    ],
+    "image": "resources/images/baits/lure_jerkbait_mullet.png"
+  },
+  {
+    "id": "marlin_lure_blue",
+    "kind": "Lure",
+    "lureType": "Marlin Lure",
+    "color": "Blue",
+    "name": "Marlin Lure - Blue",
+    "type": "Saltwater",
+    "rarity": "Legendary",
+    "uses": 30,
+    "sizes": [
+      "14oz"
+    ],
+    "likelihood": 90,
+    "sizeBonus": null,
+    "targets": [
+      "Tunas"
+    ],
+    "desc": "Saltwater Bite Speed: +100",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/lure_marlin_lure_blue.png"
+      }
+    ],
+    "image": "resources/images/baits/lure_marlin_lure_blue.png"
+  },
+  {
+    "id": "marlin_lure_mini_mahi",
+    "kind": "Lure",
+    "lureType": "Marlin Lure",
+    "color": "Mini Mahi",
+    "name": "Marlin Lure - Mini Mahi",
+    "type": "Saltwater",
+    "rarity": "Legendary",
+    "uses": 30,
+    "sizes": [
+      "12oz"
+    ],
+    "likelihood": 90,
+    "sizeBonus": null,
+    "targets": [
+      "Mahi Mahis"
+    ],
+    "desc": "Saltwater Bite Speed: +100",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/lure_marlin_lure_mini_mahi.png"
+      }
+    ],
+    "image": "resources/images/baits/lure_marlin_lure_mini_mahi.png"
+  },
+  {
+    "id": "marlin_lure_purple",
+    "kind": "Lure",
+    "lureType": "Marlin Lure",
+    "color": "Purple",
+    "name": "Marlin Lure - Purple",
+    "type": "Saltwater",
+    "rarity": "Legendary",
+    "uses": 30,
+    "sizes": [
+      "16oz"
+    ],
+    "likelihood": 90,
+    "sizeBonus": null,
+    "targets": [
+      "Billfishes"
+    ],
+    "desc": "Saltwater Bite Speed: +100",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/lure_marlin_lure_purple.png"
+      }
+    ],
+    "image": "resources/images/baits/lure_marlin_lure_purple.png"
+  },
+  {
+    "id": "marlin_lure_blue_green",
+    "kind": "Lure",
+    "lureType": "Marlin Lure",
+    "color": "Blue Green",
+    "name": "Marlin Lure - Blue Green",
+    "type": "Saltwater",
+    "rarity": "Mythical",
+    "uses": 50,
+    "sizes": [
+      "12oz",
+      "14oz",
+      "16oz"
+    ],
+    "likelihood": 100,
+    "sizeBonus": 5,
+    "targets": [
+      "Billfishes"
+    ],
+    "desc": "Saltwater Bite Speed: +150",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/lure_marlinlure_greenblue.png"
+      }
+    ],
+    "image": "resources/images/baits/lure_marlinlure_greenblue.png"
+  },
+  {
+    "id": "frog_dark_rainforest",
+    "kind": "Lure",
+    "lureType": "Frog",
+    "color": "Dark Rainforest",
+    "name": "Frog - Dark Rainforest",
+    "type": "Amazon River",
+    "rarity": "Epic",
+    "uses": 30,
+    "sizes": [
+      "3/8oz",
+      "1/2oz",
+      "5/8oz"
+    ],
+    "likelihood": 80,
+    "sizeBonus": 2,
+    "targets": [
+      "Butterfly Peacock Bass",
+      "Speckled Peacock Bass"
+    ],
+    "desc": "Amazon River Bite Speed: +50",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/lure_frog_darkrainforest.png"
+      }
+    ],
+    "image": "resources/images/baits/lure_frog_darkrainforest.png"
+  },
+  {
+    "id": "spinner_bait_lime",
+    "kind": "Lure",
+    "lureType": "Spinner Bait",
+    "color": "Lime",
+    "name": "Spinner Bait - Lime",
+    "type": "Murray River",
+    "rarity": "Legendary",
+    "uses": 50,
+    "sizes": [
+      "1/4oz",
+      "3/8oz",
+      "1/2oz"
+    ],
+    "likelihood": 90,
+    "sizeBonus": 2,
+    "targets": [
+      "Murray Cod"
+    ],
+    "desc": "Murray River Bite Speed: +100",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/lure_spinnerbait_lime.png"
+      }
+    ],
+    "image": "resources/images/baits/lure_spinnerbait_lime.png"
+  },
+  {
+    "id": "popper_volcano",
+    "kind": "Lure",
+    "lureType": "Popper",
+    "color": "Volcano",
+    "name": "Popper - Volcano",
+    "type": "Amazon River",
+    "rarity": "Legendary",
+    "uses": 40,
+    "sizes": [
+      "4in"
+    ],
+    "likelihood": 100,
+    "sizeBonus": null,
+    "targets": [
+      "Speckled Peacock Bass",
+      "Butterfly Peacock Bass"
+    ],
+    "desc": "Amazon River Bite Speed: +90",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/lure_poppervolcano.png"
+      }
+    ],
+    "image": "resources/images/baits/lure_poppervolcano.png"
+  },
+  {
+    "id": "roostertail_white_shimmer",
+    "kind": "Lure",
+    "lureType": "Roostertail",
+    "color": "White Shimmer",
+    "name": "Roostertail - White Shimmer",
+    "type": "Universal",
+    "rarity": "Mythical",
+    "uses": 1,
+    "sizes": [
+      "1/4oz"
+    ],
+    "likelihood": null,
+    "sizeBonus": null,
+    "targets": [],
+    "desc": "Chance: +100%",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/lure_roostertail_albino_cropped.png"
+      }
+    ],
+    "image": "resources/images/baits/lure_roostertail_albino_cropped.png"
+  },
+  {
+    "id": "roostertail_black_shimmer",
+    "kind": "Lure",
+    "lureType": "Roostertail",
+    "color": "Black Shimmer",
+    "name": "Roostertail - Black Shimmer",
+    "type": "Universal",
+    "rarity": "Mythical",
+    "uses": 1,
+    "sizes": [
+      "1/4oz"
+    ],
+    "likelihood": null,
+    "sizeBonus": null,
+    "targets": [],
+    "desc": "Chance: +100%",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/lure_roostertail_melanistic_cropped.png"
+      }
+    ],
+    "image": "resources/images/baits/lure_roostertail_melanistic_cropped.png"
+  },
+  {
+    "id": "roostertail_golden_shimmer",
+    "kind": "Lure",
+    "lureType": "Roostertail",
+    "color": "Golden Shimmer",
+    "name": "Roostertail - Golden Shimmer",
+    "type": "Universal",
+    "rarity": "Mythical",
+    "uses": 1,
+    "sizes": [
+      "1/4oz"
+    ],
+    "likelihood": null,
+    "sizeBonus": null,
+    "targets": [],
+    "desc": "Chance: +100%",
+    "links": [
+      {
+        "rel": "image",
+        "href": "resources/images/baits/lure_roostertail_trophy_cropped.png"
+      }
+    ],
+    "image": "resources/images/baits/lure_roostertail_trophy_cropped.png"
+  }
+]
