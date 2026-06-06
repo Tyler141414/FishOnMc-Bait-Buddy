@@ -3,12 +3,11 @@ import { BaitViewModel, SpeciesViewModel } from '../../../../core/models/bait.mo
 import { SpeciesListComponent } from '../species-list/species-list.component';
 
 @Component({
-  selector: 'app-species-modal',
-  standalone: true,
-  imports: [SpeciesListComponent],
-  templateUrl: './species-modal.component.html',
-  styleUrl: './species-modal.component.css',
-  changeDetection: ChangeDetectionStrategy.OnPush,
+    selector: 'app-species-modal',
+    imports: [SpeciesListComponent],
+    templateUrl: './species-modal.component.html',
+    styleUrl: './species-modal.component.css',
+    changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class SpeciesModalComponent {
   @Input() isOpen = false;

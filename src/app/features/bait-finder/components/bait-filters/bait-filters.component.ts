@@ -3,12 +3,11 @@ import { FormsModule } from '@angular/forms';
 import { LocationInfo, RarityFilter, SelectOption } from '../../../../core/models/bait.models';
 
 @Component({
-  selector: 'app-bait-filters',
-  standalone: true,
-  imports: [FormsModule],
-  templateUrl: './bait-filters.component.html',
-  styleUrl: './bait-filters.component.css',
-  changeDetection: ChangeDetectionStrategy.OnPush,
+    selector: 'app-bait-filters',
+    imports: [FormsModule],
+    templateUrl: './bait-filters.component.html',
+    styleUrl: './bait-filters.component.css',
+    changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class BaitFiltersComponent {
   @Input({ required: true }) locations: LocationInfo[] = [];

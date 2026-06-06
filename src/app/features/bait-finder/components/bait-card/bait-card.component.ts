@@ -4,12 +4,11 @@ import { BaitViewModel } from '../../../../core/models/bait.models';
 import { FallbackImageComponent } from '../fallback-image/fallback-image.component';
 
 @Component({
-  selector: 'app-bait-card',
-  standalone: true,
-  imports: [CommonModule, FallbackImageComponent],
-  templateUrl: './bait-card.component.html',
-  styleUrl: './bait-card.component.css',
-  changeDetection: ChangeDetectionStrategy.OnPush,
+    selector: 'app-bait-card',
+    imports: [CommonModule, FallbackImageComponent],
+    templateUrl: './bait-card.component.html',
+    styleUrl: './bait-card.component.css',
+    changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class BaitCardComponent {
   @Input({ required: true }) bait!: BaitViewModel;

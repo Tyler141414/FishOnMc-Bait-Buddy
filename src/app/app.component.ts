@@ -6,13 +6,12 @@ import { BaitListComponent } from './features/bait-finder/components/bait-list/b
 import { SpeciesModalComponent } from './features/bait-finder/components/species-modal/species-modal.component';
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [BaitFiltersComponent, BaitListComponent, SpeciesModalComponent],
-  providers: [BaitFinderFacade],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css',
-  changeDetection: ChangeDetectionStrategy.OnPush,
+    selector: 'app-root',
+    imports: [BaitFiltersComponent, BaitListComponent, SpeciesModalComponent],
+    providers: [BaitFinderFacade],
+    templateUrl: './app.component.html',
+    styleUrl: './app.component.css',
+    changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class AppComponent implements OnInit {
   private readonly facade = inject(BaitFinderFacade);
