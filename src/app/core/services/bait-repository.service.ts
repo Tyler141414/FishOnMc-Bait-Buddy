@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Bait, LocationInfo, Species } from '../models/bait.models';
+import { assetUrl } from '../utils/asset-url.utils';
 import { normalizeSpeciesPayload } from '../utils/species-normalizer.utils';
 import { slugify } from '../utils/text.utils';
 
@@ -51,7 +52,7 @@ export class BaitRepositoryService {
   }
 
   private async loadJson<T>(path: string): Promise<T> {
-    const response = await fetch(path);
+    const response = await fetch(assetUrl(path), { cache: 'no-store' });
 
     if (!response.ok) {
       throw new Error(`Unable to load ${path}`);

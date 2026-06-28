@@ -1,4 +1,5 @@
 import { Bait, Species } from '../models/bait.models';
+import { assetUrl } from './asset-url.utils';
 import { fileSlug } from './text.utils';
 
 export function baitImageCandidates(bait: Bait): string[] {
@@ -15,7 +16,7 @@ export function baitImageCandidates(bait: Bait): string[] {
     `resources/images/baits/${slug}.webp`,
   );
 
-  return candidates.filter(Boolean);
+  return candidates.filter(Boolean).map(assetUrl);
 }
 
 export function speciesImageCandidates(species: Species): string[] {
@@ -37,5 +38,5 @@ export function speciesImageCandidates(species: Species): string[] {
     `resources/images/${dirName}/fish_${slug}.webp`,
   );
 
-  return candidates.filter(Boolean);
+  return candidates.filter(Boolean).map(assetUrl);
 }

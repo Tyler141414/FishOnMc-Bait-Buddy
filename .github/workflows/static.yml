@@ -40,6 +40,9 @@ jobs:
         run: npm ci
       - name: Build Angular app
         run: npm run build -- --base-href /FishOnMc-Bait-Buddy/
+      - name: Stamp deployed asset version
+        run: |
+          sed -i "s/content=\"dev\"/content=\"${GITHUB_SHA}\"/" dist/fish-onmc-bait-buddy/browser/index.html
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
