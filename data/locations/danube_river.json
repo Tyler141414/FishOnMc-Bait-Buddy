@@ -5,12 +5,6 @@
     "Fish Group": "Eurasian Minnows",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/White Bream/fish_whitebream.png"
-      }
-    ],
     "image": "resources/images/White Bream/fish_whitebream.png"
   },
   {
@@ -19,12 +13,6 @@
     "Fish Group": "Eurasian Minnows",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Roach/fish_roach.png"
-      }
-    ],
     "image": "resources/images/Roach/fish_roach.png"
   },
   {
@@ -33,12 +21,6 @@
     "Fish Group": "Perches",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/European Perch/fish_europeanperch.png"
-      }
-    ],
     "image": "resources/images/European Perch/fish_europeanperch.png"
   },
   {
@@ -47,12 +29,6 @@
     "Fish Group": "Eurasian Minnows",
     "Lifestyle": "Pelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Sichel/fish_sichel.png"
-      }
-    ],
     "image": "resources/images/Sichel/fish_sichel.png"
   },
   {
@@ -61,12 +37,6 @@
     "Fish Group": "Carps",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Crucian Carp/fish_cruciancarp.png"
-      }
-    ],
     "image": "resources/images/Crucian Carp/fish_cruciancarp.png"
   },
   {
@@ -75,12 +45,6 @@
     "Fish Group": "Eurasian Minnows",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Tench/fish_tench.png"
-      }
-    ],
     "image": "resources/images/Tench/fish_tench.png"
   },
   {
@@ -89,12 +53,6 @@
     "Fish Group": "Eurasian Minnows",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Freshwater Bream/fish_freshwaterbream.png"
-      }
-    ],
     "image": "resources/images/Freshwater Bream/fish_freshwaterbream.png"
   },
   {
@@ -103,12 +61,6 @@
     "Fish Group": "Barbels",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Barbel/fish_barbel.png"
-      }
-    ],
     "image": "resources/images/Barbel/fish_barbel.png"
   },
   {
@@ -117,12 +69,6 @@
     "Fish Group": "Eels",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/European Eel/fish_europeaneel.png"
-      }
-    ],
     "image": "resources/images/European Eel/fish_europeaneel.png"
   },
   {
@@ -131,12 +77,6 @@
     "Fish Group": "Eurasian Minnows",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Asp/fish_asp.png"
-      }
-    ],
     "image": "resources/images/Asp/fish_asp.png"
   },
   {
@@ -145,12 +85,6 @@
     "Fish Group": "Perches",
     "Lifestyle": "Pelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Zander/fish_zander.png"
-      }
-    ],
     "image": "resources/images/Zander/fish_zander.png"
   },
   {
@@ -159,12 +93,6 @@
     "Fish Group": "Sturgeons",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Sevruga Sturgeon/fish_sevrugasturgeon.png"
-      }
-    ],
     "image": "resources/images/Sevruga Sturgeon/fish_sevrugasturgeon.png"
   },
   {
@@ -173,12 +101,6 @@
     "Fish Group": "Sturgeons",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Sterlet Sturgeon/fish_sterletsturgeon.png"
-      }
-    ],
     "image": "resources/images/Sterlet Sturgeon/fish_sterletsturgeon.png"
   },
   {
@@ -187,12 +109,6 @@
     "Fish Group": "Sturgeons",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Common Sturgeon/fish_commonsturgeon.png"
-      }
-    ],
     "image": "resources/images/Common Sturgeon/fish_commonsturgeon.png"
   },
   {
@@ -201,12 +117,6 @@
     "Fish Group": "Salmons",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Huchen/fish_hutchen.png"
-      }
-    ],
     "image": "resources/images/Huchen/fish_hutchen.png"
   },
   {
@@ -215,12 +125,6 @@
     "Fish Group": "Catfishes",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Wels Catfish/fish_welscatfish.png"
-      }
-    ],
     "image": "resources/images/Wels Catfish/fish_welscatfish.png"
   },
   {
@@ -229,12 +133,6 @@
     "Fish Group": "Sturgeons",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Beluga Sturgeon/fish_belugasturgeon.png"
-      }
-    ],
     "image": "resources/images/Beluga Sturgeon/fish_belugasturgeon.png"
   }
 ]

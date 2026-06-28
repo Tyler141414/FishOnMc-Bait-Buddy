@@ -11,14 +11,7 @@
       "Eurasian Minnows",
       "Suckers"
     ],
-    "icon": "🍞",
     "desc": "Freshwater Bite Speed: +30",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_bread.png"
-      }
-    ],
     "image": "resources/images/baits/bait_bread.png"
   },
   {
@@ -31,14 +24,7 @@
     "targets": [
       "Carps"
     ],
-    "icon": "🍪",
     "desc": "Freshwater Bite Speed: +25",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_doughballs.png"
-      }
-    ],
     "image": "resources/images/baits/bait_doughballs.png"
   },
   {
@@ -51,14 +37,7 @@
     "targets": [
       "Salmons"
     ],
-    "icon": "🟣",
     "desc": "Freshwater Bite Speed: +25",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_pink_salmon_roe.png"
-      }
-    ],
     "image": "resources/images/baits/bait_pink_salmon_roe.png"
   },
   {
@@ -76,14 +55,7 @@
       "Barbels",
       "Temperate Perches"
     ],
-    "icon": "🪱",
     "desc": "Freshwater Bite Speed: +30",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_worm.png"
-      }
-    ],
     "image": "resources/images/baits/bait_worm.png"
   },
   {
@@ -97,14 +69,7 @@
       "Catfishes",
       "Drums"
     ],
-    "icon": null,
     "desc": "Freshwater Bite Speed: +25",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_zebra_mussels.png"
-      }
-    ],
     "image": "resources/images/baits/bait_zebra_mussels.png"
   },
   {
@@ -113,18 +78,11 @@
     "type": "Freshwater",
     "rarity": "Rare",
     "likelihood": 70,
-    "sizeBonus": null,
+    "sizeBonus": 1,
     "targets": [
       "Catfishes"
     ],
-    "icon": "🍗",
     "desc": "Freshwater Bite Speed: -50",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_chickennugget.png"
-      }
-    ],
     "image": "resources/images/baits/bait_chickennugget.png"
   },
   {
@@ -137,14 +95,7 @@
     "targets": [
       "Catfishes"
     ],
-    "icon": null,
     "desc": "Freshwater Bite Speed: -25",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_cut_shad.png"
-      }
-    ],
     "image": "resources/images/baits/bait_cut_shad.png"
   },
   {
@@ -158,14 +109,7 @@
       "Catfishes",
       "Carps"
     ],
-    "icon": null,
     "desc": "Freshwater Bite Speed: +25",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_french_fry.png"
-      }
-    ],
     "image": "resources/images/baits/bait_french_fry.png"
   },
   {
@@ -180,14 +124,7 @@
       "Pikes",
       "Perches"
     ],
-    "icon": "🐟",
     "desc": "Freshwater Bite Speed: +50",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_minnow.png"
-      }
-    ],
     "image": "resources/images/baits/bait_minnow.png"
   },
   {
@@ -206,14 +143,7 @@
       "Trouts",
       "Drums"
     ],
-    "icon": "🪱",
     "desc": "Freshwater Bite Speed: +50",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_nightcrawler.png"
-      }
-    ],
     "image": "resources/images/baits/bait_nightcrawler.png"
   },
   {
@@ -227,14 +157,7 @@
       "Basses",
       "Pikes"
     ],
-    "icon": null,
     "desc": "Freshwater Bite Speed: +50",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_shiner.png"
-      }
-    ],
     "image": "resources/images/baits/bait_shiner.png"
   },
   {
@@ -250,14 +173,7 @@
       "Rays",
       "Reptiles"
     ],
-    "icon": "🥩",
     "desc": "Freshwater Bite Speed: -75",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_chunkofmeat_small.png"
-      }
-    ],
     "image": "resources/images/baits/bait_chunkofmeat_small.png"
   },
   {
@@ -271,14 +187,7 @@
       "Carps",
       "Suckers"
     ],
-    "icon": null,
     "desc": "Freshwater Bite Speed: +50",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_sweetcorn.png"
-      }
-    ],
     "image": "resources/images/baits/bait_sweetcorn.png"
   },
   {
@@ -291,14 +200,7 @@
     "targets": [
       "Trouts"
     ],
-    "icon": null,
     "desc": "Freshwater Bite Speed: +40",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_powerbait_dough.png"
-      }
-    ],
     "image": "resources/images/baits/bait_powerbait_dough.png"
   },
   {
@@ -311,14 +213,7 @@
     "targets": [
       "Catfishes"
     ],
-    "icon": null,
     "desc": "Freshwater Bite Speed: -50",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_chickenliver.png"
-      }
-    ],
     "image": "resources/images/baits/bait_chickenliver.png"
   },
   {
@@ -331,14 +226,7 @@
     "targets": [
       "Salmons"
     ],
-    "icon": "🔴",
     "desc": "Freshwater Bite Speed: +75",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_chinook_salmon_roe.png"
-      }
-    ],
     "image": "resources/images/baits/bait_chinook_salmon_roe.png"
   },
   {
@@ -352,14 +240,7 @@
       "Catfishes",
       "Eels"
     ],
-    "icon": null,
     "desc": "Freshwater Bite Speed: -50",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_cut_bream.png"
-      }
-    ],
     "image": "resources/images/baits/bait_cut_bream.png"
   },
   {
@@ -373,14 +254,7 @@
       "Catfishes",
       "Gars"
     ],
-    "icon": null,
     "desc": "Freshwater Bite Speed: -75",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_cut_carp.png"
-      }
-    ],
     "image": "resources/images/baits/bait_cut_carp.png"
   },
   {
@@ -394,14 +268,7 @@
       "Zander",
       "Northern Pike"
     ],
-    "icon": null,
     "desc": "Freshwater Bite Speed: -50",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_cut_roach.png"
-      }
-    ],
     "image": "resources/images/baits/bait_cut_roach.png"
   },
   {
@@ -415,14 +282,7 @@
       "Sturgeons",
       "Catfishes"
     ],
-    "icon": null,
     "desc": "Freshwater Bite Speed: -75",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_hooknightcrawlers.png"
-      }
-    ],
     "image": "resources/images/baits/bait_hooknightcrawlers.png"
   },
   {
@@ -431,18 +291,11 @@
     "type": "Freshwater",
     "rarity": "Epic",
     "likelihood": 80,
-    "sizeBonus": null,
+    "sizeBonus": 1,
     "targets": [
       "Basses"
     ],
-    "icon": null,
     "desc": "Freshwater Bite Speed: +50",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_shad.png"
-      }
-    ],
     "image": "resources/images/baits/bait_shad.png"
   },
   {
@@ -456,14 +309,7 @@
       "Catfishes",
       "Gars"
     ],
-    "icon": "🦴",
     "desc": "Freshwater Bite Speed: -100",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_carp_head.png"
-      }
-    ],
     "image": "resources/images/baits/bait_carp_head.png"
   },
   {
@@ -472,19 +318,12 @@
     "type": "Freshwater",
     "rarity": "Legendary",
     "likelihood": 90,
-    "sizeBonus": null,
+    "sizeBonus": 4,
     "targets": [
       "Bonytongues",
       "Sharks"
     ],
-    "icon": null,
     "desc": "Freshwater Bite Speed: -100",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_chunkofmeat_large.png"
-      }
-    ],
     "image": "resources/images/baits/bait_chunkofmeat_large.png"
   },
   {
@@ -497,14 +336,7 @@
     "targets": [
       "American Alligator"
     ],
-    "icon": null,
     "desc": "Freshwater Bite Speed: -250",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_rottenchickenbait.png"
-      }
-    ],
     "image": "resources/images/baits/bait_rottenchickenbait.png"
   },
   {
@@ -520,14 +352,7 @@
       "Reef Fishes",
       "Drums"
     ],
-    "icon": null,
     "desc": "Saltwater Bite Speed: +30",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_clam.png"
-      }
-    ],
     "image": "resources/images/baits/bait_clam.png"
   },
   {
@@ -538,14 +363,7 @@
     "likelihood": null,
     "sizeBonus": null,
     "targets": [],
-    "icon": null,
     "desc": "Saltwater Bite Speed: +50",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_grass_shrimp.png"
-      }
-    ],
     "image": "resources/images/baits/bait_grass_shrimp.png"
   },
   {
@@ -560,14 +378,7 @@
       "Seabreams",
       "Drums"
     ],
-    "icon": null,
     "desc": "Saltwater Bite Speed: +25",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_sandflea.png"
-      }
-    ],
     "image": "resources/images/baits/bait_sandflea.png"
   },
   {
@@ -583,14 +394,7 @@
       "Drums",
       "Seabreams"
     ],
-    "icon": null,
     "desc": "Saltwater Bite Speed: +30",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_sandshrimp.png"
-      }
-    ],
     "image": "resources/images/baits/bait_sandshrimp.png"
   },
   {
@@ -607,14 +411,7 @@
       "Drums",
       "Seabasses"
     ],
-    "icon": null,
     "desc": "Saltwater Bite Speed: +25",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_ragworm.png"
-      }
-    ],
     "image": "resources/images/baits/bait_ragworm.png"
   },
   {
@@ -629,14 +426,7 @@
       "Snappers",
       "Reef Fishes"
     ],
-    "icon": null,
     "desc": "Saltwater Bite Speed: +35",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_scallop.png"
-      }
-    ],
     "image": "resources/images/baits/bait_scallop.png"
   },
   {
@@ -648,21 +438,14 @@
     "sizeBonus": null,
     "targets": [
       "Snappers",
-      "Flounders",
+      "Flatfishes",
       "Seabasses",
       "Grunts",
       "Jacks",
       "Seabreams",
       "Mullets"
     ],
-    "icon": null,
     "desc": "Saltwater Bite Speed: +30",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_cut_squid.png"
-      }
-    ],
     "image": "resources/images/baits/bait_cut_squid.png"
   },
   {
@@ -675,14 +458,7 @@
     "targets": [
       "Demersal"
     ],
-    "icon": null,
     "desc": "Saltwater Bite Speed: +50",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_cut_octopus.png"
-      }
-    ],
     "image": "resources/images/baits/bait_cut_octopus.png"
   },
   {
@@ -696,14 +472,7 @@
       "Drums",
       "Seabreams"
     ],
-    "icon": null,
     "desc": "Saltwater Bite Speed: +50",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_fiddler_crab.png"
-      }
-    ],
     "image": "resources/images/baits/bait_fiddler_crab.png"
   },
   {
@@ -718,14 +487,7 @@
       "Seabasses",
       "Cods"
     ],
-    "icon": null,
     "desc": "Saltwater Bite Speed: +40",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_threadfin_herring.png"
-      }
-    ],
     "image": "resources/images/baits/bait_threadfin_herring.png"
   },
   {
@@ -742,14 +504,7 @@
       "Groupers",
       "Wrasses"
     ],
-    "icon": null,
     "desc": "Saltwater Bite Speed: +50",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_cut_squid.png"
-      }
-    ],
     "image": "resources/images/baits/bait_cut_squid.png"
   },
   {
@@ -763,14 +518,7 @@
       "Jacks",
       "Mackerels"
     ],
-    "icon": null,
     "desc": "Saltwater Bite Speed: +40",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_gulf_menhaden.png"
-      }
-    ],
     "image": "resources/images/baits/bait_gulf_menhaden.png"
   },
   {
@@ -786,14 +534,7 @@
       "Eels",
       "Jacks"
     ],
-    "icon": null,
     "desc": "Saltwater Bite Speed: +50",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_mulletbait.png"
-      }
-    ],
     "image": "resources/images/baits/bait_mulletbait.png"
   },
   {
@@ -809,14 +550,7 @@
       "Reef Fishes",
       "Drums"
     ],
-    "icon": null,
     "desc": "Saltwater Bite Speed: +50",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_mussels.png"
-      }
-    ],
     "image": "resources/images/baits/bait_mussels.png"
   },
   {
@@ -830,14 +564,7 @@
       "Snappers",
       "Jacks"
     ],
-    "icon": null,
     "desc": "Saltwater Bite Speed: +50",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_bonito_cutbait.png"
-      }
-    ],
     "image": "resources/images/baits/bait_bonito_cutbait.png"
   },
   {
@@ -855,14 +582,7 @@
       "Wrasses",
       "Reef Fishes"
     ],
-    "icon": null,
     "desc": "Saltwater Bite Speed: +50",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_white_shrimp.png"
-      }
-    ],
     "image": "resources/images/baits/bait_white_shrimp.png"
   },
   {
@@ -878,14 +598,7 @@
       "Groupers",
       "Seabasses"
     ],
-    "icon": null,
     "desc": "Saltwater Bite Speed: +75",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_cut_mullet.png"
-      }
-    ],
     "image": "resources/images/baits/bait_cut_mullet.png"
   },
   {
@@ -900,14 +613,7 @@
       "Trevallies",
       "Tunas"
     ],
-    "icon": null,
     "desc": "Saltwater Bite Speed: +80",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_mackerel_livebait.png"
-      }
-    ],
     "image": "resources/images/baits/bait_mackerel_livebait.png"
   },
   {
@@ -926,14 +632,7 @@
       "Spotted Seatrout",
       "Great Barracuda"
     ],
-    "icon": null,
     "desc": "Saltwater Bite Speed: +110",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_pinfishbait.png"
-      }
-    ],
     "image": "resources/images/baits/bait_pinfishbait.png"
   },
   {
@@ -946,14 +645,7 @@
     "targets": [
       "Snappers"
     ],
-    "icon": null,
     "desc": "Saltwater Bite Speed: +70",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_sardine.png"
-      }
-    ],
     "image": "resources/images/baits/bait_sardine.png"
   },
   {
@@ -966,14 +658,7 @@
     "targets": [
       "Pelagic"
     ],
-    "icon": null,
     "desc": "Saltwater Bite Speed: +110",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_ballyhoo.png"
-      }
-    ],
     "image": "resources/images/baits/bait_ballyhoo.png"
   },
   {
@@ -988,14 +673,7 @@
       "Billfishes",
       "Sharks"
     ],
-    "icon": null,
     "desc": "Saltwater Bite Speed: +110",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_bonito_livebait.png"
-      }
-    ],
     "image": "resources/images/baits/bait_bonito_livebait.png"
   },
   {
@@ -1008,14 +686,7 @@
     "targets": [
       "Sharks"
     ],
-    "icon": null,
     "desc": "Saltwater Bite Speed: +100",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_cownose_ray_cutbait.png"
-      }
-    ],
     "image": "resources/images/baits/bait_cownose_ray_cutbait.png"
   },
   {
@@ -1028,14 +699,7 @@
     "targets": [
       "Sharks"
     ],
-    "icon": null,
     "desc": "Saltwater Bite Speed: +100",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_cutbait.png"
-      }
-    ],
     "image": "resources/images/baits/bait_cutbait.png"
   },
   {
@@ -1050,14 +714,7 @@
       "Groupers",
       "Tunas"
     ],
-    "icon": null,
     "desc": "Saltwater Bite Speed: +100",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_cut_squid.png"
-      }
-    ],
     "image": "resources/images/baits/bait_cut_squid.png"
   },
   {
@@ -1071,14 +728,7 @@
       "Atlantic Halibut",
       "Pacific Halibut"
     ],
-    "icon": null,
     "desc": "Saltwater Bite Speed: -50",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_sea_run_salmon_head.png"
-      }
-    ],
     "image": "resources/images/baits/bait_sea_run_salmon_head.png"
   },
   {
@@ -1086,7 +736,7 @@
     "name": "Bardi Grub",
     "type": "Murray River",
     "rarity": "Rare",
-    "likelihood": 70,
+    "likelihood": 75,
     "sizeBonus": null,
     "targets": [
       "Murray Cod",
@@ -1094,14 +744,7 @@
       "Silver Perch",
       "Trout Cod"
     ],
-    "icon": null,
     "desc": "Murray River Bite Speed: +50",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_bardi_grub.png"
-      }
-    ],
     "image": "resources/images/baits/bait_bardi_grub.png"
   },
   {
@@ -1115,14 +758,7 @@
       "Catfishes",
       "Rays"
     ],
-    "icon": null,
     "desc": "Amazon River Bite Speed: -50",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_cut_piranha.png"
-      }
-    ],
     "image": "resources/images/baits/bait_cut_piranha.png"
   },
   {
@@ -1133,18 +769,12 @@
     "likelihood": 75,
     "sizeBonus": null,
     "targets": [
-      "Basses",
-      "Seabasses",
-      "Flatfishes"
+      "Striped Bass",
+      "Bluefish",
+      "White Flounder",
+      "Summer Flounder"
     ],
-    "icon": null,
     "desc": "Cape Cod Bite Speed: +60",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_sandeel.png"
-      }
-    ],
     "image": "resources/images/baits/bait_sandeel.png"
   },
   {
@@ -1159,14 +789,7 @@
       "Drums",
       "Catfishes"
     ],
-    "icon": null,
     "desc": "Everglades Bite Speed: +75",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_florida_crawfish.png"
-      }
-    ],
     "image": "resources/images/baits/bait_florida_crawfish.png"
   },
   {
@@ -1181,14 +804,7 @@
       "Drums",
       "Catfishes"
     ],
-    "icon": null,
     "desc": "Toledo Bend Reservoir Bite Speed: +75",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_louisiana_crawfish.png"
-      }
-    ],
     "image": "resources/images/baits/bait_louisiana_crawfish.png"
   },
   {
@@ -1201,14 +817,7 @@
     "targets": [
       "Murray Cod"
     ],
-    "icon": null,
     "desc": "Murray River Likelihood: 80%",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_mozzarella.png"
-      }
-    ],
     "image": "resources/images/baits/bait_mozzarella.png"
   },
   {
@@ -1222,14 +831,7 @@
       "Basses",
       "Perches"
     ],
-    "icon": null,
     "desc": "Great Lakes Bite Speed: +75",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_rusty_crawfish.png"
-      }
-    ],
     "image": "resources/images/baits/bait_rusty_crawfish.png"
   },
   {
@@ -1237,21 +839,14 @@
     "name": "Yabby Crawfish",
     "type": "Murray River",
     "rarity": "Epic",
-    "likelihood": 90,
+    "likelihood": 80,
     "sizeBonus": null,
     "targets": [
       "Murray Cod",
       "Trout Cod",
       "Golden Perch"
     ],
-    "icon": null,
     "desc": "Murray River Bite Speed: -100",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_yabby_crawfish.png"
-      }
-    ],
     "image": "resources/images/baits/bait_yabby_crawfish.png"
   },
   {
@@ -1264,14 +859,7 @@
     "targets": [
       "Cods"
     ],
-    "icon": null,
     "desc": "Murray River Bite Speed: +75",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/bait_murray_crawfish.png"
-      }
-    ],
     "image": "resources/images/baits/bait_murray_crawfish.png"
   }
 ]

@@ -5,12 +5,6 @@
     "Fish Group": "Trouts",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Cutthroat Trout/fish_cutthroattrout.png"
-      }
-    ],
     "image": "resources/images/Cutthroat Trout/fish_cutthroattrout.png"
   },
   {
@@ -19,12 +13,6 @@
     "Fish Group": "Salmons",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Pink Salmon/fish_pinksalmon.png"
-      }
-    ],
     "image": "resources/images/Pink Salmon/fish_pinksalmon.png"
   },
   {
@@ -33,12 +21,6 @@
     "Fish Group": "Trouts",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Arctic Grayling/fish_arcticgrayling.png"
-      }
-    ],
     "image": "resources/images/Arctic Grayling/fish_arcticgrayling.png"
   },
   {
@@ -47,12 +29,6 @@
     "Fish Group": "Trouts",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Dolly Varden/fish_dollyvarden.png"
-      }
-    ],
     "image": "resources/images/Dolly Varden/fish_dollyvarden.png"
   },
   {
@@ -61,12 +37,6 @@
     "Fish Group": "Trouts",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Arctic Char/fish_arcticchar.png"
-      }
-    ],
     "image": "resources/images/Arctic Char/fish_arcticchar.png"
   },
   {
@@ -75,12 +45,6 @@
     "Fish Group": "Whitefishes",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Inconnu/fish_inconnu.png"
-      }
-    ],
     "image": "resources/images/Inconnu/fish_inconnu.png"
   },
   {
@@ -89,12 +53,6 @@
     "Fish Group": "Cods",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Burbot/fish_burbot.png"
-      }
-    ],
     "image": "resources/images/Burbot/fish_burbot.png"
   },
   {
@@ -103,12 +61,6 @@
     "Fish Group": "Salmons",
     "Lifestyle": "Pelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Sockeye Salmon/fish_sockeyesalmon.png"
-      }
-    ],
     "image": "resources/images/Sockeye Salmon/fish_sockeyesalmon.png"
   },
   {
@@ -117,12 +69,6 @@
     "Fish Group": "Trouts",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Rainbow Trout/fish_rainbowtrout.png"
-      }
-    ],
     "image": "resources/images/Rainbow Trout/fish_rainbowtrout.png"
   },
   {
@@ -131,12 +77,6 @@
     "Fish Group": "Trouts",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Lake Trout/fish_laketrout.png"
-      }
-    ],
     "image": "resources/images/Lake Trout/fish_laketrout.png"
   },
   {
@@ -145,12 +85,6 @@
     "Fish Group": "Salmons",
     "Lifestyle": "Pelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Coho Salmon/fish_cohosalmon.png"
-      }
-    ],
     "image": "resources/images/Coho Salmon/fish_cohosalmon.png"
   },
   {
@@ -159,12 +93,6 @@
     "Fish Group": "Salmons",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Chum Salmon/fish_chumsalmon.png"
-      }
-    ],
     "image": "resources/images/Chum Salmon/fish_chumsalmon.png"
   },
   {
@@ -173,12 +101,6 @@
     "Fish Group": "Trouts",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Steelhead/fish_steelhead.png"
-      }
-    ],
     "image": "resources/images/Steelhead/fish_steelhead.png"
   },
   {
@@ -187,12 +109,6 @@
     "Fish Group": "Salmons",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/King Salmon/fish_kingsalmon.png"
-      }
-    ],
     "image": "resources/images/King Salmon/fish_kingsalmon.png"
   },
   {
@@ -201,12 +117,6 @@
     "Fish Group": "Pikes",
     "Lifestyle": "Pelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Northern Pike/fish_northernpike.png"
-      }
-    ],
     "image": "resources/images/Northern Pike/fish_northernpike.png"
   }
 ]

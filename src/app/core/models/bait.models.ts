@@ -11,11 +11,6 @@ export interface LocationInfo {
   slug?: string;
 }
 
-export interface LinkInfo {
-  rel?: string;
-  href?: string;
-}
-
 export interface Bait {
   id?: string;
   kind?: 'Bait' | 'Lure' | string;
@@ -29,11 +24,8 @@ export interface Bait {
   uses?: number;
   sizes?: string[];
   targets?: string[];
-  icon?: string | null;
   desc?: string;
   image?: string;
-  links?: LinkInfo[];
-  Links?: LinkInfo[];
 }
 
 export interface Species {
@@ -49,8 +41,6 @@ export interface Species {
   'Ecosystem Role'?: string;
   ecosystemRole?: string;
   image?: string;
-  links?: LinkInfo[];
-  Links?: LinkInfo[];
 }
 
 export interface BaitViewModel extends Bait {

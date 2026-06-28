@@ -28,7 +28,7 @@
   box-shadow: 0 0 0 3px var(--focus-ring), var(--shadow-sm);
 }
 
-.left .icon {
+.left .bait-media {
   align-items: center;
   background: var(--card-muted);
   border: 1px solid var(--line);
@@ -39,7 +39,7 @@
   width: 64px;
 }
 
-.bait:hover .left .icon {
+.bait:hover .left .bait-media {
   transform: scale(1.03);
 }
 
@@ -106,7 +106,7 @@
     padding: 12px;
   }
 
-  .left .icon {
+  .left .bait-media {
     height: 56px;
     width: 56px;
   }

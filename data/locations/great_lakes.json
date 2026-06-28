@@ -5,12 +5,6 @@
     "Fish Group": "Panfishes",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Yellow Perch/fish_yellowperch.png"
-      }
-    ],
     "image": "resources/images/Yellow Perch/fish_yellowperch.png"
   },
   {
@@ -19,12 +13,6 @@
     "Fish Group": "Trouts",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Brook Trout/fish_brooktrout.png"
-      }
-    ],
     "image": "resources/images/Brook Trout/fish_brooktrout.png"
   },
   {
@@ -33,12 +21,6 @@
     "Fish Group": "Panfishes",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Pumpkinseed/fish_pumpkinseed.png"
-      }
-    ],
     "image": "resources/images/Pumpkinseed/fish_pumpkinseed.png"
   },
   {
@@ -47,12 +29,6 @@
     "Fish Group": "Catfishes",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Brown Bullhead Catfish/fish_brownbullheadcatfish.png"
-      }
-    ],
     "image": "resources/images/Brown Bullhead Catfish/fish_brownbullheadcatfish.png"
   },
   {
@@ -61,12 +37,6 @@
     "Fish Group": "Catfishes",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Yellow Bullhead Catfish/fish_yellowbullheadcatfish.png"
-      }
-    ],
     "image": "resources/images/Yellow Bullhead Catfish/fish_yellowbullheadcatfish.png"
   },
   {
@@ -75,12 +45,6 @@
     "Fish Group": "Whitefishes",
     "Lifestyle": "Pelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Cisco/fish_lakeherring.png"
-      }
-    ],
     "image": "resources/images/Cisco/fish_lakeherring.png"
   },
   {
@@ -89,12 +53,6 @@
     "Fish Group": "Panfishes",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/White Perch/fish_whiteperch.png"
-      }
-    ],
     "image": "resources/images/White Perch/fish_whiteperch.png"
   },
   {
@@ -103,12 +61,6 @@
     "Fish Group": "Whitefishes",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Lake Whitefish/fish_lakewhitefish.png"
-      }
-    ],
     "image": "resources/images/Lake Whitefish/fish_lakewhitefish.png"
   },
   {
@@ -117,12 +69,6 @@
     "Fish Group": "Salmons",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Pink Salmon/fish_pinksalmon.png"
-      }
-    ],
     "image": "resources/images/Pink Salmon/fish_pinksalmon.png"
   },
   {
@@ -131,12 +77,6 @@
     "Fish Group": "Basses",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Smallmouth Bass/fish_smallmouthbass.png"
-      }
-    ],
     "image": "resources/images/Smallmouth Bass/fish_smallmouthbass.png"
   },
   {
@@ -145,12 +85,6 @@
     "Fish Group": "Suckers",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/White Sucker/fish_whitesucker.png"
-      }
-    ],
     "image": "resources/images/White Sucker/fish_whitesucker.png"
   },
   {
@@ -159,12 +93,6 @@
     "Fish Group": "Trouts",
     "Lifestyle": "Pelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Brown Trout/fish_browntrout.png"
-      }
-    ],
     "image": "resources/images/Brown Trout/fish_browntrout.png"
   },
   {
@@ -173,12 +101,6 @@
     "Fish Group": "Drums",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Freshwater Drum/fish_freshwaterdrum.png"
-      }
-    ],
     "image": "resources/images/Freshwater Drum/fish_freshwaterdrum.png"
   },
   {
@@ -187,12 +109,6 @@
     "Fish Group": "Cods",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Burbot/fish_burbot.png"
-      }
-    ],
     "image": "resources/images/Burbot/fish_burbot.png"
   },
   {
@@ -201,12 +117,6 @@
     "Fish Group": "Catfishes",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Channel Catfish/fish_channelcatfish.png"
-      }
-    ],
     "image": "resources/images/Channel Catfish/fish_channelcatfish.png"
   },
   {
@@ -215,12 +125,6 @@
     "Fish Group": "Basses",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Largemouth Bass/fish_largemouthbass.png"
-      }
-    ],
     "image": "resources/images/Largemouth Bass/fish_largemouthbass.png"
   },
   {
@@ -229,12 +133,6 @@
     "Fish Group": "Salmons",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Atlantic Salmon/fish_atlanticsalmon.png"
-      }
-    ],
     "image": "resources/images/Atlantic Salmon/fish_atlanticsalmon.png"
   },
   {
@@ -243,12 +141,6 @@
     "Fish Group": "Trouts",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Lake Trout/fish_laketrout.png"
-      }
-    ],
     "image": "resources/images/Lake Trout/fish_laketrout.png"
   },
   {
@@ -257,12 +149,6 @@
     "Fish Group": "Perches",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Walleye/fish_walleye.png"
-      }
-    ],
     "image": "resources/images/Walleye/fish_walleye.png"
   },
   {
@@ -271,12 +157,6 @@
     "Fish Group": "Perches",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Sauger/fish_sauger.png"
-      }
-    ],
     "image": "resources/images/Sauger/fish_sauger.png"
   },
   {
@@ -285,12 +165,6 @@
     "Fish Group": "Pikes",
     "Lifestyle": "Pelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Northern Pike/fish_northernpike.png"
-      }
-    ],
     "image": "resources/images/Northern Pike/fish_northernpike.png"
   },
   {
@@ -299,12 +173,6 @@
     "Fish Group": "Pikes",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Muskellunge/fish_muskellunge.png"
-      }
-    ],
     "image": "resources/images/Muskellunge/fish_muskellunge.png"
   },
   {
@@ -313,12 +181,6 @@
     "Fish Group": "Perches",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Saugeye/fish_saugeye.png"
-      }
-    ],
     "image": "resources/images/Saugeye/fish_saugeye.png"
   },
   {
@@ -327,12 +189,6 @@
     "Fish Group": "Pikes",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Tiger Muskellunge/fish_tigermuskellunge.png"
-      }
-    ],
     "image": "resources/images/Tiger Muskellunge/fish_tigermuskellunge.png"
   },
   {
@@ -341,12 +197,6 @@
     "Fish Group": "Sturgeons",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Lake Sturgeon/fish_lakesturgeon.png"
-      }
-    ],
     "image": "resources/images/Lake Sturgeon/fish_lakesturgeon.png"
   }
 ]

@@ -5,12 +5,6 @@
     "Fish Group": "Snappers",
     "Lifestyle": "Reef",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Crimson Snapper/fish_crimsonsnapper.png"
-      }
-    ],
     "image": "resources/images/Crimson Snapper/fish_crimsonsnapper.png"
   },
   {
@@ -19,12 +13,6 @@
     "Fish Group": "Drums",
     "Lifestyle": "Reef",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Doublespotted Queenfish/fish_doublespottedqueenfish.png"
-      }
-    ],
     "image": "resources/images/Doublespotted Queenfish/fish_doublespottedqueenfish.png"
   },
   {
@@ -33,12 +21,6 @@
     "Fish Group": "Snappers",
     "Lifestyle": "Reef",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Mangrove Red Snapper/fish_mangroveredsnapper.png"
-      }
-    ],
     "image": "resources/images/Mangrove Red Snapper/fish_mangroveredsnapper.png"
   },
   {
@@ -47,12 +29,6 @@
     "Fish Group": "Snappers",
     "Lifestyle": "Reef",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Russell's Snapper/fish_russelssnapper.png"
-      }
-    ],
     "image": "resources/images/Russell's Snapper/fish_russelssnapper.png"
   },
   {
@@ -61,12 +37,6 @@
     "Fish Group": "Snappers",
     "Lifestyle": "Reef",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Malabar Blood Snapper/fish_malabarbloodsnapper.png"
-      }
-    ],
     "image": "resources/images/Malabar Blood Snapper/fish_malabarbloodsnapper.png"
   },
   {
@@ -75,12 +45,6 @@
     "Fish Group": "Groupers",
     "Lifestyle": "Reef",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Camouflage Grouper/fish_camouflagegrouper.png"
-      }
-    ],
     "image": "resources/images/Camouflage Grouper/fish_camouflagegrouper.png"
   },
   {
@@ -89,12 +53,6 @@
     "Fish Group": "Groupers",
     "Lifestyle": "Reef",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Greasy Grouper/fish_greasygrouper.png"
-      }
-    ],
     "image": "resources/images/Greasy Grouper/fish_greasygrouper.png"
   },
   {
@@ -103,12 +61,6 @@
     "Fish Group": "Groupers",
     "Lifestyle": "Reef",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Brown-marbled Grouper/fish_brownmarbledgrouper.png"
-      }
-    ],
     "image": "resources/images/Brown-marbled Grouper/fish_brownmarbledgrouper.png"
   },
   {
@@ -117,12 +69,6 @@
     "Fish Group": "Snappers",
     "Lifestyle": "Reef",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Rusty Jobfish/fish_rustyjobfish.png"
-      }
-    ],
     "image": "resources/images/Rusty Jobfish/fish_rustyjobfish.png"
   },
   {
@@ -131,12 +77,6 @@
     "Fish Group": "Mackerels",
     "Lifestyle": "Pelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Broad-barred King Mackerel/fish_broadbarredspanishmackerel.png"
-      }
-    ],
     "image": "resources/images/Broad-barred King Mackerel/fish_broadbarredspanishmackerel.png"
   },
   {
@@ -145,12 +85,6 @@
     "Fish Group": "Tunas",
     "Lifestyle": "Pelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Australian Bonito/fish_australianbonito.png"
-      }
-    ],
     "image": "resources/images/Australian Bonito/fish_australianbonito.png"
   },
   {
@@ -159,12 +93,6 @@
     "Fish Group": "Mackerels",
     "Lifestyle": "Pelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Australian Spotted Mackerel/fish_australianspottedmackerel.png"
-      }
-    ],
     "image": "resources/images/Australian Spotted Mackerel/fish_australianspottedmackerel.png"
   },
   {
@@ -173,12 +101,6 @@
     "Fish Group": "Jacks",
     "Lifestyle": "Reef",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Rainbow Runner/fish_rainbowrunner.png"
-      }
-    ],
     "image": "resources/images/Rainbow Runner/fish_rainbowrunner.png"
   },
   {
@@ -187,12 +109,6 @@
     "Fish Group": "Sharks",
     "Lifestyle": "Reef",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Whitetip Reef Shark/fish_whitetipreefshark.png"
-      }
-    ],
     "image": "resources/images/Whitetip Reef Shark/fish_whitetipreefshark.png"
   },
   {
@@ -201,12 +117,6 @@
     "Fish Group": "Eels",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Pike Eel/fish_pikeeel.png"
-      }
-    ],
     "image": "resources/images/Pike Eel/fish_pikeeel.png"
   },
   {
@@ -215,12 +125,6 @@
     "Fish Group": "Groupers",
     "Lifestyle": "Reef",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Coral Trout/fish_coraltrout.png"
-      }
-    ],
     "image": "resources/images/Coral Trout/fish_coraltrout.png"
   },
   {
@@ -229,12 +133,6 @@
     "Fish Group": "Trevallies",
     "Lifestyle": "Reef",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Yellowspotted Trevally/fish_yellowspottedtrevally.png"
-      }
-    ],
     "image": "resources/images/Yellowspotted Trevally/fish_yellowspottedtrevally.png"
   },
   {
@@ -243,12 +141,6 @@
     "Fish Group": "Trevallies",
     "Lifestyle": "Reef",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Bluefin Trevally/fish_bluefintrevally.png"
-      }
-    ],
     "image": "resources/images/Bluefin Trevally/fish_bluefintrevally.png"
   },
   {
@@ -257,12 +149,6 @@
     "Fish Group": "Trevallies",
     "Lifestyle": "Reef",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Golden Trevally/fish_goldentrevally.png"
-      }
-    ],
     "image": "resources/images/Golden Trevally/fish_goldentrevally.png"
   },
   {
@@ -271,12 +157,6 @@
     "Fish Group": "Flatheads",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Dusky Flathead/fish_duskyflathead.png"
-      }
-    ],
     "image": "resources/images/Dusky Flathead/fish_duskyflathead.png"
   },
   {
@@ -285,12 +165,6 @@
     "Fish Group": "Trevallies",
     "Lifestyle": "Reef",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Bigeye Trevally/fish_bigeyetrevally.png"
-      }
-    ],
     "image": "resources/images/Bigeye Trevally/fish_bigeyetrevally.png"
   },
   {
@@ -299,12 +173,6 @@
     "Fish Group": "Tunas",
     "Lifestyle": "Pelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Longtail Tuna/fish_longtailtuna.png"
-      }
-    ],
     "image": "resources/images/Longtail Tuna/fish_longtailtuna.png"
   },
   {
@@ -313,12 +181,6 @@
     "Fish Group": "Snappers",
     "Lifestyle": "Reef",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Red Emperor/fish_redemperor.png"
-      }
-    ],
     "image": "resources/images/Red Emperor/fish_redemperor.png"
   },
   {
@@ -327,12 +189,6 @@
     "Fish Group": "Snappers",
     "Lifestyle": "Reef",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Australasian Snapper/fish_australasiansnapper.png"
-      }
-    ],
     "image": "resources/images/Australasian Snapper/fish_australasiansnapper.png"
   },
   {
@@ -341,12 +197,6 @@
     "Fish Group": "Squids",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Bigfin Reef Squid/fish_bigfinreefsquid.png"
-      }
-    ],
     "image": "resources/images/Bigfin Reef Squid/fish_bigfinreefsquid.png"
   },
   {
@@ -355,12 +205,6 @@
     "Fish Group": "Groupers",
     "Lifestyle": "Reef",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Potato Grouper/fish_potatogrouper.png"
-      }
-    ],
     "image": "resources/images/Potato Grouper/fish_potatogrouper.png"
   },
   {
@@ -369,12 +213,6 @@
     "Fish Group": "Sharks",
     "Lifestyle": "Reef",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Gray Reef Shark/fish_grayreefshark.png"
-      }
-    ],
     "image": "resources/images/Gray Reef Shark/fish_grayreefshark.png"
   },
   {
@@ -383,12 +221,6 @@
     "Fish Group": "Threadfins",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/King Threadfin/fish_kingthreadfin.png"
-      }
-    ],
     "image": "resources/images/King Threadfin/fish_kingthreadfin.png"
   },
   {
@@ -397,12 +229,6 @@
     "Fish Group": "Tunas",
     "Lifestyle": "Reef",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Dogtooth Tuna/fish_dogtoothtuna.png"
-      }
-    ],
     "image": "resources/images/Dogtooth Tuna/fish_dogtoothtuna.png"
   },
   {
@@ -411,12 +237,6 @@
     "Fish Group": "Trevallies",
     "Lifestyle": "Reef",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Giant Trevally/fish_gianttrevally.png"
-      }
-    ],
     "image": "resources/images/Giant Trevally/fish_gianttrevally.png"
   },
   {
@@ -425,12 +245,6 @@
     "Fish Group": "Sharks",
     "Lifestyle": "Reef",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Sand Tiger Shark/fish_sandtigershark.png"
-      }
-    ],
     "image": "resources/images/Sand Tiger Shark/fish_sandtigershark.png"
   },
   {
@@ -439,12 +253,6 @@
     "Fish Group": "Sharks",
     "Lifestyle": "Reef",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Silvertip Shark/fish_silvertipshark.png"
-      }
-    ],
     "image": "resources/images/Silvertip Shark/fish_silvertipshark.png"
   },
   {
@@ -453,12 +261,6 @@
     "Fish Group": "Wrasses",
     "Lifestyle": "Reef",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Humphead Wrasse/fish_humpheadwrasse.png"
-      }
-    ],
     "image": "resources/images/Humphead Wrasse/fish_humpheadwrasse.png"
   },
   {
@@ -467,12 +269,6 @@
     "Fish Group": "Billfishes",
     "Lifestyle": "Pelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Indo-Pacific Sailfish/fish_indopacificsailfish.png"
-      }
-    ],
     "image": "resources/images/Indo-Pacific Sailfish/fish_indopacificsailfish.png"
   },
   {
@@ -481,12 +277,6 @@
     "Fish Group": "Tunas",
     "Lifestyle": "Pelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Yellowfin Tuna/fish_yellowfintuna.png"
-      }
-    ],
     "image": "resources/images/Yellowfin Tuna/fish_yellowfintuna.png"
   },
   {
@@ -495,12 +285,6 @@
     "Fish Group": "Sharks",
     "Lifestyle": "Pelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Oceanic Whitetip Shark/fish_oceanicwhitetipshark.png"
-      }
-    ],
     "image": "resources/images/Oceanic Whitetip Shark/fish_oceanicwhitetipshark.png"
   },
   {
@@ -509,12 +293,6 @@
     "Fish Group": "Billfishes",
     "Lifestyle": "Pelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Striped Marlin/fish_stripedmarlin.png"
-      }
-    ],
     "image": "resources/images/Striped Marlin/fish_stripedmarlin.png"
   },
   {
@@ -523,12 +301,6 @@
     "Fish Group": "Sharks",
     "Lifestyle": "Reef",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Sicklefin Lemon Shark/fish_sicklefinlemonshark.png"
-      }
-    ],
     "image": "resources/images/Sicklefin Lemon Shark/fish_sicklefinlemonshark.png"
   },
   {
@@ -537,12 +309,6 @@
     "Fish Group": "Sharks",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Tiger Shark/fish_tigershark.png"
-      }
-    ],
     "image": "resources/images/Tiger Shark/fish_tigershark.png"
   },
   {
@@ -551,12 +317,6 @@
     "Fish Group": "Groupers",
     "Lifestyle": "Reef",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Queensland Grouper/fish_queenslandgrouper.png"
-      }
-    ],
     "image": "resources/images/Queensland Grouper/fish_queenslandgrouper.png"
   },
   {
@@ -565,12 +325,6 @@
     "Fish Group": "Tunas",
     "Lifestyle": "Pelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Southern Bluefin Tuna/fish_southernbluefintuna.png"
-      }
-    ],
     "image": "resources/images/Southern Bluefin Tuna/fish_southernbluefintuna.png"
   },
   {
@@ -579,12 +333,6 @@
     "Fish Group": "Billfishes",
     "Lifestyle": "Pelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Black Marlin/fish_blackmarlin.png"
-      }
-    ],
     "image": "resources/images/Black Marlin/fish_blackmarlin.png"
   }
 ]

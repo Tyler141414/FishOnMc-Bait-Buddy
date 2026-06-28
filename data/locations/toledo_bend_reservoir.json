@@ -5,12 +5,6 @@
     "Fish Group": "Panfishes",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Bluegill/fish_bluegill.png"
-      }
-    ],
     "image": "resources/images/Bluegill/fish_bluegill.png"
   },
   {
@@ -19,12 +13,6 @@
     "Fish Group": "Panfishes",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Redear Sunfish/fish_redearsunfish.png"
-      }
-    ],
     "image": "resources/images/Redear Sunfish/fish_redearsunfish.png"
   },
   {
@@ -33,12 +21,6 @@
     "Fish Group": "Panfishes",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Green Sunfish/fish_greensunfish.png"
-      }
-    ],
     "image": "resources/images/Green Sunfish/fish_greensunfish.png"
   },
   {
@@ -47,12 +29,6 @@
     "Fish Group": "Panfishes",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Longear Sunfish/fish_longearsunfish.png"
-      }
-    ],
     "image": "resources/images/Longear Sunfish/fish_longearsunfish.png"
   },
   {
@@ -61,12 +37,6 @@
     "Fish Group": "Panfishes",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Warmouth/fish_warmouth.png"
-      }
-    ],
     "image": "resources/images/Warmouth/fish_warmouth.png"
   },
   {
@@ -75,12 +45,6 @@
     "Fish Group": "Basses",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/White Bass/fish_whitebass.png"
-      }
-    ],
     "image": "resources/images/White Bass/fish_whitebass.png"
   },
   {
@@ -89,12 +53,6 @@
     "Fish Group": "Panfishes",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Black Crappie/fish_blackcrappie.png"
-      }
-    ],
     "image": "resources/images/Black Crappie/fish_blackcrappie.png"
   },
   {
@@ -103,12 +61,6 @@
     "Fish Group": "Panfishes",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/White Crappie/fish_whitecrappie.png"
-      }
-    ],
     "image": "resources/images/White Crappie/fish_whitecrappie.png"
   },
   {
@@ -117,12 +69,6 @@
     "Fish Group": "Carps",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Invasive",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Common Carp/fish_commoncarp.png"
-      }
-    ],
     "image": "resources/images/Common Carp/fish_commoncarp.png"
   },
   {
@@ -131,12 +77,6 @@
     "Fish Group": "Basses",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Largemouth Bass/fish_largemouthbass.png"
-      }
-    ],
     "image": "resources/images/Largemouth Bass/fish_largemouthbass.png"
   },
   {
@@ -145,12 +85,6 @@
     "Fish Group": "Basses",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Florida Bass/fish_largemouthbass.png"
-      }
-    ],
     "image": "resources/images/Florida Bass/fish_largemouthbass.png"
   },
   {
@@ -159,12 +93,6 @@
     "Fish Group": "Basses",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Striped Bass/fish_stripedbass.png"
-      }
-    ],
     "image": "resources/images/Striped Bass/fish_stripedbass.png"
   },
   {
@@ -173,12 +101,6 @@
     "Fish Group": "Drums",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Freshwater Drum/fish_freshwaterdrum.png"
-      }
-    ],
     "image": "resources/images/Freshwater Drum/fish_freshwaterdrum.png"
   },
   {
@@ -187,12 +109,6 @@
     "Fish Group": "Pikes",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Grass Pickerel/fish_grasspickerel.png"
-      }
-    ],
     "image": "resources/images/Grass Pickerel/fish_grasspickerel.png"
   },
   {
@@ -201,12 +117,6 @@
     "Fish Group": "Catfishes",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Channel Catfish/fish_channelcatfish.png"
-      }
-    ],
     "image": "resources/images/Channel Catfish/fish_channelcatfish.png"
   },
   {
@@ -215,12 +125,6 @@
     "Fish Group": "Pikes",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Redfin Pickerel/fish_redfinpickerel.png"
-      }
-    ],
     "image": "resources/images/Redfin Pickerel/fish_redfinpickerel.png"
   },
   {
@@ -229,12 +133,6 @@
     "Fish Group": "Gars",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Spotted Gar/fish_spottedgar.png"
-      }
-    ],
     "image": "resources/images/Spotted Gar/fish_spottedgar.png"
   },
   {
@@ -243,12 +141,6 @@
     "Fish Group": "Catfishes",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Blue Catfish/fish_bluecatfish.png"
-      }
-    ],
     "image": "resources/images/Blue Catfish/fish_bluecatfish.png"
   },
   {
@@ -257,12 +149,6 @@
     "Fish Group": "Pikes",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Chain Pickerel/fish_chainpickerel.png"
-      }
-    ],
     "image": "resources/images/Chain Pickerel/fish_chainpickerel.png"
   },
   {
@@ -271,12 +157,6 @@
     "Fish Group": "Suckers",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Smallmouth Buffalo/fish_smallmouthbuffalo.png"
-      }
-    ],
     "image": "resources/images/Smallmouth Buffalo/fish_smallmouthbuffalo.png"
   },
   {
@@ -285,12 +165,6 @@
     "Fish Group": "Carps",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Invasive",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Grass Carp/fish_grasscarp.png"
-      }
-    ],
     "image": "resources/images/Grass Carp/fish_grasscarp.png"
   },
   {
@@ -299,12 +173,6 @@
     "Fish Group": "Sturgeons",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Shovelnose Sturgeon/fish_shovelnosesturgeon.png"
-      }
-    ],
     "image": "resources/images/Shovelnose Sturgeon/fish_shovelnosesturgeon.png"
   },
   {
@@ -313,12 +181,6 @@
     "Fish Group": "Suckers",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Bigmouth Buffalo/fish_bigmouthbuffalo.png"
-      }
-    ],
     "image": "resources/images/Bigmouth Buffalo/fish_bigmouthbuffalo.png"
   },
   {
@@ -327,12 +189,6 @@
     "Fish Group": "Gars",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Longnose Gar/fish_longnosegar.png"
-      }
-    ],
     "image": "resources/images/Longnose Gar/fish_longnosegar.png"
   },
   {
@@ -341,12 +197,6 @@
     "Fish Group": "Catfishes",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Flathead Catfish/fish_flatheadcatfish.png"
-      }
-    ],
     "image": "resources/images/Flathead Catfish/fish_flatheadcatfish.png"
   },
   {
@@ -355,12 +205,6 @@
     "Fish Group": "Gars",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Alligator Gar/fish_alligatorgar.png"
-      }
-    ],
     "image": "resources/images/Alligator Gar/fish_alligatorgar.png"
   },
   {
@@ -369,12 +213,6 @@
     "Fish Group": "Paddlefishes",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/American Paddlefish/fish_americanpaddlefish.png"
-      }
-    ],
     "image": "resources/images/American Paddlefish/fish_americanpaddlefish.png"
   }
 ]

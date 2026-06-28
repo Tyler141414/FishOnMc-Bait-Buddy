@@ -5,12 +5,6 @@
     "Fish Group": "Snappers",
     "Lifestyle": "Reef",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Red Snapper/fish_redsnapper.png"
-      }
-    ],
     "image": "resources/images/Red Snapper/fish_redsnapper.png"
   },
   {
@@ -19,12 +13,6 @@
     "Fish Group": "Groupers",
     "Lifestyle": "Reef",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Scamp Grouper/fish_scampgrouper.png"
-      }
-    ],
     "image": "resources/images/Scamp Grouper/fish_scampgrouper.png"
   },
   {
@@ -33,12 +21,6 @@
     "Fish Group": "Groupers",
     "Lifestyle": "Reef",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Red Grouper/fish_redgrouper.png"
-      }
-    ],
     "image": "resources/images/Red Grouper/fish_redgrouper.png"
   },
   {
@@ -47,12 +29,6 @@
     "Fish Group": "Groupers",
     "Lifestyle": "Reef",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Yellowfin Grouper/fish_yellowfingrouper.png"
-      }
-    ],
     "image": "resources/images/Yellowfin Grouper/fish_yellowfingrouper.png"
   },
   {
@@ -61,12 +37,6 @@
     "Fish Group": "Jacks",
     "Lifestyle": "Reef",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Greater Amberjack/fish_greateramberjack.png"
-      }
-    ],
     "image": "resources/images/Greater Amberjack/fish_greateramberjack.png"
   },
   {
@@ -75,12 +45,6 @@
     "Fish Group": "Groupers",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Misty Grouper/fish_mistygrouper.png"
-      }
-    ],
     "image": "resources/images/Misty Grouper/fish_mistygrouper.png"
   },
   {
@@ -89,12 +53,6 @@
     "Fish Group": "Groupers",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Snowy Grouper/fish_snowygrouper.png"
-      }
-    ],
     "image": "resources/images/Snowy Grouper/fish_snowygrouper.png"
   },
   {
@@ -103,12 +61,6 @@
     "Fish Group": "Jacks",
     "Lifestyle": "Pelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Almaco Jack/fish_almacojack.png"
-      }
-    ],
     "image": "resources/images/Almaco Jack/fish_almacojack.png"
   },
   {
@@ -117,12 +69,6 @@
     "Fish Group": "Cobia",
     "Lifestyle": "Reef",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Cobia/fish_cobia.png"
-      }
-    ],
     "image": "resources/images/Cobia/fish_cobia.png"
   },
   {
@@ -131,12 +77,6 @@
     "Fish Group": "Groupers",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Speckled Hind Grouper/fish_speckledhindgrouper.png"
-      }
-    ],
     "image": "resources/images/Speckled Hind Grouper/fish_speckledhindgrouper.png"
   },
   {
@@ -145,12 +85,6 @@
     "Fish Group": "Tilefishes",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Great Northern Tilefish/fish_greatnortherntilefish.png"
-      }
-    ],
     "image": "resources/images/Great Northern Tilefish/fish_greatnortherntilefish.png"
   },
   {
@@ -159,12 +93,6 @@
     "Fish Group": "Mackerels",
     "Lifestyle": "Pelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Wahoo/fish_wahoo.png"
-      }
-    ],
     "image": "resources/images/Wahoo/fish_wahoo.png"
   },
   {
@@ -173,12 +101,6 @@
     "Fish Group": "Tunas",
     "Lifestyle": "Pelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Yellowfin Tuna/fish_yellowfintuna.png"
-      }
-    ],
     "image": "resources/images/Yellowfin Tuna/fish_yellowfintuna.png"
   },
   {
@@ -187,12 +109,6 @@
     "Fish Group": "Groupers",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Warsaw Grouper/fish_warsawgrouper.png"
-      }
-    ],
     "image": "resources/images/Warsaw Grouper/fish_warsawgrouper.png"
   },
   {
@@ -201,12 +117,6 @@
     "Fish Group": "Snappers",
     "Lifestyle": "Reef",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Cubera Snapper/fish_cuberasnapper.png"
-      }
-    ],
     "image": "resources/images/Cubera Snapper/fish_cuberasnapper.png"
   },
   {
@@ -215,12 +125,6 @@
     "Fish Group": "Sharks",
     "Lifestyle": "Pelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Oceanic Whitetip Shark/fish_oceanicwhitetipshark.png"
-      }
-    ],
     "image": "resources/images/Oceanic Whitetip Shark/fish_oceanicwhitetipshark.png"
   },
   {
@@ -229,12 +133,6 @@
     "Fish Group": "Billfishes",
     "Lifestyle": "Pelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Blue Marlin/fish_bluemarlin.png"
-      }
-    ],
     "image": "resources/images/Blue Marlin/fish_bluemarlin.png"
   }
 ]

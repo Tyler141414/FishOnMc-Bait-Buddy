@@ -5,12 +5,6 @@
     "Fish Group": "Cods",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Whiting/fish_whiting.png"
-      }
-    ],
     "image": "resources/images/Whiting/fish_whiting.png"
   },
   {
@@ -19,12 +13,6 @@
     "Fish Group": "Flatfishes",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/European Flounder/fish_europeanflounder.png"
-      }
-    ],
     "image": "resources/images/European Flounder/fish_europeanflounder.png"
   },
   {
@@ -33,12 +21,6 @@
     "Fish Group": "Flatfishes",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Common Dab/fish_commondab.png"
-      }
-    ],
     "image": "resources/images/Common Dab/fish_commondab.png"
   },
   {
@@ -47,12 +29,6 @@
     "Fish Group": "Cods",
     "Lifestyle": "Pelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Blue Whiting/fish_bluewhiting.png"
-      }
-    ],
     "image": "resources/images/Blue Whiting/fish_bluewhiting.png"
   },
   {
@@ -61,12 +37,6 @@
     "Fish Group": "Cods",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Fourbeard Rockling/fish_fourbeardrockling.png"
-      }
-    ],
     "image": "resources/images/Fourbeard Rockling/fish_fourbeardrockling.png"
   },
   {
@@ -75,12 +45,6 @@
     "Fish Group": "Flatfishes",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Witch Flounder/fish_witchflounder.png"
-      }
-    ],
     "image": "resources/images/Witch Flounder/fish_witchflounder.png"
   },
   {
@@ -89,12 +53,6 @@
     "Fish Group": "Cods",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Norway Pout/fish_norwaypout.png"
-      }
-    ],
     "image": "resources/images/Norway Pout/fish_norwaypout.png"
   },
   {
@@ -103,12 +61,6 @@
     "Fish Group": "Herrings",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Atlantic Herring/fish_atlanticherring.png"
-      }
-    ],
     "image": "resources/images/Atlantic Herring/fish_atlanticherring.png"
   },
   {
@@ -117,12 +69,6 @@
     "Fish Group": "Mackerels",
     "Lifestyle": "Pelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Atlantic Mackerel/fish_atlanticmackerel.png"
-      }
-    ],
     "image": "resources/images/Atlantic Mackerel/fish_atlanticmackerel.png"
   },
   {
@@ -131,12 +77,6 @@
     "Fish Group": "Cods",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Haddock/fish_haddock.png"
-      }
-    ],
     "image": "resources/images/Haddock/fish_haddock.png"
   },
   {
@@ -145,12 +85,6 @@
     "Fish Group": "Cods",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/European Pollack/fish_europeanpollack.png"
-      }
-    ],
     "image": "resources/images/European Pollack/fish_europeanpollack.png"
   },
   {
@@ -159,12 +93,6 @@
     "Fish Group": "Cods",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Saithe/fish_saithe.png"
-      }
-    ],
     "image": "resources/images/Saithe/fish_saithe.png"
   },
   {
@@ -173,12 +101,6 @@
     "Fish Group": "Cods",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Cusk/fish_cusk.png"
-      }
-    ],
     "image": "resources/images/Cusk/fish_cusk.png"
   },
   {
@@ -187,12 +109,6 @@
     "Fish Group": "Flatfishes",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/European Plaice/fish_europeanplaice.png"
-      }
-    ],
     "image": "resources/images/European Plaice/fish_europeanplaice.png"
   },
   {
@@ -201,12 +117,6 @@
     "Fish Group": "Lumpfishes",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Lumpfish/fish_lumpfish.png"
-      }
-    ],
     "image": "resources/images/Lumpfish/fish_lumpfish.png"
   },
   {
@@ -215,12 +125,6 @@
     "Fish Group": "Salmons",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Atlantic Salmon/fish_atlanticsalmon.png"
-      }
-    ],
     "image": "resources/images/Atlantic Salmon/fish_atlanticsalmon.png"
   },
   {
@@ -229,12 +133,6 @@
     "Fish Group": "Scorpionfishes",
     "Lifestyle": "Pelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Golden Redfish/fish_goldenredfish.png"
-      }
-    ],
     "image": "resources/images/Golden Redfish/fish_goldenredfish.png"
   },
   {
@@ -243,12 +141,6 @@
     "Fish Group": "Cods",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Common Ling/fish_commonling.png"
-      }
-    ],
     "image": "resources/images/Common Ling/fish_commonling.png"
   },
   {
@@ -257,12 +149,6 @@
     "Fish Group": "Cods",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Blue Ling/fish_blueling.png"
-      }
-    ],
     "image": "resources/images/Blue Ling/fish_blueling.png"
   },
   {
@@ -271,12 +157,6 @@
     "Fish Group": "Flatfishes",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Greenland Halibut/fish_greenlandhalibut.png"
-      }
-    ],
     "image": "resources/images/Greenland Halibut/fish_greenlandhalibut.png"
   },
   {
@@ -285,12 +165,6 @@
     "Fish Group": "Wolffishes",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Northern Wolffish/fish_northernwolffish.png"
-      }
-    ],
     "image": "resources/images/Northern Wolffish/fish_northernwolffish.png"
   },
   {
@@ -299,12 +173,6 @@
     "Fish Group": "Cods",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Atlantic Cod/fish_atlanticcod.png"
-      }
-    ],
     "image": "resources/images/Atlantic Cod/fish_atlanticcod.png"
   },
   {
@@ -313,12 +181,6 @@
     "Fish Group": "Lampriformes",
     "Lifestyle": "Pelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Opah/fish_opah.png"
-      }
-    ],
     "image": "resources/images/Opah/fish_opah.png"
   },
   {
@@ -327,12 +189,6 @@
     "Fish Group": "Sharks",
     "Lifestyle": "Pelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Porbeagle Shark/fish_porbeagleshark.png"
-      }
-    ],
     "image": "resources/images/Porbeagle Shark/fish_porbeagleshark.png"
   },
   {
@@ -341,12 +197,6 @@
     "Fish Group": "Wolffishes",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Spotted Wolffish/fish_spottedwolffish.png"
-      }
-    ],
     "image": "resources/images/Spotted Wolffish/fish_spottedwolffish.png"
   },
   {
@@ -355,12 +205,6 @@
     "Fish Group": "Flatfishes",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Atlantic Halibut/fish_atlantichalibut.png"
-      }
-    ],
     "image": "resources/images/Atlantic Halibut/fish_atlantichalibut.png"
   },
   {
@@ -369,12 +213,6 @@
     "Fish Group": "Sharks",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Greenland Shark/fish_greenlandshark.png"
-      }
-    ],
     "image": "resources/images/Greenland Shark/fish_greenlandshark.png"
   },
   {
@@ -383,12 +221,6 @@
     "Fish Group": "Tunas",
     "Lifestyle": "Pelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Atlantic Bluefin Tuna/fish_atlanticbluefintuna.png"
-      }
-    ],
     "image": "resources/images/Atlantic Bluefin Tuna/fish_atlanticbluefintuna.png"
   }
 ]

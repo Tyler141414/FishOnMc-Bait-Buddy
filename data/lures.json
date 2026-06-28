@@ -19,12 +19,6 @@
       "Basses"
     ],
     "desc": "Freshwater Bite Speed: +30",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/lure_crankbait_tigercraw.png"
-      }
-    ],
     "image": "resources/images/baits/lure_crankbait_tigercraw.png"
   },
   {
@@ -47,12 +41,6 @@
       "Basses"
     ],
     "desc": "Freshwater Bite Speed: +30",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/lure_crankbait_sexyshad.png"
-      }
-    ],
     "image": "resources/images/baits/lure_crankbait_sexyshad.png"
   },
   {
@@ -79,12 +67,6 @@
       "Pikes"
     ],
     "desc": "Freshwater Bite Speed: +30",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/lure_roostertail_firetiger.png"
-      }
-    ],
     "image": "resources/images/baits/lure_roostertail_firetiger.png"
   },
   {
@@ -107,12 +89,6 @@
       "Panfishes"
     ],
     "desc": "Freshwater Bite Speed: +50",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/lure_roostertail_pinkfluorescent.png"
-      }
-    ],
     "image": "resources/images/baits/lure_roostertail_pinkfluorescent.png"
   },
   {
@@ -137,12 +113,6 @@
       "Walleye"
     ],
     "desc": "Freshwater Bite Speed: +50",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/lure_roostertail_whitechartreuse.png"
-      }
-    ],
     "image": "resources/images/baits/lure_roostertail_whitechartreuse.png"
   },
   {
@@ -166,12 +136,6 @@
       "Pikes"
     ],
     "desc": "Freshwater Bite Speed: +75",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/lure_crankbait_bluegill.png"
-      }
-    ],
     "image": "resources/images/baits/lure_crankbait_bluegill.png"
   },
   {
@@ -196,12 +160,6 @@
       "Tiger Muskellunge"
     ],
     "desc": "Freshwater Bite Speed: +80",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/lure_spinnerbait_chartreuse.png"
-      }
-    ],
     "image": "resources/images/baits/lure_spinnerbait_chartreuse.png"
   },
   {
@@ -225,12 +183,6 @@
       "Florida Bass"
     ],
     "desc": "Freshwater Bite Speed: +50",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/lure_frog_rainforestyellow.png"
-      }
-    ],
     "image": "resources/images/baits/lure_frog_rainforestyellow.png"
   },
   {
@@ -253,12 +205,6 @@
       "Basses"
     ],
     "desc": "Freshwater Bite Speed: +100",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/lure_spinnerbait_whiteshad.png"
-      }
-    ],
     "image": "resources/images/baits/lure_spinnerbait_whiteshad.png"
   },
   {
@@ -283,12 +229,6 @@
       "Tiger Muskellunge"
     ],
     "desc": "Freshwater Bite Speed: +110",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/lure_spinnerbait_goldenshiner.png"
-      }
-    ],
     "image": "resources/images/baits/lure_spinnerbait_goldenshiner.png"
   },
   {
@@ -312,12 +252,6 @@
       "Florida Bass"
     ],
     "desc": "Freshwater Bite Speed: +100",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/lure_frog_leopard.png"
-      }
-    ],
     "image": "resources/images/baits/lure_frog_leopard.png"
   },
   {
@@ -342,12 +276,6 @@
       "Tiger Muskellunge"
     ],
     "desc": "Freshwater Bite Speed: -100",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/lure_glidebaitrainbowtrout.png"
-      }
-    ],
     "image": "resources/images/baits/lure_glidebaitrainbowtrout.png"
   },
   {
@@ -371,12 +299,6 @@
       "Butterfly Peacock Bass"
     ],
     "desc": "Freshwater Bite Speed: -50",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/lure_divingplugolive.png"
-      }
-    ],
     "image": "resources/images/baits/lure_divingplugolive.png"
   },
   {
@@ -403,12 +325,6 @@
       "Trahira"
     ],
     "desc": "Freshwater Bite Speed: -20",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/lure_divingplugfiretiger.png"
-      }
-    ],
     "image": "resources/images/baits/lure_divingplugfiretiger.png"
   },
   {
@@ -435,12 +351,6 @@
       "Trahira"
     ],
     "desc": "Freshwater Bite Speed: -10",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/lure_divingplugbanana.png"
-      }
-    ],
     "image": "resources/images/baits/lure_divingplugbanana.png"
   },
   {
@@ -462,12 +372,6 @@
       "Smallmouth Bass"
     ],
     "desc": "Freshwater Bite Speed: +90",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/lure_popperblackmagic.png"
-      }
-    ],
     "image": "resources/images/baits/lure_popperblackmagic.png"
   },
   {
@@ -490,12 +394,6 @@
       "Tiger Muskellunge"
     ],
     "desc": "Freshwater Bite Speed: +90",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/lure_popperghost.png"
-      }
-    ],
     "image": "resources/images/baits/lure_popperghost.png"
   },
   {
@@ -518,12 +416,6 @@
       "Tiger Muskellunge"
     ],
     "desc": "Freshwater Bite Speed: -100",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/lure_glidebaitcrystal.png"
-      }
-    ],
     "image": "resources/images/baits/lure_glidebaitcrystal.png"
   },
   {
@@ -545,12 +437,6 @@
       "Smallmouth Bass"
     ],
     "desc": "Freshwater Bite Speed: -100",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/lure_glidebaitbluegill.png"
-      }
-    ],
     "image": "resources/images/baits/lure_glidebaitbluegill.png"
   },
   {
@@ -573,12 +459,6 @@
       "Spotted Seatrout"
     ],
     "desc": "Saltwater Bite Speed: +75",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/lure_bucktail_jig_chartreuse.png"
-      }
-    ],
     "image": "resources/images/baits/lure_bucktail_jig_chartreuse.png"
   },
   {
@@ -601,12 +481,6 @@
       "Bluefish"
     ],
     "desc": "Saltwater Bite Speed: +75",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/lure_bucktail_jig_dark_shad.png"
-      }
-    ],
     "image": "resources/images/baits/lure_bucktail_jig_dark_shad.png"
   },
   {
@@ -634,12 +508,6 @@
       "Mutton Snapper"
     ],
     "desc": "Saltwater Bite Speed: +75",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/lure_bucktail_jig_white.png"
-      }
-    ],
     "image": "resources/images/baits/lure_bucktail_jig_white.png"
   },
   {
@@ -665,12 +533,6 @@
       "Mackerels"
     ],
     "desc": "Saltwater Bite Speed: +65",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/lure_jerkbait_blueback_herring.png"
-      }
-    ],
     "image": "resources/images/baits/lure_jerkbait_blueback_herring.png"
   },
   {
@@ -694,12 +556,6 @@
       "Red Drum"
     ],
     "desc": "Saltwater Bite Speed: +65",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/lure_jerkbait_redhead.png"
-      }
-    ],
     "image": "resources/images/baits/lure_jerkbait_redhead.png"
   },
   {
@@ -723,12 +579,6 @@
       "Seabasses"
     ],
     "desc": "Saltwater Bite Speed: +70",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/lure_saltwater_spoon_gold.png"
-      }
-    ],
     "image": "resources/images/baits/lure_saltwater_spoon_gold.png"
   },
   {
@@ -753,12 +603,6 @@
       "Drums"
     ],
     "desc": "Saltwater Bite Speed: +80",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/lure_saltwater_spoon_silver.png"
-      }
-    ],
     "image": "resources/images/baits/lure_saltwater_spoon_silver.png"
   },
   {
@@ -784,12 +628,6 @@
       "Mackerels"
     ],
     "desc": "Saltwater Bite Speed: +110",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/lure_jerkbait_mullet.png"
-      }
-    ],
     "image": "resources/images/baits/lure_jerkbait_mullet.png"
   },
   {
@@ -810,12 +648,6 @@
       "Tunas"
     ],
     "desc": "Saltwater Bite Speed: +100",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/lure_marlin_lure_blue.png"
-      }
-    ],
     "image": "resources/images/baits/lure_marlin_lure_blue.png"
   },
   {
@@ -836,12 +668,6 @@
       "Mahi Mahis"
     ],
     "desc": "Saltwater Bite Speed: +100",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/lure_marlin_lure_mini_mahi.png"
-      }
-    ],
     "image": "resources/images/baits/lure_marlin_lure_mini_mahi.png"
   },
   {
@@ -862,12 +688,6 @@
       "Billfishes"
     ],
     "desc": "Saltwater Bite Speed: +100",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/lure_marlin_lure_purple.png"
-      }
-    ],
     "image": "resources/images/baits/lure_marlin_lure_purple.png"
   },
   {
@@ -890,12 +710,6 @@
       "Billfishes"
     ],
     "desc": "Saltwater Bite Speed: +150",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/lure_marlinlure_greenblue.png"
-      }
-    ],
     "image": "resources/images/baits/lure_marlinlure_greenblue.png"
   },
   {
@@ -919,12 +733,6 @@
       "Speckled Peacock Bass"
     ],
     "desc": "Amazon River Bite Speed: +50",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/lure_frog_darkrainforest.png"
-      }
-    ],
     "image": "resources/images/baits/lure_frog_darkrainforest.png"
   },
   {
@@ -947,12 +755,6 @@
       "Murray Cod"
     ],
     "desc": "Murray River Bite Speed: +100",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/lure_spinnerbait_lime.png"
-      }
-    ],
     "image": "resources/images/baits/lure_spinnerbait_lime.png"
   },
   {
@@ -974,12 +776,6 @@
       "Butterfly Peacock Bass"
     ],
     "desc": "Amazon River Bite Speed: +90",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/lure_poppervolcano.png"
-      }
-    ],
     "image": "resources/images/baits/lure_poppervolcano.png"
   },
   {
@@ -998,12 +794,6 @@
     "sizeBonus": null,
     "targets": [],
     "desc": "Chance: +100%",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/lure_roostertail_albino_cropped.png"
-      }
-    ],
     "image": "resources/images/baits/lure_roostertail_albino_cropped.png"
   },
   {
@@ -1022,12 +812,6 @@
     "sizeBonus": null,
     "targets": [],
     "desc": "Chance: +100%",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/lure_roostertail_melanistic_cropped.png"
-      }
-    ],
     "image": "resources/images/baits/lure_roostertail_melanistic_cropped.png"
   },
   {
@@ -1046,12 +830,6 @@
     "sizeBonus": null,
     "targets": [],
     "desc": "Chance: +100%",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/baits/lure_roostertail_trophy_cropped.png"
-      }
-    ],
     "image": "resources/images/baits/lure_roostertail_trophy_cropped.png"
   }
 ]

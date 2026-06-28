@@ -1,9 +1,13 @@
-import { Bait, LinkInfo, Species } from '../models/bait.models';
+import { Bait, Species } from '../models/bait.models';
 import { fileSlug } from './text.utils';
 
 export function baitImageCandidates(bait: Bait): string[] {
-  const candidates = linkCandidates(bait);
+  const candidates: string[] = [];
   const slug = fileSlug(bait.name || '');
+
+  if (bait.image) {
+    candidates.push(bait.image);
+  }
 
   candidates.push(
     `resources/images/baits/${slug}.png`,
@@ -18,7 +22,11 @@ export function speciesImageCandidates(species: Species): string[] {
   const name = species.Species || species.species || '';
   const dirName = name.replace(/[\\/:*?"<>|]/g, '-');
   const slug = fileSlug(name);
-  const candidates = linkCandidates(species);
+  const candidates: string[] = [];
+
+  if (species.image) {
+    candidates.push(species.image);
+  }
 
   candidates.push(
     `resources/images/${dirName}/fish_${slug}.png`,
@@ -30,20 +38,4 @@ export function speciesImageCandidates(species: Species): string[] {
   );
 
   return candidates.filter(Boolean);
-}
-
-function linkCandidates(item: { image?: string; links?: LinkInfo[]; Links?: LinkInfo[] }): string[] {
-  const candidates: string[] = [];
-
-  if (item.image) {
-    candidates.push(item.image);
-  }
-
-  for (const link of item.links || item.Links || []) {
-    if (link.rel === 'image' && link.href) {
-      candidates.push(link.href);
-    }
-  }
-
-  return candidates;
 }

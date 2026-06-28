@@ -5,12 +5,6 @@
     "Fish Group": "Smelts",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Ayu/fish_ayu.png"
-      }
-    ],
     "image": "resources/images/Ayu/fish_ayu.png"
   },
   {
@@ -19,12 +13,6 @@
     "Fish Group": "Gudgeons",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Biwa Gudgeon/fish_biwagudgeon.png"
-      }
-    ],
     "image": "resources/images/Biwa Gudgeon/fish_biwagudgeon.png"
   },
   {
@@ -33,12 +21,6 @@
     "Fish Group": "Carps",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/White Crucian Carp/fish_japanesewhitecruciancarp.png"
-      }
-    ],
     "image": "resources/images/White Crucian Carp/fish_japanesewhitecruciancarp.png"
   },
   {
@@ -47,12 +29,6 @@
     "Fish Group": "Catfishes",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Rockcatfish/fish_rockcatfish.png"
-      }
-    ],
     "image": "resources/images/Rockcatfish/fish_rockcatfish.png"
   },
   {
@@ -61,12 +37,6 @@
     "Fish Group": "Eurasian Minnows",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Hasu/fish_hasu.png"
-      }
-    ],
     "image": "resources/images/Hasu/fish_hasu.png"
   },
   {
@@ -75,12 +45,6 @@
     "Fish Group": "Carps",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Invasive",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Common Carp/fish_commoncarp.png"
-      }
-    ],
     "image": "resources/images/Common Carp/fish_commoncarp.png"
   },
   {
@@ -89,12 +53,6 @@
     "Fish Group": "Salmons",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Red-spotted Masu/fish_redspottedmasusalmon.png"
-      }
-    ],
     "image": "resources/images/Red-spotted Masu/fish_redspottedmasusalmon.png"
   },
   {
@@ -103,12 +61,6 @@
     "Fish Group": "Carps",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Round Crucian Carp/fish_roundcruciancarp.png"
-      }
-    ],
     "image": "resources/images/Round Crucian Carp/fish_roundcruciancarp.png"
   },
   {
@@ -117,12 +69,6 @@
     "Fish Group": "Trouts",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Kirikuchi Carp/fish_kirikuchichar.png"
-      }
-    ],
     "image": "resources/images/Kirikuchi Carp/fish_kirikuchichar.png"
   },
   {
@@ -131,12 +77,6 @@
     "Fish Group": "Basses",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Smallmouth Bass/fish_smallmouthbass.png"
-      }
-    ],
     "image": "resources/images/Smallmouth Bass/fish_smallmouthbass.png"
   },
   {
@@ -145,12 +85,6 @@
     "Fish Group": "Basses",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Invasive",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Largemouth Bass/fish_largemouthbass.png"
-      }
-    ],
     "image": "resources/images/Largemouth Bass/fish_largemouthbass.png"
   },
   {
@@ -159,12 +93,6 @@
     "Fish Group": "Salmons",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Masu Salmon/fish_masusalmon.png"
-      }
-    ],
     "image": "resources/images/Masu Salmon/fish_masusalmon.png"
   },
   {
@@ -173,12 +101,6 @@
     "Fish Group": "Trouts",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Whitespotted Char/fish_whitespottedchar.png"
-      }
-    ],
     "image": "resources/images/Whitespotted Char/fish_whitespottedchar.png"
   },
   {
@@ -187,12 +109,6 @@
     "Fish Group": "Salmons",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Biwa Salmon/fish_biwasalmon.png"
-      }
-    ],
     "image": "resources/images/Biwa Salmon/fish_biwasalmon.png"
   },
   {
@@ -201,12 +117,6 @@
     "Fish Group": "Salmons",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Kunimasu Salmon/fish_kunimasusalmon.png"
-      }
-    ],
     "image": "resources/images/Kunimasu Salmon/fish_kunimasusalmon.png"
   },
   {
@@ -215,12 +125,6 @@
     "Fish Group": "Catfishes",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Giant Biwa Catfish/fish_giantbiwacatfish.png"
-      }
-    ],
     "image": "resources/images/Giant Biwa Catfish/fish_giantbiwacatfish.png"
   }
 ]

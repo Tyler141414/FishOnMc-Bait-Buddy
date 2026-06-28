@@ -5,12 +5,6 @@
     "Fish Group": "Characins",
     "Lifestyle": "Pelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Red-bellied Piranha/fish_redbelliedpiranha.png"
-      }
-    ],
     "image": "resources/images/Red-bellied Piranha/fish_redbelliedpiranha.png"
   },
   {
@@ -19,12 +13,6 @@
     "Fish Group": "Catfishes",
     "Lifestyle": "Pelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Slopehead Catfish/fish_slopeheadcatfish.png"
-      }
-    ],
     "image": "resources/images/Slopehead Catfish/fish_slopeheadcatfish.png"
   },
   {
@@ -33,12 +21,6 @@
     "Fish Group": "Brycons",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Jatuarana/fish_jatuarana.png"
-      }
-    ],
     "image": "resources/images/Jatuarana/fish_jatuarana.png"
   },
   {
@@ -47,12 +29,6 @@
     "Fish Group": "Characins",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Chachorro/fish_chachorro.png"
-      }
-    ],
     "image": "resources/images/Chachorro/fish_chachorro.png"
   },
   {
@@ -61,12 +37,6 @@
     "Fish Group": "Cichlids",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Oscar/fish_oscar.png"
-      }
-    ],
     "image": "resources/images/Oscar/fish_oscar.png"
   },
   {
@@ -75,12 +45,6 @@
     "Fish Group": "Brycons",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Matrinxa/fish_matrinxa.png"
-      }
-    ],
     "image": "resources/images/Matrinxa/fish_matrinxa.png"
   },
   {
@@ -89,12 +53,6 @@
     "Fish Group": "Characins",
     "Lifestyle": "Pelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Biara/fish_biara.png"
-      }
-    ],
     "image": "resources/images/Biara/fish_biara.png"
   },
   {
@@ -103,12 +61,6 @@
     "Fish Group": "Characins",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Black Banded Aracu/fish_blackbandedaracu.png"
-      }
-    ],
     "image": "resources/images/Black Banded Aracu/fish_blackbandedaracu.png"
   },
   {
@@ -117,12 +69,6 @@
     "Fish Group": "Characins",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Three Spotted Aracu/fish_threespottedaracu.png"
-      }
-    ],
     "image": "resources/images/Three Spotted Aracu/fish_threespottedaracu.png"
   },
   {
@@ -131,12 +77,6 @@
     "Fish Group": "Cichlids",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Jacunda/fish_jacunda.png"
-      }
-    ],
     "image": "resources/images/Jacunda/fish_jacunda.png"
   },
   {
@@ -145,12 +85,6 @@
     "Fish Group": "Characins",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Redeye Piranha/fish_redeyepiranha.png"
-      }
-    ],
     "image": "resources/images/Redeye Piranha/fish_redeyepiranha.png"
   },
   {
@@ -159,12 +93,6 @@
     "Fish Group": "Characins",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Silver Piranha/fish_silverpiranha.png"
-      }
-    ],
     "image": "resources/images/Silver Piranha/fish_silverpiranha.png"
   },
   {
@@ -173,12 +101,6 @@
     "Fish Group": "Drums",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Silver Drum/fish_silverdrum.png"
-      }
-    ],
     "image": "resources/images/Silver Drum/fish_silverdrum.png"
   },
   {
@@ -187,12 +109,6 @@
     "Fish Group": "Rays",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Smooth Back River Stingray/fish_smoothbackriverstingray.png"
-      }
-    ],
     "image": "resources/images/Smooth Back River Stingray/fish_smoothbackriverstingray.png"
   },
   {
@@ -201,12 +117,6 @@
     "Fish Group": "Cichlids",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Butterfly Peacock Bass/fish_butterflypeacockbass.png"
-      }
-    ],
     "image": "resources/images/Butterfly Peacock Bass/fish_butterflypeacockbass.png"
   },
   {
@@ -215,12 +125,6 @@
     "Fish Group": "Cichlids",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Speckled Peacock Bass/fish_speckledpeacockbass.png"
-      }
-    ],
     "image": "resources/images/Speckled Peacock Bass/fish_speckledpeacockbass.png"
   },
   {
@@ -229,12 +133,6 @@
     "Fish Group": "Catfishes",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Ripsaw Catfish/fish_ripsawcatfish.png"
-      }
-    ],
     "image": "resources/images/Ripsaw Catfish/fish_ripsawcatfish.png"
   },
   {
@@ -243,12 +141,6 @@
     "Fish Group": "Characins",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Tambaqui/fish_tambaqui.png"
-      }
-    ],
     "image": "resources/images/Tambaqui/fish_tambaqui.png"
   },
   {
@@ -257,12 +149,6 @@
     "Fish Group": "Catfishes",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Flat Whiskered Catfish/fish_flatwhiskeredcatfish.png"
-      }
-    ],
     "image": "resources/images/Flat Whiskered Catfish/fish_flatwhiskeredcatfish.png"
   },
   {
@@ -271,12 +157,6 @@
     "Fish Group": "Characins",
     "Lifestyle": "Pelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Bicuda/fish_bicuda.png"
-      }
-    ],
     "image": "resources/images/Bicuda/fish_bicuda.png"
   },
   {
@@ -285,12 +165,6 @@
     "Fish Group": "Herrings",
     "Lifestyle": "Pelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Apapa/fish_apapa.png"
-      }
-    ],
     "image": "resources/images/Apapa/fish_apapa.png"
   },
   {
@@ -299,12 +173,6 @@
     "Fish Group": "Catfishes",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Sorubim Catfish/fish_sorubimcatfish.png"
-      }
-    ],
     "image": "resources/images/Sorubim Catfish/fish_sorubimcatfish.png"
   },
   {
@@ -313,12 +181,6 @@
     "Fish Group": "Catfishes",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Leopard Catfish/fish_leopardcatfish.png"
-      }
-    ],
     "image": "resources/images/Leopard Catfish/fish_leopardcatfish.png"
   },
   {
@@ -327,12 +189,6 @@
     "Fish Group": "Bonytongues",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Silver Arowana/fish_silverarowana.png"
-      }
-    ],
     "image": "resources/images/Silver Arowana/fish_silverarowana.png"
   },
   {
@@ -341,12 +197,6 @@
     "Fish Group": "Characins",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Trahira/fish_trahira.png"
-      }
-    ],
     "image": "resources/images/Trahira/fish_trahira.png"
   },
   {
@@ -355,12 +205,6 @@
     "Fish Group": "Characins",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Payara/fish_payara.png"
-      }
-    ],
     "image": "resources/images/Payara/fish_payara.png"
   },
   {
@@ -369,12 +213,6 @@
     "Fish Group": "Rays",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Raspy River Stingray/fish_raspyriverstingray.png"
-      }
-    ],
     "image": "resources/images/Raspy River Stingray/fish_raspyriverstingray.png"
   },
   {
@@ -383,12 +221,6 @@
     "Fish Group": "Catfishes",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Redtail Catfish/fish_redtailcatfish.png"
-      }
-    ],
     "image": "resources/images/Redtail Catfish/fish_redtailcatfish.png"
   },
   {
@@ -397,12 +229,6 @@
     "Fish Group": "Catfishes",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Gilded Catfish/fish_gildedcatfish.png"
-      }
-    ],
     "image": "resources/images/Gilded Catfish/fish_gildedcatfish.png"
   },
   {
@@ -411,12 +237,6 @@
     "Fish Group": "Rays",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Ocellate River Stingray/fish_ocellateriverstingray.png"
-      }
-    ],
     "image": "resources/images/Ocellate River Stingray/fish_ocellateriverstingray.png"
   },
   {
@@ -425,12 +245,6 @@
     "Fish Group": "Catfishes",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Dourada Catfish/fish_douradacatfish.png"
-      }
-    ],
     "image": "resources/images/Dourada Catfish/fish_douradacatfish.png"
   },
   {
@@ -439,12 +253,6 @@
     "Fish Group": "Characins",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Golden Dorado/fish_goldendorado.png"
-      }
-    ],
     "image": "resources/images/Golden Dorado/fish_goldendorado.png"
   },
   {
@@ -453,12 +261,6 @@
     "Fish Group": "Sharks",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Bull Shark/fish_bullshark.png"
-      }
-    ],
     "image": "resources/images/Bull Shark/fish_bullshark.png"
   },
   {
@@ -467,12 +269,6 @@
     "Fish Group": "Catfishes",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Piraiba/fish_piraiba.png"
-      }
-    ],
     "image": "resources/images/Piraiba/fish_piraiba.png"
   },
   {
@@ -481,12 +277,6 @@
     "Fish Group": "Bonytongues",
     "Lifestyle": "Demersal",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Arapaima/fish_arapaima.png"
-      }
-    ],
     "image": "resources/images/Arapaima/fish_arapaima.png"
   },
   {
@@ -495,12 +285,6 @@
     "Fish Group": "Eels",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
-    "links": [
-      {
-        "rel": "image",
-        "href": "resources/images/Electric Eel/fish_electriceel.png"
-      }
-    ],
     "image": "resources/images/Electric Eel/fish_electriceel.png"
   }
 ]
