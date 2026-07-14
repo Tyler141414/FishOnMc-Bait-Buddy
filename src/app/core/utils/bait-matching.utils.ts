@@ -21,18 +21,34 @@ export function speciesMatchesTargets(species: Species, targets: string[]): bool
     return true;
   }
 
-  const nameTokens = tokensOf(species.Species || species.species);
-  const groupTokens = tokensOf(species['Fish Group'] || species.fishGroup || species.group);
-  const lifestyleTokens = tokensOf(species.Lifestyle || species.lifestyle);
+  const labels = [
+    species.Species || species.species,
+    species['Fish Group'] || species.fishGroup || species.group,
+    species.Lifestyle || species.lifestyle,
+  ].flatMap(labelVariants);
 
   return targets.some((target) => {
-    const targetTokens = tokensOf(target);
+    const targetLabels = labelVariants(target);
 
-    if (targetTokens.length === 0) {
+    if (targetLabels.length === 0) {
       return false;
     }
 
-    return [nameTokens, groupTokens, lifestyleTokens]
-      .some((fieldTokens) => targetTokens.every((token) => fieldTokens.includes(token)));
+    return targetLabels.some((targetLabel) => labels.includes(targetLabel));
   });
+}
+
+function labelVariants(value: unknown): string[] {
+  const normalized = tokensOf(value).join(' ');
+
+  if (!normalized) {
+    return [];
+  }
+
+  const singularized = normalized
+    .split(' ')
+    .map((token) => token.endsWith('s') ? token.slice(0, -1) : token)
+    .join(' ');
+
+  return singularized === normalized ? [normalized] : [normalized, singularized];
 }
