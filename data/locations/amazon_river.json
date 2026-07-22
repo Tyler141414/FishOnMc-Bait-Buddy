@@ -2,7 +2,7 @@
   {
     "Species": "Red-bellied Piranha",
     "Rarity": "Common",
-    "Fish Group": "Carinove Characins",
+    "Fish Group": "Carnivore Characins",
     "Lifestyle": "Pelagic",
     "Ecosystem Role": "Native",
     "image": "resources/images/Red-bellied Piranha/fish_redbelliedpiranha.png"
@@ -82,7 +82,7 @@
   {
     "Species": "Redeye Piranha",
     "Rarity": "Common",
-    "Fish Group": "Carinove Characins",
+    "Fish Group": "Carnivore Characins",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
     "image": "resources/images/Redeye Piranha/fish_redeyepiranha.png"
@@ -90,7 +90,7 @@
   {
     "Species": "Silver Piranha",
     "Rarity": "Common",
-    "Fish Group": "Carinove Characins",
+    "Fish Group": "Carnivore Characins",
     "Lifestyle": "Benthopelagic",
     "Ecosystem Role": "Native",
     "image": "resources/images/Silver Piranha/fish_silverpiranha.png"
