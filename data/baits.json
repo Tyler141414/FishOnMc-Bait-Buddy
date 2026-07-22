@@ -771,7 +771,7 @@
     "targets": [
       "Striped Bass",
       "Bluefish",
-      "White Flounder",
+      "Winter Flounder",
       "Summer Flounder"
     ],
     "desc": "Cape Cod Bite Speed: +60",
@@ -839,7 +839,7 @@
     "name": "Yabby Crawfish",
     "type": "Murray River",
     "rarity": "Epic",
-    "likelihood": 80,
+    "likelihood": 90,
     "sizeBonus": null,
     "targets": [
       "Murray Cod",
@@ -861,5 +861,47 @@
     ],
     "desc": "Murray River Bite Speed: +75",
     "image": "resources/images/baits/bait_murray_crawfish.png"
+  },
+  {
+    "id": "banana_chunks",
+    "name": "Banana Chunks",
+    "type": "Amazon River",
+    "rarity": "Rare",
+    "likelihood": 70,
+    "sizeBonus": null,
+    "targets": [
+      "Herbivore Characins"
+    ],
+    "targetLabel": "Herbivore Characins",
+    "desc": "Amazon River Bite Speed: +30",
+    "image": "resources/images/baits/bait_banana_chunks.png"
+  },
+  {
+    "id": "chicken_scraps",
+    "name": "Chicken Scraps",
+    "type": "Amazon River",
+    "rarity": "Rare",
+    "likelihood": 70,
+    "sizeBonus": null,
+    "targets": [
+      "Carnivore Characins"
+    ],
+    "targetLabel": "Carnivore Characins",
+    "desc": "Amazon River Bite Speed: +25",
+    "image": "resources/images/baits/bait_chicken_scraps.png"
+  },
+  {
+    "id": "lambari_live_bait",
+    "name": "Lambari Live Bait",
+    "type": "Amazon River",
+    "rarity": "Epic",
+    "likelihood": 80,
+    "sizeBonus": null,
+    "targets": [
+      "PredatoryCharacins"
+    ],
+    "targetLabel": "Predatory Characins",
+    "desc": "Amazon River Bite Speed: +50",
+    "image": "resources/images/baits/bait_lambari_livebait.png"
   }
 ]
