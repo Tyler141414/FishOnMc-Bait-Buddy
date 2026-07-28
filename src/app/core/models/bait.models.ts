@@ -61,6 +61,8 @@ export interface BaitFinderState {
   locations: LocationInfo[];
   selectedLocationName: string;
   availableSpecies: SpeciesViewModel[];
+  availableFishGroups: string[];
+  selectedFishGroupName: string;
   selectedFishName: string;
   selectedRarity: RarityFilter;
   baits: BaitViewModel[];
@@ -69,4 +71,5 @@ export interface BaitFinderState {
   isLoading: boolean;
   loadError: string;
   isModalOpen: boolean;
+  isContestMode: boolean;
 }

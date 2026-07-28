@@ -1,12 +1,12 @@
 .muted {
   color: var(--muted);
-  padding: 12px 2px;
+  padding: var(--space-sm) 2px;
 }
 
 .species-list {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: var(--space-md);
 }
 
 .species {
@@ -15,8 +15,8 @@
   border: 1px solid var(--line);
   border-radius: var(--radius);
   display: flex;
-  gap: 12px;
-  padding: 10px;
+  gap: var(--space-lg);
+  padding: var(--space-md);
 }
 
 .species-info {
@@ -27,29 +27,25 @@
 .species .title {
   color: var(--ink);
   font-weight: 800;
-  line-height: 1.25;
+  line-height: var(--lh-snug);
 }
 
+/* The rarity class extends the shared .rarity-pill — just sizes it for the species list */
 .species .rarity {
-  border-radius: 999px;
-  display: inline-block;
-  font-size: 12px;
-  line-height: 1;
-  margin-left: 6px;
-  padding: 4px 8px;
+  margin-left: var(--space-sm);
   vertical-align: 1px;
 }
 
 .species .desc {
   color: var(--muted);
-  font-size: 13px;
-  line-height: 1.4;
-  margin-top: 6px;
+  font-size: var(--text-base);
+  line-height: var(--lh-normal);
+  margin-top: var(--space-sm);
 }
 
 @media (max-width: 480px) {
   .species {
-    gap: 10px;
-    padding: 9px;
+    gap: var(--space-md);
+    padding: var(--space-md);
   }
 }

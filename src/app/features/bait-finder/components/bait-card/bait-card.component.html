@@ -9,16 +9,14 @@
   (keydown.enter)="select()"
   (keydown.space)="select(); $event.preventDefault()"
 >
-  <div class="left">
-    <div class="bait-media">
-      <app-fallback-image
-        [candidates]="bait.imageCandidates"
-        [alt]="bait.name || 'bait'"
-        variant="bait"
-      />
-    </div>
+  <div class="bait-media">
+    <app-fallback-image
+      [candidates]="bait.imageCandidates"
+      [alt]="bait.name || 'bait'"
+      variant="bait"
+    />
   </div>
-  <div class="body">
+  <div class="bait-body">
     <div class="title-row">
       <h3 class="name">{{ bait.name }}</h3>
       <span class="tier rarity-pill" [ngClass]="bait.rarityClass">{{ bait.rarity }}</span>

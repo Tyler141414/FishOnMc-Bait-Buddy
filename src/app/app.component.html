@@ -5,7 +5,7 @@
     </div>
     <div class="brand-copy">
       <p class="eyebrow">FishOnMc Companion</p>
-      <h1>Bait & Lure Intelligence</h1>
+      <h1>Bait &amp; Lure Intelligence</h1>
       <p class="disclaimer">Independent player-made reference by Tyler141414.</p>
     </div>
     <label class="theme-switch">
@@ -13,9 +13,9 @@
         <input
           type="checkbox"
           [checked]="theme() === 'dark'"
-        [attr.aria-label]="themeToggleLabel()"
-        (change)="setThemeModeFromEvent($event)"
-      />
+          [attr.aria-label]="themeToggleLabel()"
+          (change)="setThemeModeFromEvent($event)"
+        />
         <span class="theme-switch__track" aria-hidden="true">
           <svg class="theme-switch__icon theme-switch__icon--sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
             <circle cx="12" cy="12" r="4" fill="currentColor"></circle>
@@ -40,6 +40,17 @@
         </span>
       </span>
     </label>
+
+    <button
+      class="contest-toggle"
+      [class.active]="state().isContestMode"
+      type="button"
+      (click)="toggleContestMode()"
+      [attr.aria-pressed]="state().isContestMode"
+    >
+      Contest
+    </button>
+
     <dl class="header-stats" aria-label="Current filter summary">
       <div>
         <dt>Location</dt>
@@ -51,7 +62,7 @@
       </div>
       <div>
         <dt>Fish</dt>
-        <dd>{{ selectedFishLabel() }}</dd>
+        <dd>{{ state().selectedFishGroupName ? state().selectedFishGroupName + ' (contest)' : selectedFishLabel() }}</dd>
       </div>
       <div>
         <dt>Tackle</dt>
@@ -65,15 +76,25 @@
   </div>
 </header>
 
+@if (state().isContestMode) {
+  <section class="contest-banner" aria-label="Contest mode active">
+    <p>🏆 Contest Mode — pick a location and fish group to find the best baits for your competition setup.</p>
+  </section>
+}
+
 <main>
   <app-bait-filters
     [locations]="state().locations"
     [species]="state().availableSpecies"
     [selectedLocationName]="state().selectedLocationName"
     [selectedFishName]="state().selectedFishName"
+    [selectedFishGroupName]="state().selectedFishGroupName"
+    [isContestMode]="state().isContestMode"
+    [availableFishGroups]="state().availableFishGroups"
     [selectedRarity]="state().selectedRarity"
-    [rarityOptions]="rarityOptions"
+    [rarityOptions]="['any', 'Common', 'Rare', 'Epic', 'Legendary', 'Mythical']"
     (locationChange)="changeLocation($event)"
+    (fishGroupChange)="changeFishGroup($event)"
     (fishChange)="changeFish($event)"
     (rarityChange)="changeRarity($event)"
   />

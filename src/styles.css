@@ -1,21 +1,61 @@
 :root {
   color-scheme: light;
+
+  /* Accent palette */
   --accent: #1a7f64;
   --accent-strong: #0f5d4f;
   --accent-soft: #dff5ee;
+
+  /* Surfaces */
   --bg: #f4f7f6;
   --card: #ffffff;
   --card-muted: #f8faf9;
+
+  /* Typography */
   --ink: #15201c;
   --muted: #65736f;
   --muted-strong: #42514d;
+
+  /* Borders */
   --line: #dce5e1;
   --line-strong: #c7d4cf;
+
+  /* Shadows */
   --shadow-sm: 0 1px 2px rgba(21, 32, 28, 0.06), 0 1px 8px rgba(21, 32, 28, 0.04);
   --shadow-md: 0 14px 32px rgba(21, 32, 28, 0.12);
+
+  /* Sizing tokens */
   --radius: 8px;
   --page-glow: rgba(223, 245, 238, 0.9);
   --focus-ring: rgba(26, 127, 100, 0.14);
+
+  /* Spacing rhythm (multiples of 4) */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 12px;
+  --space-lg: 16px;
+  --space-xl: 20px;
+  --space-2xl: 24px;
+
+  /* Rarity colors (CSS variables for theming) */
+  --rarity-common-bg: #687570;
+  --rarity-rare-bg: #2f6fbb;
+  --rarity-epic-bg: #23815f;
+  --rarity-legendary-bg: #b7651b;
+  --rarity-mythical-bg: #a83f55;
+
+  /* Font sizes (consistent scale) */
+  --text-xs: 11px;
+  --text-sm: 12px;
+  --text-base: 13px;
+  --text-lg: 16px;
+  --text-xl: 18px;
+  --text-2xl: 22px;
+
+  /* Line heights */
+  --lh-tight: 1.15;
+  --lh-snug: 1.25;
+  --lh-normal: 1.4;
 }
 
 :root[data-theme='dark'] {
@@ -55,28 +95,86 @@ select {
   font: inherit;
 }
 
+/* === Shared rarity pill (single source of truth) === */
 .rarity-pill {
+  background-color: var(--rarity-common-bg);
   color: #fff;
+  display: inline-block;
+  font-size: var(--text-xs);
   font-weight: 700;
-  letter-spacing: 0;
+  line-height: 1;
+  padding: 4px 8px;
+  border-radius: 999px;
+  white-space: nowrap;
 }
 
-.rarity-common {
-  background: #687570;
+.rarity-pill.rarity-common {
+  background-color: var(--rarity-common-bg);
 }
 
-.rarity-rare {
-  background: #2f6fbb;
+.rarity-pill.rarity-rare {
+  background-color: var(--rarity-rare-bg);
 }
 
-.rarity-epic {
-  background: #23815f;
+.rarity-pill.rarity-epic {
+  background-color: var(--rarity-epic-bg);
 }
 
-.rarity-legendary {
-  background: #b7651b;
+.rarity-pill.rarity-legendary {
+  background-color: var(--rarity-legendary-bg);
 }
 
-.rarity-mythical {
-  background: #a83f55;
+.rarity-pill.rarity-mythical {
+  background-color: var(--rarity-mythical-bg);
+}
+
+/* === Shared empty-state utility === */
+.empty-state {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  color: var(--muted);
+  font-size: var(--text-base);
+  padding: var(--space-lg);
+  text-align: center;
+}
+
+/* === Shared heading hierarchy === */
+.heading-xl {
+  color: var(--ink);
+  font-size: var(--text-2xl);
+  line-height: var(--lh-tight);
+  margin: 0;
+}
+
+.heading-lg {
+  color: var(--ink);
+  font-size: var(--text-xl);
+  line-height: var(--lh-tight);
+  margin: 0;
+}
+
+/* === Shared button variant === */
+.btn-accent {
+  background: var(--accent-strong);
+  border: 1px solid var(--accent-strong);
+  border-radius: var(--radius);
+  color: #fff;
+  cursor: pointer;
+  font-size: var(--text-sm);
+  font-weight: 800;
+  min-height: 36px;
+  padding: 7px 12px;
+  transition: background-color 160ms ease, border-color 160ms ease;
+}
+
+.btn-accent:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.btn-accent:focus-visible {
+  outline: 3px solid var(--focus-ring);
+  outline-offset: 2px;
 }

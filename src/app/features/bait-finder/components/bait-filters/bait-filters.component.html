@@ -3,7 +3,7 @@
     <h2>Find compatible tackle</h2>
     <p>Filter by destination, fish, and rarity to compare bait and lure options.</p>
   </div>
-  <div class="control-fields">
+  <div class="control-fields" [class.contest-mode]="isContestMode">
     <label>
       <span>Location</span>
       <select [ngModel]="selectedLocationName" (ngModelChange)="locationChange.emit($event)">
@@ -13,21 +13,38 @@
       </select>
     </label>
 
-    <label>
-      <span>Fish</span>
-      <select [ngModel]="selectedFishName" (ngModelChange)="fishChange.emit($event)">
-        <option value="">All fish</option>
-        @for (fish of species; track fish.displayName) {
-          <option [value]="fish.displayName">{{ fish.displayName }}</option>
-        }
-      </select>
-    </label>
+    <!-- Fish Group filter - contest mode only -->
+    @if (isContestMode && availableFishGroups.length > 0) {
+      <label class="fish-group-label">
+        <span>Fish Group</span>
+        <select [ngModel]="selectedFishGroupName" (ngModelChange)="fishGroupChange.emit($event)">
+          <option value="">All groups</option>
+          @for (group of availableFishGroups; track group) {
+            <option [value]="group">{{ group }}</option>
+          }
+        </select>
+      </label>
+    }
 
+    <!-- Individual fish filter - non-contest mode only -->
+    @if (!isContestMode && species.length > 0) {
+      <label class="fish-label">
+        <span>Fish</span>
+        <select [ngModel]="selectedFishName" (ngModelChange)="fishChange.emit($event)">
+          <option value="">All fish</option>
+          @for (fish of species; track fish.displayName) {
+            <option [value]="fish.displayName">{{ fish.displayName }}</option>
+          }
+        </select>
+      </label>
+    }
+
+    <!-- Rarity filter -->
     <label>
       <span>Rarity</span>
       <select [ngModel]="selectedRarity" (ngModelChange)="rarityChange.emit($event)">
-        @for (rarity of rarityOptions; track rarity.value) {
-          <option [value]="rarity.value">{{ rarity.label }}</option>
+        @for (rarity of rarityOptions; track rarity) {
+          <option [value]="rarity">{{ rarityDisplayLabels[rarity] || rarity }}</option>
         }
       </select>
     </label>

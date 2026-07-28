@@ -1,6 +1,6 @@
 #baitList {
   display: grid;
-  gap: 14px;
+  gap: var(--space-lg);
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   list-style: none;
   margin: 0;
@@ -9,15 +9,6 @@
 
 li {
   min-width: 0;
-}
-
-.status {
-  background: var(--card);
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow-sm);
-  color: var(--muted);
-  padding: 18px;
 }
 
 @media (max-width: 420px) {

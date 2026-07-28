@@ -11,9 +11,9 @@
     <div class="modal-header">
       <div>
         <p class="modal-kicker">{{ selectedLocationName }}</p>
-        <h2 id="modalTitle">{{ title }}</h2>
+        <h2 id="modalTitle" class="heading-xl">{{ title }}</h2>
       </div>
-      <button #closeButton class="modal-close" type="button" aria-label="Close" (click)="closed.emit()">Close</button>
+      <button #closeButton class="btn-accent modal-close" type="button" aria-label="Close" (click)="closed.emit()">Close</button>
     </div>
     <div class="species-panel">
       <app-species-list [species]="species" />

@@ -5,37 +5,38 @@
   border-radius: var(--radius);
   box-shadow: var(--shadow-sm);
   display: grid;
-  gap: 18px;
+  gap: var(--space-lg);
   grid-template-columns: minmax(220px, 0.8fr) minmax(560px, 1.2fr);
-  margin-bottom: 18px;
-  padding: 18px;
+  margin-bottom: var(--space-xl);
+  padding: var(--space-lg);
 }
 
 .control-heading h2 {
   color: var(--ink);
-  font-size: 18px;
-  line-height: 1.2;
+  font-size: var(--text-xl);
+  line-height: var(--lh-tight);
   margin: 0;
 }
 
 .control-heading p {
   color: var(--muted);
-  font-size: 13px;
-  margin: 5px 0 0;
+  font-size: var(--text-base);
+  margin: var(--space-xs) 0 0;
 }
 
+/* Base grid for all modes */
 .control-fields {
   display: grid;
-  gap: 12px;
-  grid-template-columns: minmax(180px, 1fr) minmax(220px, 1.2fr) minmax(140px, 0.8fr);
+  gap: var(--space-md);
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
 }
 
 label {
   color: var(--muted-strong);
   display: grid;
-  font-size: 12px;
+  font-size: var(--text-sm);
   font-weight: 800;
-  gap: 7px;
+  gap: var(--space-sm);
   text-transform: uppercase;
 }
 
@@ -53,10 +54,10 @@ select {
   width: 100%;
 }
 
-select:focus {
+select:focus-visible {
   border-color: var(--accent);
   box-shadow: 0 0 0 3px var(--focus-ring);
-  outline: 0;
+  outline: none;
 }
 
 label:hover {
@@ -67,9 +68,36 @@ label:focus-within {
   color: var(--muted-strong);
 }
 
+/* Non-contest mode: Location + Fish + Rarity (3 columns) */
+.control-fields:not(.contest-mode) {
+  grid-template-columns: minmax(200px, 1fr) minmax(220px, 1.2fr) minmax(140px, 0.8fr);
+}
+
+/* Contest mode: Location + Fish Group + Rarity (3 columns) */
+.control-fields.contest-mode {
+  grid-template-columns: minmax(200px, 1fr) minmax(220px, 1.2fr) minmax(140px, 0.8fr);
+}
+
 @media (max-width: 820px) {
   .controls,
   .control-fields {
     grid-template-columns: 1fr;
   }
+
+  /* Even in contest mode on small screens, stack everything */
+  .control-fields:not(.contest-mode),
+  .control-fields.contest-mode {
+    grid-template-columns: 1fr;
+  }
+}
+
+.contest-badge {
+  background: var(--accent);
+  color: #fff;
+  border-radius: var(--radius-sm);
+  font-size: var(--text-xs);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  padding: 3px 10px;
+  text-transform: uppercase;
 }

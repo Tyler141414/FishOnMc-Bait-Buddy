@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, OnInit, computed, effect, inject, signal } from '@angular/core';
-import { BaitViewModel, RarityFilter, SelectOption } from './core/models/bait.models';
+import { BaitViewModel, RarityFilter } from './core/models/bait.models';
 import { BaitFinderFacade } from './core/services/bait-finder.facade';
 import { applyTheme, persistTheme, ThemeMode, getInitialTheme } from './core/utils/theme.utils';
 import { BaitFiltersComponent } from './features/bait-finder/components/bait-filters/bait-filters.component';
@@ -21,30 +21,32 @@ export class AppComponent implements OnInit {
     applyTheme(this.theme());
   });
 
-  readonly rarityOptions: SelectOption<RarityFilter>[] = [
-    { value: 'any', label: 'Any' },
-    { value: 'Common', label: 'Common' },
-    { value: 'Rare', label: 'Rare' },
-    { value: 'Epic', label: 'Epic' },
-    { value: 'Legendary', label: 'Legendary' },
-    { value: 'Mythical', label: 'Mythical' },
-  ];
-
   readonly state = this.facade.state;
   readonly selectedLocationName = computed(() => this.state().selectedLocationName);
   readonly selectedFishLabel = computed(() => this.state().selectedFishName || 'All fish');
   readonly selectedLocation = computed(() => {
     const state = this.state();
-    return state.locations.find((location) => location.name === state.selectedLocationName);
+    return state.locations.find(location => location.name === state.selectedLocationName);
   });
   readonly activeRarityLabel = computed(() => {
-    const selectedRarity = this.state().selectedRarity;
-    return this.rarityOptions.find((option) => option.value === selectedRarity)?.label || 'Any';
+    const label: Record<RarityFilter, string> = {
+      any: 'Any',
+      Common: 'Common',
+      Rare: 'Rare',
+      Epic: 'Epic',
+      Legendary: 'Legendary',
+      Mythical: 'Mythical',
+    };
+    return label[this.state().selectedRarity] ?? 'Any';
   });
   readonly themeToggleLabel = computed(() => this.theme() === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
 
   ngOnInit(): void {
     void this.facade.initialize();
+  }
+
+  toggleContestMode(): void {
+    this.facade.toggleContestMode();
   }
 
   setThemeMode(isDarkMode: boolean): void {
@@ -59,6 +61,10 @@ export class AppComponent implements OnInit {
 
   changeLocation(locationName: string): void {
     void this.facade.setLocation(locationName);
+  }
+
+  changeFishGroup(fishGroupName: string): void {
+    void this.facade.setFishGroup(fishGroupName);
   }
 
   changeFish(fishName: string): void {
