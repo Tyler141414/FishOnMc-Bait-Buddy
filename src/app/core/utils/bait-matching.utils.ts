@@ -27,15 +27,46 @@ export function speciesMatchesTargets(species: Species, targets: string[]): bool
     species.Lifestyle || species.lifestyle,
   ].flatMap(labelVariants);
 
-  return targets.some((target) => {
-    const targetLabels = labelVariants(target);
+  return targets.some((target) => hasMatchingLabel(target, labels));
+}
 
-    if (targetLabels.length === 0) {
-      return false;
-    }
+export function speciesBelongsToGroup(species: Species, group: string): boolean {
+  const speciesGroupLabels = labelVariants(
+    species['Fish Group'] || species.fishGroup || species.group,
+  );
 
-    return targetLabels.some((targetLabel) => labels.includes(targetLabel));
-  });
+  return hasMatchingLabel(group, speciesGroupLabels);
+}
+
+export function targetsMatchGroup(targets: string[], group: string): boolean {
+  const groupLabels = labelVariants(group);
+
+  return targets.some((target) => hasMatchingLabel(target, groupLabels));
+}
+
+export function targetsMatchSpeciesGroup(
+  species: Species[],
+  group: string,
+  targets: string[],
+): boolean {
+  if (targets.length === 0) {
+    return false;
+  }
+
+  const groupSpecies = species.filter((item) => speciesBelongsToGroup(item, group));
+
+  return groupSpecies.length > 0 && (
+    targetsMatchGroup(targets, group)
+    || groupSpecies.some((item) => {
+      const speciesLabels = labelVariants(item.Species || item.species);
+
+      return targets.some((target) => hasMatchingLabel(target, speciesLabels));
+    })
+  );
+}
+
+function hasMatchingLabel(value: unknown, labels: string[]): boolean {
+  return labelVariants(value).some((label) => labels.includes(label));
 }
 
 function labelVariants(value: unknown): string[] {
