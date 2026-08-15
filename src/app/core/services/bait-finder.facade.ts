@@ -8,7 +8,14 @@ import {
   Species,
   SpeciesViewModel,
 } from '../models/bait.models';
-import { baitMatchesLocation, baitTypeMatchesLocation, speciesMatchesTargets } from '../utils/bait-matching.utils';
+import {
+  baitMatchesLocation,
+  baitTypeMatchesLocation,
+  speciesBelongsToGroup,
+  speciesMatchesTargets,
+  targetsMatchGroup,
+  targetsMatchSpeciesGroup,
+} from '../utils/bait-matching.utils';
 import { toBaitViewModel, toSpeciesViewModel } from '../utils/view-model.utils';
 import { BaitRepositoryService } from './bait-repository.service';
 
@@ -201,18 +208,18 @@ export class BaitFinderFacade {
     let baits: BaitViewModel[];
 
     if (isContestMode && state.selectedFishGroupName) {
-      // Contest mode with a selected fish group — match baits by targeting that group
-      baits = this.allBaits
-        .filter(bait => baitTypeMatchesLocation(bait, location))
-        .filter(bait => speciesMatchTargetGroup(bait.targets || [], state.selectedFishGroupName))
-        .filter(bait => selectedRarity === 'any'
-          || (bait.rarity || '').toLowerCase() === selectedRarity.toLowerCase())
-        .map(toBaitViewModel);
+      const matchedSpecies = species.filter(item =>
+        speciesBelongsToGroup(item, state.selectedFishGroupName),
+      );
 
-      const matchedSpecies = species.filter(s => {
-        const group = s['Fish Group'] || s.fishGroup || s.group;
-        return group === state.selectedFishGroupName;
-      });
+      // Include baits aimed at the group itself or at any species within the group.
+      baits = this.filterBaits(location, selectedRarity, bait =>
+        targetsMatchSpeciesGroup(
+          species,
+          state.selectedFishGroupName,
+          bait.targets || [],
+        ),
+      );
 
       this.patchState({
         availableFishGroups: fishGroups,
@@ -228,12 +235,9 @@ export class BaitFinderFacade {
 
       if (selectedFish) {
         const fishGroup = getFishGroup(selectedFish);
-        baits = this.allBaits
-          .filter(bait => baitTypeMatchesLocation(bait, location))
-          .filter(bait => fishGroup ? speciesMatchTargetGroup(bait.targets || [], fishGroup) : true)
-          .filter(bait => selectedRarity === 'any'
-            || (bait.rarity || '').toLowerCase() === selectedRarity.toLowerCase())
-          .map(toBaitViewModel);
+        baits = this.filterBaits(location, selectedRarity, bait =>
+          fishGroup ? targetsMatchGroup(bait.targets || [], fishGroup) : true,
+        );
 
         const matchedSpecies = species.filter(s => getFishGroup(s) === fishGroup);
 
@@ -245,11 +249,7 @@ export class BaitFinderFacade {
         });
       } else {
         // No fish selected in contest mode — show all location-compatible baits
-        baits = this.allBaits
-          .filter(bait => baitTypeMatchesLocation(bait, location))
-          .filter(bait => selectedRarity === 'any'
-            || (bait.rarity || '').toLowerCase() === selectedRarity.toLowerCase())
-          .map(toBaitViewModel);
+        baits = this.filterBaits(location, selectedRarity);
 
         this.patchState({
           availableFishGroups: fishGroups,
@@ -268,12 +268,9 @@ export class BaitFinderFacade {
         // Extract the Fish Group from this specific species and use that to match baits
         const fishGroup = getFishGroup(selectedFish);
 
-        baits = this.allBaits
-          .filter(bait => baitTypeMatchesLocation(bait, location))
-          .filter(bait => fishGroup ? speciesMatchTargetGroup(bait.targets || [], fishGroup) : true)
-          .filter(bait => selectedRarity === 'any'
-            || (bait.rarity || '').toLowerCase() === selectedRarity.toLowerCase())
-          .map(toBaitViewModel);
+        baits = this.filterBaits(location, selectedRarity, bait =>
+          fishGroup ? targetsMatchGroup(bait.targets || [], fishGroup) : true,
+        );
 
         // Keep all species in dropdown; bait filtering is done by the selected fish's group above
         this.patchState({
@@ -284,11 +281,9 @@ export class BaitFinderFacade {
         });
       } else {
         // No fish selected — show all location-compatible baits that match any local species
-        baits = this.allBaits
-          .filter(bait => baitMatchesLocation(bait, location, species))
-          .filter(bait => selectedRarity === 'any'
-            || (bait.rarity || '').toLowerCase() === selectedRarity.toLowerCase())
-          .map(toBaitViewModel);
+        baits = this.filterBaits(location, selectedRarity, bait =>
+          baitMatchesLocation(bait, location, species),
+        );
 
         this.patchState({
           availableFishGroups: fishGroups,
@@ -298,6 +293,19 @@ export class BaitFinderFacade {
         });
       }
     }
+  }
+
+  private filterBaits(
+    location: LocationInfo,
+    rarity: RarityFilter,
+    matchesTarget: (bait: Bait) => boolean = () => true,
+  ): BaitViewModel[] {
+    return this.allBaits
+      .filter(bait => baitTypeMatchesLocation(bait, location))
+      .filter(matchesTarget)
+      .filter(bait => rarity === 'any'
+        || (bait.rarity || '').toLowerCase() === rarity.toLowerCase())
+      .map(toBaitViewModel);
   }
 
   private async matchSpeciesForBait(bait: Bait, location: LocationInfo): Promise<SpeciesViewModel[]> {
@@ -351,26 +359,5 @@ function findSpecies(speciesList: Species[], name: string): Species | undefined 
   return speciesList.find(item => {
     const itemName = (item.Species || item.species || '').trim();
     return itemName.toLowerCase() === target.toLowerCase();
-  });
-}
-
-function speciesMatchTargetGroup(targets: string[], group: string): boolean {
-  if (!targets.length || !group) return false;
-
-  const normalizedGroup = group.trim().toLowerCase();
-  const singularGroup = normalizedGroup.endsWith('s') 
-    ? normalizedGroup.slice(0, -1) 
-    : normalizedGroup;
-
-  return targets.some(target => {
-    const normTarget = target.toLowerCase().trim();
-    const singularTarget = normTarget.endsWith('s')
-      ? normTarget.slice(0, -1)
-      : normTarget;
-
-    return (normTarget === normalizedGroup || 
-            normTarget === singularGroup ||
-            singularTarget === normalizedGroup ||
-            singularTarget === singularGroup);
   });
 }
