@@ -334,7 +334,9 @@
     "likelihood": 100,
     "sizeBonus": null,
     "targets": [
-      "American Alligator"
+      "American Alligator",
+      "Black Caiman",
+      "Nile Crocodile"
     ],
     "desc": "Freshwater Bite Speed: -250",
     "image": "resources/images/baits/bait_rottenchickenbait.png"
@@ -865,7 +867,7 @@
   {
     "id": "banana_chunks",
     "name": "Banana Chunks",
-    "type": "Amazon River",
+    "type": "Freshwater",
     "rarity": "Rare",
     "likelihood": 70,
     "sizeBonus": null,

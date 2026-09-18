@@ -1,0 +1,186 @@
+[
+  {
+    "Species": "Assuan Labeo",
+    "Rarity": "Common",
+    "Fish Group": "Carps",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "image": "resources/images/Assuan Labeo/fish_assuanlabeo.png"
+  },
+  {
+    "Species": "Bebe Mormyrid",
+    "Rarity": "Common",
+    "Fish Group": "Elephantfishes",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "image": "resources/images/Bebe Mormyrid/fish_bebemormyrid.png"
+  },
+  {
+    "Species": "African Butter Catfish",
+    "Rarity": "Common",
+    "Fish Group": "Catfishes",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "image": "resources/images/African Butter Catfish/fish_africanbuttercatfish.png"
+  },
+  {
+    "Species": "True Big-Scale Tetra",
+    "Rarity": "Common",
+    "Fish Group": "Herbivore Characins",
+    "Lifestyle": "Pelagic",
+    "Ecosystem Role": "Native",
+    "image": "resources/images/True Big-Scale Tetra/fish_truebigscaletetra.png"
+  },
+  {
+    "Species": "Giraffe Catfish",
+    "Rarity": "Common",
+    "Fish Group": "Catfishes",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "image": "resources/images/Giraffe Catfish/fish_giraffecatfish.png"
+  },
+  {
+    "Species": "Redbelly Tilapia",
+    "Rarity": "Common",
+    "Fish Group": "Cichlids",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "image": "resources/images/Redbelly Tilapia/fish_redbellytilapia.png"
+  },
+  {
+    "Species": "Mango Tilapia",
+    "Rarity": "Common",
+    "Fish Group": "Cichlids",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "image": "resources/images/Mango Tilapia/fish_mangotilapia.png"
+  },
+  {
+    "Species": "Nile Bichir",
+    "Rarity": "Rare",
+    "Fish Group": "Bichirs",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "image": "resources/images/Nile Bichir/fish_nilebichir.png"
+  },
+  {
+    "Species": "Blue Tilapia",
+    "Rarity": "Rare",
+    "Fish Group": "Cichlids",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "image": "resources/images/Blue Tilapia/fish_bluetilapia.png"
+  },
+  {
+    "Species": "Obscure Snakehead",
+    "Rarity": "Rare",
+    "Fish Group": "Snakeheads",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "image": "resources/images/Obscure Snakehead/fish_obscuresnakehead.png"
+  },
+  {
+    "Species": "Elephant Snout",
+    "Rarity": "Rare",
+    "Fish Group": "Bonytongues",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "image": "resources/images/Elephant Snout/fish_elephantsnout.png"
+  },
+  {
+    "Species": "African Carp",
+    "Rarity": "Rare",
+    "Fish Group": "Carps",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "image": "resources/images/African Carp/fish_africancarp.png"
+  },
+  {
+    "Species": "Nile Tilapia",
+    "Rarity": "Rare",
+    "Fish Group": "Cichlids",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "image": "resources/images/Nile Tilapia/fish_niletilapia.png"
+  },
+  {
+    "Species": "Electric Catfish",
+    "Rarity": "Epic",
+    "Fish Group": "Catfishes",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "image": "resources/images/Electric Catfish/fish_electriccatfish.png"
+  },
+  {
+    "Species": "African Arowana",
+    "Rarity": "Epic",
+    "Fish Group": "Bonytongues",
+    "Lifestyle": "Pelagic",
+    "Ecosystem Role": "Native",
+    "image": "resources/images/African Arowana/fish_africanarowana.png"
+  },
+  {
+    "Species": "Nile Barb",
+    "Rarity": "Epic",
+    "Fish Group": "Carps",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "image": "resources/images/Nile Barb/fish_nilebarb.png"
+  },
+  {
+    "Species": "Aba",
+    "Rarity": "Epic",
+    "Fish Group": "Bonytongues",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "image": "resources/images/Aba/fish_aba.png"
+  },
+  {
+    "Species": "Marbled Lungfish",
+    "Rarity": "Epic",
+    "Fish Group": "Lungfishes",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "image": "resources/images/Marbled Lungfish/fish_marbledlungfish.png"
+  },
+  {
+    "Species": "Elongate Tigerfish",
+    "Rarity": "Legendary",
+    "Fish Group": "Predatory Characins",
+    "Lifestyle": "Pelagic",
+    "Ecosystem Role": "Native",
+    "image": "resources/images/Elongate Tigerfish/fish_elongatetigerfish.png"
+  },
+  {
+    "Species": "African Sharptooth Catfish",
+    "Rarity": "Legendary",
+    "Fish Group": "Catfishes",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "image": "resources/images/African Sharptooth Catfish/fish_africansharptoothcatfish.png"
+  },
+  {
+    "Species": "Vundu",
+    "Rarity": "Legendary",
+    "Fish Group": "Catfishes",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "image": "resources/images/Vundu/fish_vundu.png"
+  },
+  {
+    "Species": "Nile Perch",
+    "Rarity": "Mythical",
+    "Fish Group": "Lates Perches",
+    "Lifestyle": "Demersal",
+    "Ecosystem Role": "Native",
+    "image": "resources/images/Nile Perch/fish_nileperch.png"
+  },
+  {
+    "Species": "Nile Crocodile",
+    "Rarity": "Mythical",
+    "Fish Group": "Reptiles",
+    "Lifestyle": "Benthopelagic",
+    "Ecosystem Role": "Native",
+    "image": "resources/images/Nile Crocodile/fish_nilecrocodile.png"
+  }
+]

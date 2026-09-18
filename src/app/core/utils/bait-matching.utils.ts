@@ -13,6 +13,7 @@ export function baitTypeMatchesLocation(bait: Bait, location: LocationInfo): boo
   return type === 'Universal'
     || type === 'any'
     || type === location.waterType
+    || (location.waterType === 'Brackish' && (type === 'Freshwater' || type === 'Saltwater'))
     || type === location.name;
 }
 
