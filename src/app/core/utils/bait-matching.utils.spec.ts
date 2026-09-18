@@ -1,9 +1,43 @@
 import {
+  baitMatchesLocation,
+  baitTypeMatchesLocation,
   speciesBelongsToGroup,
   speciesMatchesTargets,
   targetsMatchGroup,
   targetsMatchSpeciesGroup,
 } from './bait-matching.utils';
+
+describe('brackish location matching', () => {
+  const location = { name: 'Everglades', waterType: 'Brackish' };
+  const species = [{ Species: 'Common Snook', 'Fish Group': 'Snooks' }];
+
+  for (const kind of ['Bait', 'Lure']) {
+    for (const type of ['Freshwater', 'Saltwater', 'Brackish', 'Universal', 'any', 'Everglades']) {
+      it(`accepts ${type} ${kind.toLowerCase()} in the Everglades`, () => {
+        expect(baitMatchesLocation({ name: 'Test', kind, type, targets: ['Snooks'] }, location, species))
+          .toBeTrue();
+      });
+    }
+  }
+
+  it('still requires matching species targets', () => {
+    expect(baitMatchesLocation({ name: 'Test', type: 'Saltwater', targets: ['Tunas'] }, location, species))
+      .toBeFalse();
+  });
+
+  it('rejects bait restricted to another location', () => {
+    expect(baitTypeMatchesLocation({ name: 'Test', type: 'Key West' }, location)).toBeFalse();
+  });
+
+  it('keeps freshwater and saltwater restrictions for other locations', () => {
+    expect(baitTypeMatchesLocation({ name: 'Test', type: 'Saltwater' }, {
+      name: 'Cypress Lake', waterType: 'Freshwater',
+    })).toBeFalse();
+    expect(baitTypeMatchesLocation({ name: 'Test', type: 'Freshwater' }, {
+      name: 'Key West', waterType: 'Saltwater',
+    })).toBeFalse();
+  });
+});
 
 describe('speciesMatchesTargets', () => {
   it('does not match temperate perches when bait targets perches', () => {
