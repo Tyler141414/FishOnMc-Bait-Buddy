@@ -265,14 +265,12 @@ export class BaitFinderFacade {
         : undefined;
 
       if (selectedFish) {
-        // Extract the Fish Group from this specific species and use that to match baits
-        const fishGroup = getFishGroup(selectedFish);
-
         baits = this.filterBaits(location, selectedRarity, bait =>
-          fishGroup ? targetsMatchGroup(bait.targets || [], fishGroup) : true,
+          speciesMatchesTargets(selectedFish, bait.targets || []),
         );
 
-        // Keep all species in dropdown; bait filtering is done by the selected fish's group above
+        // Keep all species in the dropdown while matching the selected fish by
+        // its species, group, or lifestyle labels.
         this.patchState({
           availableFishGroups: fishGroups,
           availableSpecies: species.map(toSpeciesViewModel),

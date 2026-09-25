@@ -40,6 +40,20 @@ describe('brackish location matching', () => {
 });
 
 describe('speciesMatchesTargets', () => {
+  const northernPike = {
+    Species: 'Northern Pike',
+    'Fish Group': 'Pikes',
+    Lifestyle: 'Pelagic',
+  };
+
+  it('matches a lure that targets the selected species directly', () => {
+    expect(speciesMatchesTargets(northernPike, ['Northern Pike'])).toBeTrue();
+  });
+
+  it('continues to match a lure that targets the selected species group', () => {
+    expect(speciesMatchesTargets(northernPike, ['Pikes'])).toBeTrue();
+  });
+
   it('does not match temperate perches when bait targets perches', () => {
     expect(speciesMatchesTargets({
       Species: 'Australian Bass',
