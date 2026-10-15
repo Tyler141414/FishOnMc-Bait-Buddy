@@ -7,7 +7,6 @@
     "name": "Suspending Jerkbait - Fire Tiger",
     "type": "Freshwater",
     "rarity": "Epic",
-    "uses": 80,
     "sizes": [
       "5in"
     ],
@@ -27,7 +26,6 @@
     "name": "Deep Diving Crankbait - Pink Chrome",
     "type": "Nile River",
     "rarity": "Legendary",
-    "uses": 50,
     "sizes": [
       "7in"
     ],
@@ -47,7 +45,6 @@
     "name": "Crankbait - Tiger Craw",
     "type": "Freshwater",
     "rarity": "Rare",
-    "uses": 30,
     "sizes": [
       "1/4oz",
       "3/8oz",
@@ -69,7 +66,6 @@
     "name": "Crankbait - Smokin' Shad",
     "type": "Freshwater",
     "rarity": "Rare",
-    "uses": 30,
     "sizes": [
       "1/4oz",
       "3/8oz",
@@ -91,7 +87,6 @@
     "name": "Roostertail - Fire Tiger",
     "type": "Freshwater",
     "rarity": "Rare",
-    "uses": 20,
     "sizes": [
       "1/8oz",
       "1/4oz"
@@ -117,7 +112,6 @@
     "name": "Roostertail - Bubblegum",
     "type": "Freshwater",
     "rarity": "Rare",
-    "uses": 20,
     "sizes": [
       "1/8oz",
       "1/4oz"
@@ -139,7 +133,6 @@
     "name": "Roostertail - White Chartreuse",
     "type": "Freshwater",
     "rarity": "Rare",
-    "uses": 20,
     "sizes": [
       "1/8oz",
       "1/4oz"
@@ -163,7 +156,6 @@
     "name": "Crankbait - Bluegill",
     "type": "Freshwater",
     "rarity": "Epic",
-    "uses": 30,
     "sizes": [
       "1/4oz",
       "1/2oz"
@@ -186,7 +178,6 @@
     "name": "Spinner Bait - Chartreuse",
     "type": "Freshwater",
     "rarity": "Epic",
-    "uses": 50,
     "sizes": [
       "5/8oz",
       "1oz",
@@ -210,7 +201,6 @@
     "name": "Frog - Rainforest Yellow",
     "type": "Freshwater",
     "rarity": "Epic",
-    "uses": 30,
     "sizes": [
       "3/8oz",
       "1/2oz",
@@ -233,7 +223,6 @@
     "name": "Spinnerbait - White Shad",
     "type": "Freshwater",
     "rarity": "Legendary",
-    "uses": 50,
     "sizes": [
       "1/4oz",
       "3/8oz",
@@ -255,7 +244,6 @@
     "name": "Spinner Bait - Golden Shiner",
     "type": "Freshwater",
     "rarity": "Legendary",
-    "uses": 50,
     "sizes": [
       "5/8oz",
       "1oz",
@@ -279,7 +267,6 @@
     "name": "Frog - Leopard",
     "type": "Freshwater",
     "rarity": "Legendary",
-    "uses": 30,
     "sizes": [
       "3/8oz",
       "1/2oz",
@@ -302,7 +289,6 @@
     "name": "Glide Bait - Rainbow Trout",
     "type": "Freshwater",
     "rarity": "Legendary",
-    "uses": 50,
     "sizes": [
       "8in"
     ],
@@ -326,7 +312,6 @@
     "name": "Diving Plug - Olive",
     "type": "Freshwater",
     "rarity": "Legendary",
-    "uses": 40,
     "sizes": [
       "1/2oz"
     ],
@@ -349,7 +334,6 @@
     "name": "Diving Plug - Fire Tiger",
     "type": "Freshwater",
     "rarity": "Legendary",
-    "uses": 40,
     "sizes": [
       "1/2oz"
     ],
@@ -375,7 +359,6 @@
     "name": "Diving Plug - Banana",
     "type": "Freshwater",
     "rarity": "Legendary",
-    "uses": 40,
     "sizes": [
       "1/2oz"
     ],
@@ -401,7 +384,6 @@
     "name": "Popper - Black Magic",
     "type": "Freshwater",
     "rarity": "Legendary",
-    "uses": 40,
     "sizes": [
       "4in"
     ],
@@ -422,7 +404,6 @@
     "name": "Popper - Ghost",
     "type": "Freshwater",
     "rarity": "Legendary",
-    "uses": 40,
     "sizes": [
       "4in"
     ],
@@ -444,7 +425,6 @@
     "name": "Glide Bait - Crystal",
     "type": "Freshwater",
     "rarity": "Mythical",
-    "uses": 50,
     "sizes": [
       "8in"
     ],
@@ -466,7 +446,6 @@
     "name": "Glide Bait - Bluegill",
     "type": "Freshwater",
     "rarity": "Mythical",
-    "uses": 50,
     "sizes": [
       "8in"
     ],
@@ -487,7 +466,6 @@
     "name": "Bucktail Jig - Chartreuse",
     "type": "Saltwater",
     "rarity": "Epic",
-    "uses": 25,
     "sizes": [
       "1/2oz"
     ],
@@ -509,7 +487,6 @@
     "name": "Bucktail Jig - Dark Shad",
     "type": "Saltwater",
     "rarity": "Epic",
-    "uses": 25,
     "sizes": [
       "3/4oz"
     ],
@@ -531,7 +508,6 @@
     "name": "Bucktail Jig - Ghost",
     "type": "Saltwater",
     "rarity": "Epic",
-    "uses": 25,
     "sizes": [
       "2oz"
     ],
@@ -558,7 +534,6 @@
     "name": "Jerkbait - Blueback Herring",
     "type": "Saltwater",
     "rarity": "Epic",
-    "uses": 30,
     "sizes": [
       "4in",
       "5in",
@@ -583,7 +558,6 @@
     "name": "Jerkbait - Redhead",
     "type": "Saltwater",
     "rarity": "Epic",
-    "uses": 30,
     "sizes": [
       "4in",
       "5in",
@@ -606,7 +580,6 @@
     "name": "Saltwater Spoon - Gold",
     "type": "Saltwater",
     "rarity": "Epic",
-    "uses": 25,
     "sizes": [
       "1/2oz"
     ],
@@ -629,7 +602,6 @@
     "name": "Saltwater Spoon - Silver",
     "type": "Saltwater",
     "rarity": "Epic",
-    "uses": 25,
     "sizes": [
       "1/2oz"
     ],
@@ -653,7 +625,6 @@
     "name": "Jerkbait - Mullet",
     "type": "Saltwater",
     "rarity": "Legendary",
-    "uses": 30,
     "sizes": [
       "4in",
       "5in",
@@ -678,7 +649,6 @@
     "name": "Marlin Lure - Blue",
     "type": "Saltwater",
     "rarity": "Legendary",
-    "uses": 30,
     "sizes": [
       "14oz"
     ],
@@ -698,7 +668,6 @@
     "name": "Marlin Lure - Mini Mahi",
     "type": "Saltwater",
     "rarity": "Legendary",
-    "uses": 30,
     "sizes": [
       "12oz"
     ],
@@ -718,7 +687,6 @@
     "name": "Marlin Lure - Purple",
     "type": "Saltwater",
     "rarity": "Legendary",
-    "uses": 30,
     "sizes": [
       "16oz"
     ],
@@ -738,7 +706,6 @@
     "name": "Marlin Lure - Blue Green",
     "type": "Saltwater",
     "rarity": "Mythical",
-    "uses": 50,
     "sizes": [
       "12oz",
       "14oz",
@@ -760,7 +727,6 @@
     "name": "Frog - Dark Rainforest",
     "type": "Amazon River",
     "rarity": "Epic",
-    "uses": 30,
     "sizes": [
       "3/8oz",
       "1/2oz",
@@ -783,7 +749,6 @@
     "name": "Spinner Bait - Lime",
     "type": "Murray River",
     "rarity": "Legendary",
-    "uses": 50,
     "sizes": [
       "1/4oz",
       "3/8oz",
@@ -805,7 +770,6 @@
     "name": "Popper - Volcano",
     "type": "Amazon River",
     "rarity": "Legendary",
-    "uses": 40,
     "sizes": [
       "4in"
     ],
@@ -826,7 +790,6 @@
     "name": "Roostertail - White Shimmer",
     "type": "Universal",
     "rarity": "Mythical",
-    "uses": 1,
     "sizes": [
       "1/4oz"
     ],
@@ -844,7 +807,6 @@
     "name": "Roostertail - Black Shimmer",
     "type": "Universal",
     "rarity": "Mythical",
-    "uses": 1,
     "sizes": [
       "1/4oz"
     ],
@@ -862,7 +824,6 @@
     "name": "Roostertail - Golden Shimmer",
     "type": "Universal",
     "rarity": "Mythical",
-    "uses": 1,
     "sizes": [
       "1/4oz"
     ],

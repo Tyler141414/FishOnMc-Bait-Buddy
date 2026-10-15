@@ -46,10 +46,6 @@ function baitMeta(bait: Bait): string {
     parts.push(`Size: +${bait.sizeBonus}%`);
   }
 
-  if (bait.uses) {
-    parts.push(`Uses: ${bait.uses}`);
-  }
-
   if (bait.sizes?.length) {
     parts.push(`Sizes: ${bait.sizes.join(', ')}`);
   }
