@@ -1,5 +1,45 @@
 [
   {
+    "id": "suspending_jerkbait_fire_tiger",
+    "kind": "Lure",
+    "lureType": "Suspending Jerkbait",
+    "color": "Fire Tiger",
+    "name": "Suspending Jerkbait - Fire Tiger",
+    "type": "Freshwater",
+    "rarity": "Epic",
+    "uses": 80,
+    "sizes": [
+      "5in"
+    ],
+    "likelihood": 80,
+    "sizeBonus": null,
+    "targets": [
+      "Predatory Characins"
+    ],
+    "desc": "Freshwater Bite Speed: +90",
+    "image": "resources/images/baits/lure_suspending_jerkbait_fire_tiger.png"
+  },
+  {
+    "id": "deep_diving_crankbait_pink_chrome",
+    "kind": "Lure",
+    "lureType": "Deep Diving Crankbait",
+    "color": "Pink Chrome",
+    "name": "Deep Diving Crankbait - Pink Chrome",
+    "type": "Nile River",
+    "rarity": "Legendary",
+    "uses": 50,
+    "sizes": [
+      "7in"
+    ],
+    "likelihood": 90,
+    "sizeBonus": 1,
+    "targets": [
+      "Nile Perch"
+    ],
+    "desc": "Nile River Bite Speed: +70",
+    "image": "resources/images/baits/lure_deep_diving_crankbait_pink_chrome.png"
+  },
+  {
     "id": "crankbait_tiger_craw",
     "kind": "Lure",
     "lureType": "Crankbait",
