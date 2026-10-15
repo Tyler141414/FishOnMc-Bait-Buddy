@@ -22,7 +22,8 @@
     "likelihood": 60,
     "sizeBonus": null,
     "targets": [
-      "Carps"
+      "Carps",
+      "Cichlids"
     ],
     "desc": "Freshwater Bite Speed: +25",
     "image": "resources/images/baits/bait_doughballs.png"

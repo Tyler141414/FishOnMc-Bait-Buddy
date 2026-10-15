@@ -21,7 +21,6 @@ export interface Bait {
   type?: string;
   likelihood?: number;
   sizeBonus?: number;
-  uses?: number;
   sizes?: string[];
   targets?: string[];
   desc?: string;
