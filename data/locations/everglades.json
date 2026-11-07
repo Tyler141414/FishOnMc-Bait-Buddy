@@ -64,6 +64,14 @@
     "image": "resources/images/Florida Bass/fish_largemouthbass.png"
   },
   {
+    "Species": "Common Snook",
+    "Rarity": "Rare",
+    "Fish Group": "Snooks",
+    "Lifestyle": "Reef",
+    "Ecosystem Role": "Native",
+    "image": "resources/images/Common Snook/fish_commonsnook.png"
+  },
+  {
     "Species": "Ruddy Bowfin",
     "Rarity": "Epic",
     "Fish Group": "Bowfins",
